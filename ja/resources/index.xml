@@ -2,106 +2,106 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resources on QGIS　WEBサイト</title>
-    <link>https://qgis.org/ja/resources/</link>
+    <link>https://yoichigmf.github.io/QGISsiteTest/ja/resources/</link>
     <description>Recent content in Resources on QGIS　WEBサイト</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-JP</language><atom:link href="https://qgis.org/ja/resources/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja-JP</language><atom:link href="https://yoichigmf.github.io/QGISsiteTest/ja/resources/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Books</title>
-      <link>https://qgis.org/ja/resources/books/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/ja/resources/books/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/ja/resources/books/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/ja/resources/books/</guid>
       <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Books ¶ This page lists books available from other publishers.</description>
     </item>
     
     <item>
       <title>Bug Reporting</title>
-      <link>https://qgis.org/ja/resources/support/bug-reporting/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/ja/resources/support/bug-reporting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/ja/resources/support/bug-reporting/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/ja/resources/support/bug-reporting/</guid>
       <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Bugs, Features and Issues ¶ QGIS is a largely volunteer driven project, and is the work of a dedicated team of developers, documenters, translators and supporters.</description>
     </item>
     
     <item>
       <title>Commercial Support</title>
-      <link>https://qgis.org/ja/resources/support/commercial-support/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/ja/resources/support/commercial-support/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/ja/resources/support/commercial-support/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/ja/resources/support/commercial-support/</guid>
       <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Commercial support ¶ Do you plan to use QGIS in your company or organization, but worry about whether there is commercial support available?</description>
     </item>
     
     <item>
       <title>FAQ</title>
-      <link>https://qgis.org/ja/resources/support/faq/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/ja/resources/support/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/ja/resources/support/faq/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/ja/resources/support/faq/</guid>
       <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ FAQ ¶ Here we collect answers to question that come up very often.</description>
     </item>
     
     <item>
       <title>Installation Guide</title>
-      <link>https://qgis.org/ja/resources/installation-guide/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/ja/resources/installation-guide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/ja/resources/installation-guide/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/ja/resources/installation-guide/</guid>
       <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ QGIS Installers ¶ QGIS is available on Windows, macOS, Linux, FreeBSD, OpenBSD, Android and iOS.</description>
     </item>
     
     <item>
       <title>QGIS resources</title>
-      <link>https://qgis.org/ja/resources/hub/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/ja/resources/hub/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/ja/resources/hub/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/ja/resources/hub/</guid>
       <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Resources ¶ 🖖 Installation troubles? ¶ If you are looking for information on installing QGIS on all available platforms, we have prepared a comprehensive guide for you:</description>
     </item>
     
     <item>
       <title>Reports</title>
-      <link>https://qgis.org/ja/resources/reports/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/ja/resources/reports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/ja/resources/reports/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/ja/resources/reports/</guid>
       <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Daily Reports ¶ We generate reports on a daily basis to monitor the status of QGIS Server.</description>
     </item>
     
     <item>
       <title>Road Map</title>
-      <link>https://qgis.org/ja/resources/roadmap/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/ja/resources/roadmap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/ja/resources/roadmap/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/ja/resources/roadmap/</guid>
       <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Road Map ¶ Current: 3.34.9 Long Term Release (LTR) Initial Release Our stable releases are created by periodically taking a development version and &#39;hardening&#39; it by focussing only on bugfixes.</description>
     </item>
     
     <item>
       <title>Security</title>
-      <link>https://qgis.org/ja/resources/support/security/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/ja/resources/support/security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/ja/resources/support/security/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/ja/resources/support/security/</guid>
       <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Security information ¶ The QGIS community takes security seriously.</description>
     </item>
     
     <item>
       <title>Support</title>
-      <link>https://qgis.org/ja/resources/support/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/ja/resources/support/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/ja/resources/support/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/ja/resources/support/</guid>
       <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Support ¶ Before you start ¶ Before you head off to join up with your chose support group, we would like to mention a few guidelines for participating in our community:</description>
     </item>
     
     <item>
       <title>Testing</title>
-      <link>https://qgis.org/ja/resources/testing/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/ja/resources/testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/ja/resources/testing/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/ja/resources/testing/</guid>
       <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Tests ¶ Continuous Integration Tests ¶ Both QGIS Desktop and QGIS server are tested rigorously.</description>
     </item>
     

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on QGIS Web Site</title>
-    <link>https://qgis.org/tags/</link>
+    <link>https://yoichigmf.github.io/QGISsiteTest/tags/</link>
     <description>Recent content in Tags on QGIS Web Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://qgis.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language><atom:link href="https://yoichigmf.github.io/QGISsiteTest/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>index</title>
-      <link>https://qgis.org/tags/index/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/tags/index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/tags/index/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/tags/index/</guid>
       <description></description>
     </item>
     

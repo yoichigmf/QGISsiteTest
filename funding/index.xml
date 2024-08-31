@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fundings on QGIS Web Site</title>
-    <link>https://qgis.org/funding/</link>
+    <link>https://yoichigmf.github.io/QGISsiteTest/funding/</link>
     <description>Recent content in Fundings on QGIS Web Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://qgis.org/funding/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language><atom:link href="https://yoichigmf.github.io/QGISsiteTest/funding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Donate</title>
-      <link>https://qgis.org/funding/donate/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/funding/donate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/funding/donate/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/funding/donate/</guid>
       <description>Project Overview Maps Screenshots Case studies Plugins Visual Changelogs Community Get involved Certification Programme QGIS Foundation Charter Annual General Meetings Annual Reports Finance Project Organisation Infrastructure Brand Guidelines Contributor Credits Meetings QGIS Developer Meetings Reimbursements for Developer Meetings QGIS User Meetings Mailing Lists Local User Groups Members Blogs Resources Documentation Installation guide Testing Roadmap Reports OGC Certification Performance Books Support FAQ Bug Reporting Communication channels Commercial support StackExchange Security QGIS Metrics Plugins Metrics Blog Funding Donate Donors Membership Members Past Members Goodies Download Archive QGIS is developed by a team of dedicated volunteers, companies and organisations.</description>
     </item>
     
     <item>
       <title>Donors</title>
-      <link>https://qgis.org/funding/donate/donors/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/funding/donate/donors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/funding/donate/donors/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/funding/donate/donors/</guid>
       <description>Project Overview Maps Screenshots Case studies Plugins Visual Changelogs Community Get involved Certification Programme QGIS Foundation Charter Annual General Meetings Annual Reports Finance Project Organisation Infrastructure Brand Guidelines Contributor Credits Meetings QGIS Developer Meetings Reimbursements for Developer Meetings QGIS User Meetings Mailing Lists Local User Groups Members Blogs Resources Documentation Installation guide Testing Roadmap Reports OGC Certification Performance Books Support FAQ Bug Reporting Communication channels Commercial support StackExchange Security QGIS Metrics Plugins Metrics Blog Funding Donate Donors Membership Members Past Members Goodies Download Archive Donors ¶ Donations can be of any amount, via our bank account, Stripe or Paypal (information available at Donations page).</description>
     </item>
     
     <item>
       <title>Members and Donors</title>
-      <link>https://qgis.org/funding/membership/members/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/funding/membership/members/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/funding/membership/members/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/funding/membership/members/</guid>
       <description>Project Overview Maps Screenshots Case studies Plugins Visual Changelogs Community Get involved Certification Programme QGIS Foundation Charter Annual General Meetings Annual Reports Finance Project Organisation Infrastructure Brand Guidelines Contributor Credits Meetings QGIS Developer Meetings Reimbursements for Developer Meetings QGIS User Meetings Mailing Lists Local User Groups Members Blogs Resources Documentation Installation guide Testing Roadmap Reports OGC Certification Performance Books Support FAQ Bug Reporting Communication channels Commercial support StackExchange Security QGIS Metrics Plugins Metrics Blog Funding Donate Donors Membership Members Past Members Goodies Download Archive Members and Donors ¶ We thank our sustaining members and donors who support the QGIS project, often regularly, and enable us to pay for our infrastructure and important development work, as well as finance developer meetings and promotion of QGIS in workshops and conferences.</description>
     </item>
     
     <item>
       <title>Past sustaining members</title>
-      <link>https://qgis.org/funding/membership/past_members/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/funding/membership/past_members/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/funding/membership/past_members/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/funding/membership/past_members/</guid>
       <description>Project Overview Maps Screenshots Case studies Plugins Visual Changelogs Community Get involved Certification Programme QGIS Foundation Charter Annual General Meetings Annual Reports Finance Project Organisation Infrastructure Brand Guidelines Contributor Credits Meetings QGIS Developer Meetings Reimbursements for Developer Meetings QGIS User Meetings Mailing Lists Local User Groups Members Blogs Resources Documentation Installation guide Testing Roadmap Reports OGC Certification Performance Books Support FAQ Bug Reporting Communication channels Commercial support StackExchange Security QGIS Metrics Plugins Metrics Blog Funding Donate Donors Membership Members Past Members Goodies Download Archive Past sustaining members ¶ addresscloud 2023-01-01 - 2024-02-29 Baugeologie und Geo-Bau-Labor AG 2023-01-01 - 2024-02-29 BBOÖ Breitband Oberösterreich GmbH 2023-01-01 - 2024-02-29 BBW &amp;amp; Associates 2023-01-01 - 2024-02-29 BEMH 2021-01-01 - 2024-02-28 Cawdor Forestry 2023-01-01 - 2024-02-29 Cheslatta Carrier nation 2021-11-19 - 2023-01-31 Datarock Pty Ltd.</description>
     </item>
     
     <item>
       <title>Sustaining membership program</title>
-      <link>https://qgis.org/funding/membership/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/funding/membership/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/funding/membership/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/funding/membership/</guid>
       <description>Project Overview Maps Screenshots Case studies Plugins Visual Changelogs Community Get involved Certification Programme QGIS Foundation Charter Annual General Meetings Annual Reports Finance Project Organisation Infrastructure Brand Guidelines Contributor Credits Meetings QGIS Developer Meetings Reimbursements for Developer Meetings QGIS User Meetings Mailing Lists Local User Groups Members Blogs Resources Documentation Installation guide Testing Roadmap Reports OGC Certification Performance Books Support FAQ Bug Reporting Communication channels Commercial support StackExchange Security QGIS Metrics Plugins Metrics Blog Funding Donate Donors Membership Members Past Members Goodies Download Archive Sustaining membership program ¶ QGIS is an Open Source project.</description>
     </item>
     

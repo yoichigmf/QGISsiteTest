@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fundings on QGIS　WEBサイト</title>
-    <link>https://qgis.org/ja/funding/</link>
+    <link>https://yoichigmf.github.io/QGISsiteTest/ja/funding/</link>
     <description>Recent content in Fundings on QGIS　WEBサイト</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-JP</language><atom:link href="https://qgis.org/ja/funding/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja-JP</language><atom:link href="https://yoichigmf.github.io/QGISsiteTest/ja/funding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Donate</title>
-      <link>https://qgis.org/ja/funding/donate/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/ja/funding/donate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/ja/funding/donate/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/ja/funding/donate/</guid>
       <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ QGIS is developed by a team of dedicated volunteers, companies and organisations.</description>
     </item>
     
     <item>
       <title>Donors</title>
-      <link>https://qgis.org/ja/funding/donate/donors/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/ja/funding/donate/donors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/ja/funding/donate/donors/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/ja/funding/donate/donors/</guid>
       <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Donors ¶ Donations can be of any amount, via our bank account, Stripe or Paypal (information available at Donations page).</description>
     </item>
     
     <item>
       <title>Members and Donors</title>
-      <link>https://qgis.org/ja/funding/membership/members/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/ja/funding/membership/members/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/ja/funding/membership/members/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/ja/funding/membership/members/</guid>
       <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Members and Donors ¶ We thank our sustaining members and donors who support the QGIS project, often regularly, and enable us to pay for our infrastructure and important development work, as well as finance developer meetings and promotion of QGIS in workshops and conferences.</description>
     </item>
     
     <item>
       <title>Past sustaining members</title>
-      <link>https://qgis.org/ja/funding/membership/past_members/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/ja/funding/membership/past_members/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/ja/funding/membership/past_members/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/ja/funding/membership/past_members/</guid>
       <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Past sustaining members ¶ addresscloud 2023-01-01 - 2024-02-29 Baugeologie und Geo-Bau-Labor AG 2023-01-01 - 2024-02-29 BBOÖ Breitband Oberösterreich GmbH 2023-01-01 - 2024-02-29 BBW &amp;amp; Associates 2023-01-01 - 2024-02-29 BEMH 2021-01-01 - 2024-02-28 Cawdor Forestry 2023-01-01 - 2024-02-29 Cheslatta Carrier nation 2021-11-19 - 2023-01-31 Datarock Pty Ltd.</description>
     </item>
     
     <item>
       <title>Sustaining membership program</title>
-      <link>https://qgis.org/ja/funding/membership/</link>
+      <link>https://yoichigmf.github.io/QGISsiteTest/ja/funding/membership/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qgis.org/ja/funding/membership/</guid>
+      <guid>https://yoichigmf.github.io/QGISsiteTest/ja/funding/membership/</guid>
       <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Sustaining membership program ¶ QGIS is an Open Source project.</description>
     </item>
     

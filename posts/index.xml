@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on QGIS Web Site</title>
-    <link>https://qgis.org/posts/</link>
+    <link>https://yoichigmf.github.io/QGISsiteTest/posts/</link>
     <description>Recent content in Posts on QGIS Web Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://qgis.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language><atom:link href="https://yoichigmf.github.io/QGISsiteTest/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
