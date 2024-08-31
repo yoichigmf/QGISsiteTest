@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources on QGIS Web Site</title>
+    <link>https://qgis.org/resources/</link>
+    <description>Recent content in Resources on QGIS Web Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://qgis.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Books</title>
+      <link>https://qgis.org/resources/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/resources/books/</guid>
+      <description>Project Overview Maps Screenshots Case studies Plugins Visual Changelogs Community Get involved Certification Programme QGIS Foundation Charter Annual General Meetings Annual Reports Finance Project Organisation Infrastructure Brand Guidelines Contributor Credits Meetings QGIS Developer Meetings Reimbursements for Developer Meetings QGIS User Meetings Mailing Lists Local User Groups Members Blogs Resources Documentation Installation guide Testing Roadmap Reports OGC Certification Performance Books Support FAQ Bug Reporting Communication channels Commercial support StackExchange Security QGIS Metrics Plugins Metrics Blog Funding Donate Donors Membership Members Past Members Goodies Download Archive Books ¶ This page lists books available from other publishers.</description>
+    </item>
+    
+    <item>
+      <title>Bug Reporting</title>
+      <link>https://qgis.org/resources/support/bug-reporting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/resources/support/bug-reporting/</guid>
+      <description>Project Overview Maps Screenshots Case studies Plugins Visual Changelogs Community Get involved Certification Programme QGIS Foundation Charter Annual General Meetings Annual Reports Finance Project Organisation Infrastructure Brand Guidelines Contributor Credits Meetings QGIS Developer Meetings Reimbursements for Developer Meetings QGIS User Meetings Mailing Lists Local User Groups Members Blogs Resources Documentation Installation guide Testing Roadmap Reports OGC Certification Performance Books Support FAQ Bug Reporting Communication channels Commercial support StackExchange Security QGIS Metrics Plugins Metrics Blog Funding Donate Donors Membership Members Past Members Goodies Download Archive Bugs, Features and Issues ¶ QGIS is a largely volunteer driven project, and is the work of a dedicated team of developers, documenters, translators and supporters.</description>
+    </item>
+    
+    <item>
+      <title>Commercial Support</title>
+      <link>https://qgis.org/resources/support/commercial-support/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/resources/support/commercial-support/</guid>
+      <description>Project Overview Maps Screenshots Case studies Plugins Visual Changelogs Community Get involved Certification Programme QGIS Foundation Charter Annual General Meetings Annual Reports Finance Project Organisation Infrastructure Brand Guidelines Contributor Credits Meetings QGIS Developer Meetings Reimbursements for Developer Meetings QGIS User Meetings Mailing Lists Local User Groups Members Blogs Resources Documentation Installation guide Testing Roadmap Reports OGC Certification Performance Books Support FAQ Bug Reporting Communication channels Commercial support StackExchange Security QGIS Metrics Plugins Metrics Blog Funding Donate Donors Membership Members Past Members Goodies Download Archive Commercial support ¶ Do you plan to use QGIS in your company or organization, but worry about whether there is commercial support available?</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://qgis.org/resources/support/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/resources/support/faq/</guid>
+      <description>Project Overview Maps Screenshots Case studies Plugins Visual Changelogs Community Get involved Certification Programme QGIS Foundation Charter Annual General Meetings Annual Reports Finance Project Organisation Infrastructure Brand Guidelines Contributor Credits Meetings QGIS Developer Meetings Reimbursements for Developer Meetings QGIS User Meetings Mailing Lists Local User Groups Members Blogs Resources Documentation Installation guide Testing Roadmap Reports OGC Certification Performance Books Support FAQ Bug Reporting Communication channels Commercial support StackExchange Security QGIS Metrics Plugins Metrics Blog Funding Donate Donors Membership Members Past Members Goodies Download Archive FAQ ¶ Here we collect answers to question that come up very often.</description>
+    </item>
+    
+    <item>
+      <title>Installation Guide</title>
+      <link>https://qgis.org/resources/installation-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/resources/installation-guide/</guid>
+      <description>Project Overview Maps Screenshots Case studies Plugins Visual Changelogs Community Get involved Certification Programme QGIS Foundation Charter Annual General Meetings Annual Reports Finance Project Organisation Infrastructure Brand Guidelines Contributor Credits Meetings QGIS Developer Meetings Reimbursements for Developer Meetings QGIS User Meetings Mailing Lists Local User Groups Members Blogs Resources Documentation Installation guide Testing Roadmap Reports OGC Certification Performance Books Support FAQ Bug Reporting Communication channels Commercial support StackExchange Security QGIS Metrics Plugins Metrics Blog Funding Donate Donors Membership Members Past Members Goodies Download Archive QGIS Installers ¶ QGIS is available on Windows, macOS, Linux, FreeBSD, OpenBSD, Android and iOS.</description>
+    </item>
+    
+    <item>
+      <title>QGIS resources</title>
+      <link>https://qgis.org/resources/hub/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/resources/hub/</guid>
+      <description>Project Overview Maps Screenshots Case studies Plugins Visual Changelogs Community Get involved Certification Programme QGIS Foundation Charter Annual General Meetings Annual Reports Finance Project Organisation Infrastructure Brand Guidelines Contributor Credits Meetings QGIS Developer Meetings Reimbursements for Developer Meetings QGIS User Meetings Mailing Lists Local User Groups Members Blogs Resources Documentation Installation guide Testing Roadmap Reports OGC Certification Performance Books Support FAQ Bug Reporting Communication channels Commercial support StackExchange Security QGIS Metrics Plugins Metrics Blog Funding Donate Donors Membership Members Past Members Goodies Download Archive Resources ¶ 🖖 Installation troubles?</description>
+    </item>
+    
+    <item>
+      <title>Reports</title>
+      <link>https://qgis.org/resources/reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/resources/reports/</guid>
+      <description>Project Overview Maps Screenshots Case studies Plugins Visual Changelogs Community Get involved Certification Programme QGIS Foundation Charter Annual General Meetings Annual Reports Finance Project Organisation Infrastructure Brand Guidelines Contributor Credits Meetings QGIS Developer Meetings Reimbursements for Developer Meetings QGIS User Meetings Mailing Lists Local User Groups Members Blogs Resources Documentation Installation guide Testing Roadmap Reports OGC Certification Performance Books Support FAQ Bug Reporting Communication channels Commercial support StackExchange Security QGIS Metrics Plugins Metrics Blog Funding Donate Donors Membership Members Past Members Goodies Download Archive Daily Reports ¶ We generate reports on a daily basis to monitor the status of QGIS Server.</description>
+    </item>
+    
+    <item>
+      <title>Road Map</title>
+      <link>https://qgis.org/resources/roadmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/resources/roadmap/</guid>
+      <description>Project Overview Maps Screenshots Case studies Plugins Visual Changelogs Community Get involved Certification Programme QGIS Foundation Charter Annual General Meetings Annual Reports Finance Project Organisation Infrastructure Brand Guidelines Contributor Credits Meetings QGIS Developer Meetings Reimbursements for Developer Meetings QGIS User Meetings Mailing Lists Local User Groups Members Blogs Resources Documentation Installation guide Testing Roadmap Reports OGC Certification Performance Books Support FAQ Bug Reporting Communication channels Commercial support StackExchange Security QGIS Metrics Plugins Metrics Blog Funding Donate Donors Membership Members Past Members Goodies Download Archive Road Map ¶ Current: 3.</description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>https://qgis.org/resources/support/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/resources/support/security/</guid>
+      <description>Project Overview Maps Screenshots Case studies Plugins Visual Changelogs Community Get involved Certification Programme QGIS Foundation Charter Annual General Meetings Annual Reports Finance Project Organisation Infrastructure Brand Guidelines Contributor Credits Meetings QGIS Developer Meetings Reimbursements for Developer Meetings QGIS User Meetings Mailing Lists Local User Groups Members Blogs Resources Documentation Installation guide Testing Roadmap Reports OGC Certification Performance Books Support FAQ Bug Reporting Communication channels Commercial support StackExchange Security QGIS Metrics Plugins Metrics Blog Funding Donate Donors Membership Members Past Members Goodies Download Archive Security information ¶ The QGIS community takes security seriously.</description>
+    </item>
+    
+    <item>
+      <title>Support</title>
+      <link>https://qgis.org/resources/support/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/resources/support/</guid>
+      <description>Project Overview Maps Screenshots Case studies Plugins Visual Changelogs Community Get involved Certification Programme QGIS Foundation Charter Annual General Meetings Annual Reports Finance Project Organisation Infrastructure Brand Guidelines Contributor Credits Meetings QGIS Developer Meetings Reimbursements for Developer Meetings QGIS User Meetings Mailing Lists Local User Groups Members Blogs Resources Documentation Installation guide Testing Roadmap Reports OGC Certification Performance Books Support FAQ Bug Reporting Communication channels Commercial support StackExchange Security QGIS Metrics Plugins Metrics Blog Funding Donate Donors Membership Members Past Members Goodies Download Archive Support ¶ Before you start ¶ Before you head off to join up with your chose support group, we would like to mention a few guidelines for participating in our community:</description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>https://qgis.org/resources/testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/resources/testing/</guid>
+      <description>Project Overview Maps Screenshots Case studies Plugins Visual Changelogs Community Get involved Certification Programme QGIS Foundation Charter Annual General Meetings Annual Reports Finance Project Organisation Infrastructure Brand Guidelines Contributor Credits Meetings QGIS Developer Meetings Reimbursements for Developer Meetings QGIS User Meetings Mailing Lists Local User Groups Members Blogs Resources Documentation Installation guide Testing Roadmap Reports OGC Certification Performance Books Support FAQ Bug Reporting Communication channels Commercial support StackExchange Security QGIS Metrics Plugins Metrics Blog Funding Donate Donors Membership Members Past Members Goodies Download Archive Tests ¶ Continuous Integration Tests ¶ Both QGIS Desktop and QGIS server are tested rigorously.</description>
+    </item>
+    
+  </channel>
+</rss>

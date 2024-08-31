@@ -1,0 +1,1997 @@
+<!doctype html>
+<html lang="en" class="has-navbar-fixed-top">
+    <head>
+        <meta charset="utf-8" />
+
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="https://qgis.org/img/favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="https://qgis.org/img/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="https://qgis.org/img/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="https://qgis.org/site.webmanifest" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>QGIS geoprocessing model to simplify first level seismic microzonation analysis &middot; QGIS　WEBサイト</title>
+
+        <meta
+            name="description"
+            content="
+                
+            
+            "
+        />
+
+        <meta name="generator" content="Hugo 0.107.0">
+        <meta name="twitter:card" content="summary" />
+        
+        <meta
+            name="twitter:title"
+            content="QGIS geoprocessing model to simplify first level seismic microzonation analysis &middot; QGIS　WEBサイト"
+        />
+        <meta
+            name="twitter:description"
+            content="
+                
+            
+            "
+        />
+
+        <meta property="og:type" content="article" />
+        <meta
+            property="og:title"
+            content="QGIS geoprocessing model to simplify first level seismic microzonation analysis &middot; QGIS　WEBサイト"
+        />
+        <meta
+            property="og:description"
+            content="
+                
+            
+            "
+        />
+        <meta property="og:image" content="https://qgis.org/img/QGIScover.png"/>
+
+        
+        
+        
+        
+        <link href="/bulma.min.0c62cd6e584563ff66b38b435964e346a416232a95829fdf73fdaff9a472f168.css" rel="stylesheet" />
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <link href="/css/all.min.327d9cdc1e6d7b43e2ff21ed029d014975ea0c5ae8e1cbbf2d90acc3ad70c2bf.css" rel="stylesheet" />
+
+        
+        
+        
+        <link href="/bulma.min.c826033ae3d407a503bd9f4367f654c3bc6443d1d105dfc1d41418e6c54acec6.css" rel="stylesheet" />
+
+        
+        
+        
+        <link href="/css/fontawesome.min.545b0e3058fd53ad9d527b38b157fa25161c8595dc70084b2b40156bca2b3f9c.css" rel="stylesheet" />
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+        <link
+            rel="alternate"
+            type="application/rss+xml"
+            title="QGIS　WEBサイト"
+            href="https://qgis.org/index.xml"
+        />
+
+        
+        
+        <script defer src="/js/qrcodegen-v1.8.0-es6.min.19d8d054ea10e2a90debef4f02326129d80711c50758fb0958bee2369e02e367.js"></script>
+        <script>
+            var matomoURL = "//matomo.qgis.org/"
+            var matomoSiteId = "7"
+        </script>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+           
+        <script defer src="/js/all.min.df9b9e12cc9f519f6d7dfdeb7aa7d4da9fc7b0c8408186d0fd39259aab8dfb9a.js"></script> 
+        
+        
+        <script defer src="/search.min.6ef3f670e3df29a0d7105576d06c1001a5e58244d2a22d3fd2bf517951b9ee2d.js"></script>
+        <script
+            crossorigin=""
+            type="application/javascript"
+            src="https://yoichigmf.github.io/qgis-uni-navigation/index.js"
+        ></script>
+    </head>
+
+    <body></body>
+</html>
+
+
+
+
+<qg-top-nav
+    breakpoint="1024"
+    class="is-highest navbar is-fixed-top"
+    location-prefix=""
+></qg-top-nav>
+
+
+
+
+
+<div class="box mb-0 context-container" id="context">
+    <div class="container is-flex is-justify-content-space-between">
+        <div class="rss-feed">
+            
+            
+            
+            
+                
+                
+                    
+                    <a href="https://uc2024.qgis.sk/" target="_blank" rel="noopener" class="external-link">
+                        Join the QGIS User Conference 2024
+                    </a>    
+                    
+                
+            
+            
+        </div>    
+        <div id="search-control" class="control has-icons-right search-control">
+            <form action="https://qgis.org/search/" method="GET">
+                <input class="input is-small" type="search" id="search-query" name="q" placeholder="Search">
+                <span class="icon is-right">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="section ">
+    <div class="container content">
+        
+        <div class="columns is-multiline is-centered">
+        
+
+
+<div id="hamburger-btn" onclick="toggleMenu()"><span id="ham-title"></span></div>
+<div class="column is-3">
+  <nav id="sidebar" class="sidebar">
+    
+    <ul class="content-wrapper">
+    
+    
+        
+        
+        <li >
+
+        
+            <div class="has-child">
+                
+                
+
+
+
+
+
+<a
+    class=""
+    href="/ja/project/overview"
+    target=""
+    rel=""
+>
+プロジェクト
+</a>
+
+                <span onclick="toggleSubMenu('ul-1')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+            </div>
+            <ul id="ul-1" class="collapsed">
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/project/overview/"
+    target=""
+    rel=""
+>
+概要
+</a>
+
+                            <span onclick="toggleSubMenu('ul-2')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-2" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/project/overview/screenshots/"
+    target=""
+    rel=""
+>
+スクリーンショット
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/project/overview/maps/"
+    target=""
+    rel=""
+>
+地図
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li  class="is-active">
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/project/case-studies/"
+    target=""
+    rel=""
+>
+ケーススタディ
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://plugins.qgis.org"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+プラグイン
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/project/visual-changelogs"
+    target=""
+    rel=""
+>
+ビジュアルチェンジログ
+</a>
+
+                    
+                    </li>
+                
+            </ul>
+        
+        </li>
+        
+        
+        <li >
+
+        
+            <div class="has-child">
+                
+                
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/involve"
+    target=""
+    rel=""
+>
+コミュニティ
+</a>
+
+                <span onclick="toggleSubMenu('ul-8')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+            </div>
+            <ul id="ul-8" class="collapsed">
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/involve"
+    target=""
+    rel=""
+>
+参加する
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/certification"
+    target=""
+    rel=""
+>
+認定プログラム
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/foundation"
+    target=""
+    rel=""
+>
+QGIS 財団
+</a>
+
+                            <span onclick="toggleSubMenu('ul-11')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-11" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/foundation/charter"
+    target=""
+    rel=""
+>
+Charter
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/foundation/annual_general_meetings"
+    target=""
+    rel=""
+>
+年次総会
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/foundation/annual_reports"
+    target=""
+    rel=""
+>
+年次報告書
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/foundation/finance"
+    target=""
+    rel=""
+>
+財務
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation"
+    target=""
+    rel=""
+>
+プロジェクト組織
+</a>
+
+                            <span onclick="toggleSubMenu('ul-16')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-16" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/infrastructure"
+    target=""
+    rel=""
+>
+インフラストラクチャー
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/guidelines"
+    target=""
+    rel=""
+>
+ブランドガイドライン
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/credits"
+    target=""
+    rel=""
+>
+Contributor Credits
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    <div class="has-child">
+                                        
+                                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/meetings"
+    target=""
+    rel=""
+>
+会合
+</a>
+
+                                        <span onclick="toggleSubMenu('ul-20')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                                    </div>
+                                    <ul id="ul-20" class="collapsed">
+                                        
+                                        
+                                            <li >
+                                                
+                                                
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/meetings/dev_meetings"
+    target=""
+    rel=""
+>
+QGIS 開発者ミーティング
+</a>
+
+                                            </li>
+                                        
+                                        
+                                            <li >
+                                                
+                                                
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/meetings/reimbursements"
+    target=""
+    rel=""
+>
+Reimbursements for Developer Meetings
+</a>
+
+                                            </li>
+                                        
+                                        
+                                            <li >
+                                                
+                                                
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/meetings/user_meetings"
+    target=""
+    rel=""
+>
+QGIS ユーザーミーティング
+</a>
+
+                                            </li>
+                                        
+                                    </ul>
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/mailinglists"
+    target=""
+    rel=""
+>
+メーリングリスト
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/groups"
+    target=""
+    rel=""
+>
+ローカルユーザーグループ
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://plugins.qgis.org/planet/"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+メンバーブログ
+</a>
+
+                    
+                    </li>
+                
+            </ul>
+        
+        </li>
+        
+        
+        <li >
+
+        
+            <div class="has-child">
+                
+                
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/hub"
+    target=""
+    rel=""
+>
+リソース
+</a>
+
+                <span onclick="toggleSubMenu('ul-27')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+            </div>
+            <ul id="ul-27" class="collapsed">
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/hub"
+    target=""
+    rel=""
+>
+文書
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/installation-guide/"
+    target=""
+    rel=""
+>
+インストールガイド
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/testing/"
+    target=""
+    rel=""
+>
+検査
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/roadmap/"
+    target=""
+    rel=""
+>
+ロードマップ
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/reports/"
+    target=""
+    rel=""
+>
+レポート
+</a>
+
+                            <span onclick="toggleSubMenu('ul-32')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-32" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/reports/#ogc-certification"
+    target=""
+    rel=""
+>
+OGC Certification
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/reports/#performance"
+    target=""
+    rel=""
+>
+パフォーマンス
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/books/"
+    target=""
+    rel=""
+>
+書籍
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/support/"
+    target=""
+    rel=""
+>
+サポート
+</a>
+
+                            <span onclick="toggleSubMenu('ul-36')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-36" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/support/faq"
+    target=""
+    rel=""
+>
+FAQ
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/support/bug-reporting"
+    target=""
+    rel=""
+>
+バグ報告
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/support/#communication-channels"
+    target=""
+    rel=""
+>
+コミュニケーションチャンネル
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/support/commercial-support"
+    target=""
+    rel=""
+>
+商用サポート
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/support/#stackexchange"
+    target=""
+    rel=""
+>
+StackExchange
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/support/security"
+    target=""
+    rel=""
+>
+セキュリティ
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://analytics.qgis.org"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+QGIS Metrics
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://plugins.qgis.org/metabase/public/dashboard/7ecd345f-7321-423d-9844-71e526a454a9"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+Plugins Metrics
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://blog.qgis.org/"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+ブログ
+</a>
+
+                    
+                    </li>
+                
+            </ul>
+        
+        </li>
+        
+        
+        <li >
+
+        
+            <div class="has-child">
+                
+                
+
+
+
+
+
+<a
+    class=""
+    href="/ja/funding/donate"
+    target=""
+    rel=""
+>
+資金調達
+</a>
+
+                <span onclick="toggleSubMenu('ul-46')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+            </div>
+            <ul id="ul-46" class="collapsed">
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/funding/donate"
+    target=""
+    rel=""
+>
+寄付
+</a>
+
+                            <span onclick="toggleSubMenu('ul-47')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-47" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/funding/donate/donors"
+    target=""
+    rel=""
+>
+寄付者
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/funding/membership"
+    target=""
+    rel=""
+>
+メンバーシップ
+</a>
+
+                            <span onclick="toggleSubMenu('ul-49')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-49" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/funding/membership/members"
+    target=""
+    rel=""
+>
+メンバー
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/funding/membership/past_members"
+    target=""
+    rel=""
+>
+過去メンバー
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+            </ul>
+        
+        </li>
+        
+        
+        <li >
+
+        
+            
+            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/goodies"
+    target=""
+    rel=""
+>
+グッズ
+</a>
+
+        
+        </li>
+        
+        
+        <li >
+
+        
+            
+            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/download/"
+    target=""
+    rel=""
+>
+ダウンロード
+</a>
+
+        
+        </li>
+        
+        
+        <li >
+
+        
+            
+            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/archive/"
+    target=""
+    rel=""
+>
+アーカイブ
+</a>
+
+        
+        </li>
+    </ul>
+  </nav>
+</div>
+
+
+<script>
+function rotateArrow(e) {
+    e.previousElementSibling.querySelector('img').classList.toggle('rotated');
+}
+
+function toggleSubMenu(listId) {
+    let e = document.getElementById(listId);
+    e.classList.toggle('unfolded');
+    rotateArrow(e);
+}
+
+function toggleMenu() {
+    document.getElementById('sidebar').classList.toggle('visible');
+    document.getElementById('hamburger-btn').classList.toggle('open');
+}
+
+
+let activeListItem = document.getElementsByClassName('is-active')[0];
+let ham = document.getElementById('ham-title');
+let hamTitle = activeListItem.querySelector('a').textContent;
+if (activeListItem.parentElement.previousElementSibling != null) {
+    hamTitle = activeListItem.parentElement.previousElementSibling.querySelector('a').textContent + ' / ' + hamTitle;
+}
+ham.textContent = hamTitle;
+
+
+document.querySelectorAll('li.is-active,li:has(.is-active)').forEach(li => {
+    if (e = li.querySelector('ul')) {
+        e.classList.toggle('unfolded');
+    }
+});
+</script>
+
+        <div class="content column is-9"> 
+        
+        
+        
+
+
+<h1 id="qgis-geoprocessing-model-to-simplify-first-level-seismic-microzonation-analysis">
+    QGIS geoprocessing model to simplify first level seismic microzonation analysis
+    <a class="heading-anchor" href="#qgis-geoprocessing-model-to-simplify-first-level-seismic-microzonation-analysis">
+	    ¶
+    </a>
+</h1>
+<p>The Institute of Environmental Geology and Geoengineering (IGAG) of the National Research Council (CNR) is located in Rome, in the Area of Research &quot;Roma 1&quot;. It was founded in 2002 by regrouping five former research Institutes and Centers that had been active for more than 40 years in their field of expertise. IGAG covers a wide range of scientific topics in the field of Earth sciences, mainly focusing towards the study of:</p>
+<ul>
+<li>Environmental geochemistry and remediation of contaminated soils and waters;</li>
+<li>Mineral deposits and mineral processing, including the treatment of waste waters;</li>
+<li>Geoengineering and safety of rock excavations;</li>
+<li>Recent geological evolution;</li>
+<li>Mitigation of natural hazards;</li>
+<li>Geoarchaeology and archaeometry.</li>
+<li>Marine Geology</li>
+<li>Geomatics, GIS analysis and development.</li>
+</ul>
+<p>The level 1 seismic microzonation study of the Pietramontecorvino area (Apulia, Southern Italy, located along the Central-Southern Apennine chain) is part of a project, in collaboration with the Basin Authority of Apulia (Puglia AdB) and the Department of Geology and Geophysics (DGG) of the University of Bari, aimed at the seismic microzonation of 63 Municipalities of the area of Foggia. The activity was promoted by the Italian Department of Civil Protection (DPC) and financed by the Interministerial Committee for Economic Planning (CIPE n. 20/2004).</p>
+<h2 id="qgis-geoprocessing-tool-for-first-level-seismic-microzonation-studies">
+    QGIS geoprocessing tool for first level seismic microzonation studies
+    <a class="heading-anchor" href="#qgis-geoprocessing-tool-for-first-level-seismic-microzonation-studies">
+	    ¶
+    </a>
+</h2>
+<p>The seismic microzonation evaluate the seismic hazard at the local scale proposing to identify areas of territory characterized by homogeneous seismic behavior. The first level of seismic microzoning has the purpose of defining the lithological properties and geometry of geological units that characterize these portions of territory (microzones).</p>
+<p>The observation of the damage caused by an earthquake often shows variations at local scale caused not only by geological structures but also by different quality and type of building structures, resulting in different seismic hazards.</p>
+<p>The seismic microzonation evaluates the local seismic hazard, through the identification of areas of territory characterized by homogeneous seismic behavior.</p>
+<p>The Guidelines and Criteria for Seismic microzoning 2008 (<a
+    href="http://www.protezionecivile.gov.it/jcms/it/view_pub.wp?contentId=PUB1137"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>http://www.protezionecivile.gov.it/jcms/it/view_pub.wp?contentId=PUB1137</a>) provide standards for seismic microzoning studies on Italian territory; they distinguish three levels of increasing depth (from 1 to 3).</p>
+<p>The first level seismic microzonation consists in the creation of three thematic maps:</p>
+<ol>
+<li>Survey map containing the surveys for seismic microzonation studies;</li>
+<li>Geo-lithological map, obtained from detailed scale geological and geomorphological maps integrating existing lithological, stratigraphic and geotechnical data related to surveys;</li>
+<li>Level 1 seismic microzonation map (the principal product of level 1 microzonation), identifying the microzones into three categories of local hazards:
+<ul>
+<li>Stable zones;</li>
+<li>Stable zones prone to ground amplification;</li>
+<li>Unstable zones.</li>
+</ul>
+</li>
+</ol>
+<p>The scope of this work is to contribute to the creation of a methodology for processing topographical, geological, geophysical and geo-technical data aimed at level 1 seismic microzonation map drafting, through the use of open source tools.</p>
+<p>The Graphical Modeler tool integrated in the latest version of QGIS (2.8.1 as of writing) has been used for the creation of a simple geoprocessing model. This tool is useful to automate one of the analysis commonly performed for the creation of level 1 seismic microzonation maps, in particular to identify unstable zones as polygon features.</p>
+<p>The model makes use of different open source software and libraries (GRASS, GDAL, QGIS), demonstrating the usefulness of QGIS as a simplified and unified interface for heterogeneous GFOSS (Geospatial Free and Open Source Software) tools (Fig. 1).</p>
+<figure>
+<img src="../images/italy_igag1.png" class="align-right" alt="italy_igag1.png" />
+<figcaption>(Fig. 1) Screenshot from the geoprocessing model.</figcaption>
+</figure>
+<p>The model takes as input (Fig. 2):</p>
+<ul>
+<li>A shapefile of contour lines containing a field with elevation values;</li>
+<li>The name of the field containing elevation values;</li>
+<li>The desired raster resolution in meters for DEM and Slope (default 10);</li>
+<li>A polygon shapefile from which features intersecting areas with slope greater than 15 degrees will be extracted;</li>
+<li>The name of the resulting polygon layer.</li>
+</ul>
+<figure>
+<img src="../images/italy_igag2.png" class="align-right" alt="italy_igag2.png" />
+<figcaption>(Fig. 2) Model input form (left) and execution log (right).</figcaption>
+</figure>
+<p>When launched, the model performs the following operations:</p>
+<ul>
+<li>The GRASS tool v.to.rast.attribute converts contour elevation lines to raster, taking the contour shapefile, the name of the z field and the raster resolution as input;</li>
+<li>The GRASS tool r.surf.contour generates the elevation model taking as input the rasterized temporary output from previous step and the raster resolution;</li>
+<li>The GDAL tool &ldquo;gdaldem&rdquo; generates the slope expressed as degrees from the elevation model;</li>
+<li>The GRASS tool r.mapcalculator is used to generate a 1 bit raster identifying areas with slope greater than 15 degrees (this value is coded in the microzonation guidelines, and so it is fixed), using the expression:</li>
+</ul>
+<p>if(A&gt;15,1,null())</p>
+<p>where A is the temporary slope raster generated by gdaldem;</p>
+<ul>
+<li>The GDAL tool &ldquo;gdal_polygonize&rdquo; converts the 1 bit raster to polygons;</li>
+<li>The QGIS tool &ldquo;Intersection&rdquo; is used to overlay the areas with slope greater than 15 degrees with the chosen intersection layer.</li>
+</ul>
+<p>The result is a polygon layer with areas prone to instability due to a slope value greater than 15 degrees, automatically extracted from a thematic map such as a landslides polygon layer (Fig. 3) or a lithological map.</p>
+<figure>
+<img src="../images/italy_igag3.png" class="align-right" alt="italy_igag3.png" />
+<figcaption>(Fig. 3) The model output (in red) shows highly unstable areas extracted from a landslides layer (orange).</figcaption>
+</figure>
+<h2 id="conclusions">
+    Conclusions
+    <a class="heading-anchor" href="#conclusions">
+	    ¶
+    </a>
+</h2>
+<p>This work clearly demonstrates that open source GIS tools like QGIS, GRASS, GDAL/OGR, can successfully be used for spatial analysis and data processing aimed at first level seismic microzonation studies. In this example work, QGIS has been used as a simplified and unified interface for different high quality GFOSS tools; the Graphical Modeler allows to intuitively construct geoprocessing models that can be easily shared as portable and cross-platform tools that doesn't require expensive software licenses. The tool leverages the QGIS modeling capabilities to graphically chain different algorithms, defining input and output parameters and leaving to the software the task of managing intermediate data output. The use of GRASS algorithms does not require defining and using a GRASS database and mapset, greatly simplifying the design of the model. Future developments include the creation of a package of tools and models, based on open source software, that can be used to simplify and speed up spatial analysis tasks necessary for seismic microzonation studies.</p>
+<h2 id="references">
+    References
+    <a class="heading-anchor" href="#references">
+	    ¶
+    </a>
+</h2>
+<ul>
+<li>G. Baldassarre; Gallicchio, S.; Giannandrea, P. &amp; Tropeano, M.: &quot;Relazione Finale Geolitologica per la microzonazione sismica di livello 1dei Comuni della Provincia di Foggia Dipartimento di Geologia e Geofisica dell'Università di Bari, 2011&quot;</li>
+<li>Cavinato,G.P.; Cavuoto, G.; Coltella, M.; Cosentino, G.; Paolucci, E.; Peronace, E. &amp; Simionato, M.: &quot;Studio di fattibilità per il monitoraggio e la messa in sicurezza delle aree urbane a rischio di stabilità statica e vulnerabilità strutturale del Comune e della Provincia di Foggia -CIPE 20/2004 Consiglio Nazionale delle Ricerche - Istituto di Geologia Ambientale e Geoingegneria, 2013, 526&quot;</li>
+<li>Contributi per l'aggiornamento degli &quot;Indirizzi e criteri per la microzonazione sismica &quot; 2008. Ingegneria sismica, Pàtron Editore Bologna, 2011 (<a
+    href="http://www.protezionecivile.gov.it/jcms/it/view_pub.wp?contentId=PUB28083"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>http://www.protezionecivile.gov.it/jcms/it/view_pub.wp?contentId=PUB28083</a>)</li>
+<li>Gruppo di lavoro MS, 2008. Indirizzi e criteri per la microzonazione sismica. Conferenza delle Regioni e delle Province autonome - Dipartimento della protezione civile, Roma, 3 vol. e Dvd, Presidenza del Consiglio dei Ministri, Dipartimento di Protezione Civile, 2008, 424. (<a
+    href="http://www.protezionecivile.gov.it/jcms/it/view_pub.wp?contentId=PUB1137"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>http://www.protezionecivile.gov.it/jcms/it/view_pub.wp?contentId=PUB1137</a>)</li>
+</ul>
+<h2 id="authors">
+    Authors
+    <a class="heading-anchor" href="#authors">
+	    ¶
+    </a>
+</h2>
+<p>This article was contributed March 2015 by Giuseppe Cosentino and Francesco Pennica (<a
+    href="https://www.igag.cnr.it"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>www.igag.cnr.it</a>).</p>
+<figure>
+<img src="../images/guiseppe_cosentino.png" class="align-left" height="200" alt="guiseppe_cosentino.png" />
+<figcaption>Giuseppe Cosentino</figcaption>
+</figure>
+<p>Giuseppe Cosentino &lt;<a
+    href="mailto:g.cosentino@igag.cnr.it"
+    
+    
+>g.cosentino@igag.cnr.it</a>&gt; is geologist and technologist specializied in Geographic Information Systems for the management of geological and engineering hazards. Currently working in the field of seismic microzonation and environmental characterization of the lands in contaminated sites. Areas of interest: geological and environmental hazards, cartography, structural geology, explorative drillings.</p>
+<figure>
+<img src="../images/francesco_pennica.png" class="align-left" height="200" alt="francesco_pennica.png" />
+<figcaption>Francesco Pennica</figcaption>
+</figure>
+<p>Francesco Pennica provides GIS and WebGIS software development and data management: GeoServer, MapServer, ArcGIS Server, GeoNetwork OGC standard based webgis services, Java, HTML, CSS, Javascript, Python, PHP languages and frameworks, WebGIS front-end development with OpenLayers, ExtJS, GeoExt, JQuery, GWT, Ext-GWT, Google Maps API SQL, geodatabase management, PostgreSQL, PostGIS, GIS desktop software based analysis and scripting (ArcGIS, GRASS, GFOSS tools), Software configuration and management in Linux and Windows based servers and desktops.</p>
+    </div>
+</section>
+
+           
+
+
+
+
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns is-desktop">
+            <div class="column is-2-desktop">
+                <figure class="image is-128x128">
+                    <img alt="Logo" src="https://qgis.org/img/footlogo.svg" />
+                </figure>
+            </div>
+            <div class="column mb-6">
+                <div class="columns is-desktop">
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5 ">
+                            <a href="https://qgis.org/project/overview" class="footertitle text-nowrap">
+                                Project
+                            </a>
+                        </li>
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </ul>
+            
+
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5">
+                            <a href="https://qgis.org/community/involve" class="footertitle text-nowrap">
+                                Community
+                            </a>
+                        </li>
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </ul>
+
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5 footertitle">
+                            <a href="https://qgis.org/resources/hub" class="footertitle text-nowrap">
+                                Resources
+                            </a>
+                        </li>
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </ul>
+
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5 ">
+                            <a href="https://qgis.org/funding/donate" class="footertitle text-nowrap">
+                                Funding
+                            </a>
+                        </li>
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="column is-2-desktop">
+                <a href="https://qgis.org/download">
+                    <button class="button is-primary1 is-size-5">Download</button>
+                </a>
+            </div>
+        </div>
+        <div class="columns is-desktop">
+            <div class="copyright column is-2-desktop has-text-white"></div>
+            <div class="column social-icons-links">
+                <a class="has-text-white" href="https://www.facebook.com/profile.php?id=100057434859831">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a class="has-text-white" href="https://www.youtube.com/@qgishome">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a class="has-text-white" href="https://fosstodon.org/@qgis">
+                    <i class="fa-brands fa-foss"></i>
+                </a>
+                <a class="has-text-white" href="https://github.com/qgis/">
+                    <i class="fa-brands fa-square-github"></i>
+                </a>
+                <a class="has-text-white" href="https://qgis.org/community/organisation/mailinglists">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="columns is-desktop privacy-links">
+            <a href="https://qgis.org/diversity" class="column is-narrow is-offset-2-desktop">Diversity statement</a>
+            <a href="https://qgis.org/conduct" class="column is-narrow">Code of conduct</a>
+            <a href="https://qgis.org/environmental-policy" class="column is-narrow">Environmental policy</a>
+            <a href="https://qgis.org/license" class="column is-narrow">License</a>
+            <a href="https://qgis.org/styleguide" class="column is-narrow">Visual Style Guide</a>   
+            <a href="https://qgis.org/goodies" class="column is-narrow">Goodies</a>   
+            <a href="https://qgis.org/archive" class="column is-narrow">Archive</a>   
+
+        </div>
+        <div class="columns is-desktop issue-report-link is-justify-content-center">
+            <a href="https://github.com/qgis/QGIS-Website/issues" class="column is-narrow p-0 is-size-6" target="_blank">Problems with this website? Report an issue here 🐙</a> 
+              
+        </div>
+    </div>
+    
+</footer>
+
+

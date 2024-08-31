@@ -1,0 +1,2221 @@
+<!doctype html>
+<html lang="en" class="has-navbar-fixed-top">
+    <head>
+        <meta charset="utf-8" />
+
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="https://qgis.org/img/favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="https://qgis.org/img/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="https://qgis.org/img/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="https://qgis.org/site.webmanifest" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bug Reporting &middot; QGIS　WEBサイト</title>
+
+        <meta
+            name="description"
+            content="
+                
+            
+            "
+        />
+
+        <meta name="generator" content="Hugo 0.107.0">
+        <meta name="twitter:card" content="summary" />
+        
+        <meta
+            name="twitter:title"
+            content="Bug Reporting &middot; QGIS　WEBサイト"
+        />
+        <meta
+            name="twitter:description"
+            content="
+                
+            
+            "
+        />
+
+        <meta property="og:type" content="article" />
+        <meta
+            property="og:title"
+            content="Bug Reporting &middot; QGIS　WEBサイト"
+        />
+        <meta
+            property="og:description"
+            content="
+                
+            
+            "
+        />
+        <meta property="og:image" content="https://qgis.org/img/QGIScover.png"/>
+
+        
+        
+        
+        
+        <link href="/bulma.min.0c62cd6e584563ff66b38b435964e346a416232a95829fdf73fdaff9a472f168.css" rel="stylesheet" />
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <link href="/css/all.min.327d9cdc1e6d7b43e2ff21ed029d014975ea0c5ae8e1cbbf2d90acc3ad70c2bf.css" rel="stylesheet" />
+
+        
+        
+        
+        <link href="/bulma.min.c826033ae3d407a503bd9f4367f654c3bc6443d1d105dfc1d41418e6c54acec6.css" rel="stylesheet" />
+
+        
+        
+        
+        <link href="/css/fontawesome.min.545b0e3058fd53ad9d527b38b157fa25161c8595dc70084b2b40156bca2b3f9c.css" rel="stylesheet" />
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+        <link
+            rel="alternate"
+            type="application/rss+xml"
+            title="QGIS　WEBサイト"
+            href="https://qgis.org/index.xml"
+        />
+
+        
+        
+        <script defer src="/js/qrcodegen-v1.8.0-es6.min.19d8d054ea10e2a90debef4f02326129d80711c50758fb0958bee2369e02e367.js"></script>
+        <script>
+            var matomoURL = "//matomo.qgis.org/"
+            var matomoSiteId = "7"
+        </script>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+           
+        <script defer src="/js/all.min.df9b9e12cc9f519f6d7dfdeb7aa7d4da9fc7b0c8408186d0fd39259aab8dfb9a.js"></script> 
+        
+        
+        <script defer src="/search.min.6ef3f670e3df29a0d7105576d06c1001a5e58244d2a22d3fd2bf517951b9ee2d.js"></script>
+        <script
+            crossorigin=""
+            type="application/javascript"
+            src="https://yoichigmf.github.io/qgis-uni-navigation/index.js"
+        ></script>
+    </head>
+
+    <body></body>
+</html>
+
+
+
+
+<qg-top-nav
+    breakpoint="1024"
+    class="is-highest navbar is-fixed-top"
+    location-prefix=""
+></qg-top-nav>
+
+
+
+
+
+<div class="box mb-0 context-container" id="context">
+    <div class="container is-flex is-justify-content-space-between">
+        <div class="rss-feed">
+            
+            
+            
+            
+                
+                
+                    
+                    <a href="https://uc2024.qgis.sk/" target="_blank" rel="noopener" class="external-link">
+                        Join the QGIS User Conference 2024
+                    </a>    
+                    
+                
+            
+            
+        </div>    
+        <div id="search-control" class="control has-icons-right search-control">
+            <form action="https://qgis.org/search/" method="GET">
+                <input class="input is-small" type="search" id="search-query" name="q" placeholder="Search">
+                <span class="icon is-right">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="section ">
+    <div class="container content">
+        
+        <div class="columns is-multiline is-centered">
+        
+
+
+<div id="hamburger-btn" onclick="toggleMenu()"><span id="ham-title"></span></div>
+<div class="column is-3">
+  <nav id="sidebar" class="sidebar">
+    
+    <ul class="content-wrapper">
+    
+    
+        
+        
+        <li >
+
+        
+            <div class="has-child">
+                
+                
+
+
+
+
+
+<a
+    class=""
+    href="/ja/project/overview"
+    target=""
+    rel=""
+>
+プロジェクト
+</a>
+
+                <span onclick="toggleSubMenu('ul-1')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+            </div>
+            <ul id="ul-1" class="collapsed">
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/project/overview/"
+    target=""
+    rel=""
+>
+概要
+</a>
+
+                            <span onclick="toggleSubMenu('ul-2')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-2" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/project/overview/screenshots/"
+    target=""
+    rel=""
+>
+スクリーンショット
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/project/overview/maps/"
+    target=""
+    rel=""
+>
+地図
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/project/case-studies/"
+    target=""
+    rel=""
+>
+ケーススタディ
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://plugins.qgis.org"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+プラグイン
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/project/visual-changelogs"
+    target=""
+    rel=""
+>
+ビジュアルチェンジログ
+</a>
+
+                    
+                    </li>
+                
+            </ul>
+        
+        </li>
+        
+        
+        <li >
+
+        
+            <div class="has-child">
+                
+                
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/involve"
+    target=""
+    rel=""
+>
+コミュニティ
+</a>
+
+                <span onclick="toggleSubMenu('ul-8')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+            </div>
+            <ul id="ul-8" class="collapsed">
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/involve"
+    target=""
+    rel=""
+>
+参加する
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/certification"
+    target=""
+    rel=""
+>
+認定プログラム
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/foundation"
+    target=""
+    rel=""
+>
+QGIS 財団
+</a>
+
+                            <span onclick="toggleSubMenu('ul-11')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-11" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/foundation/charter"
+    target=""
+    rel=""
+>
+Charter
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/foundation/annual_general_meetings"
+    target=""
+    rel=""
+>
+年次総会
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/foundation/annual_reports"
+    target=""
+    rel=""
+>
+年次報告書
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/foundation/finance"
+    target=""
+    rel=""
+>
+財務
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation"
+    target=""
+    rel=""
+>
+プロジェクト組織
+</a>
+
+                            <span onclick="toggleSubMenu('ul-16')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-16" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/infrastructure"
+    target=""
+    rel=""
+>
+インフラストラクチャー
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/guidelines"
+    target=""
+    rel=""
+>
+ブランドガイドライン
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/credits"
+    target=""
+    rel=""
+>
+Contributor Credits
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    <div class="has-child">
+                                        
+                                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/meetings"
+    target=""
+    rel=""
+>
+会合
+</a>
+
+                                        <span onclick="toggleSubMenu('ul-20')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                                    </div>
+                                    <ul id="ul-20" class="collapsed">
+                                        
+                                        
+                                            <li >
+                                                
+                                                
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/meetings/dev_meetings"
+    target=""
+    rel=""
+>
+QGIS 開発者ミーティング
+</a>
+
+                                            </li>
+                                        
+                                        
+                                            <li >
+                                                
+                                                
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/meetings/reimbursements"
+    target=""
+    rel=""
+>
+Reimbursements for Developer Meetings
+</a>
+
+                                            </li>
+                                        
+                                        
+                                            <li >
+                                                
+                                                
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/meetings/user_meetings"
+    target=""
+    rel=""
+>
+QGIS ユーザーミーティング
+</a>
+
+                                            </li>
+                                        
+                                    </ul>
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/mailinglists"
+    target=""
+    rel=""
+>
+メーリングリスト
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/groups"
+    target=""
+    rel=""
+>
+ローカルユーザーグループ
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://plugins.qgis.org/planet/"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+メンバーブログ
+</a>
+
+                    
+                    </li>
+                
+            </ul>
+        
+        </li>
+        
+        
+        <li >
+
+        
+            <div class="has-child">
+                
+                
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/hub"
+    target=""
+    rel=""
+>
+リソース
+</a>
+
+                <span onclick="toggleSubMenu('ul-27')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+            </div>
+            <ul id="ul-27" class="collapsed">
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/hub"
+    target=""
+    rel=""
+>
+文書
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/installation-guide/"
+    target=""
+    rel=""
+>
+インストールガイド
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/testing/"
+    target=""
+    rel=""
+>
+検査
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/roadmap/"
+    target=""
+    rel=""
+>
+ロードマップ
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/reports/"
+    target=""
+    rel=""
+>
+レポート
+</a>
+
+                            <span onclick="toggleSubMenu('ul-32')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-32" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/reports/#ogc-certification"
+    target=""
+    rel=""
+>
+OGC Certification
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/reports/#performance"
+    target=""
+    rel=""
+>
+パフォーマンス
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/books/"
+    target=""
+    rel=""
+>
+書籍
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li  class="is-active">
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/support/"
+    target=""
+    rel=""
+>
+サポート
+</a>
+
+                            <span onclick="toggleSubMenu('ul-36')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-36" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/support/faq"
+    target=""
+    rel=""
+>
+FAQ
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li  class="is-active">
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/support/bug-reporting"
+    target=""
+    rel=""
+>
+バグ報告
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/support/#communication-channels"
+    target=""
+    rel=""
+>
+コミュニケーションチャンネル
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/support/commercial-support"
+    target=""
+    rel=""
+>
+商用サポート
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/support/#stackexchange"
+    target=""
+    rel=""
+>
+StackExchange
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/support/security"
+    target=""
+    rel=""
+>
+セキュリティ
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://analytics.qgis.org"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+QGIS Metrics
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://plugins.qgis.org/metabase/public/dashboard/7ecd345f-7321-423d-9844-71e526a454a9"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+Plugins Metrics
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://blog.qgis.org/"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+ブログ
+</a>
+
+                    
+                    </li>
+                
+            </ul>
+        
+        </li>
+        
+        
+        <li >
+
+        
+            <div class="has-child">
+                
+                
+
+
+
+
+
+<a
+    class=""
+    href="/ja/funding/donate"
+    target=""
+    rel=""
+>
+資金調達
+</a>
+
+                <span onclick="toggleSubMenu('ul-46')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+            </div>
+            <ul id="ul-46" class="collapsed">
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/funding/donate"
+    target=""
+    rel=""
+>
+寄付
+</a>
+
+                            <span onclick="toggleSubMenu('ul-47')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-47" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/funding/donate/donors"
+    target=""
+    rel=""
+>
+寄付者
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/funding/membership"
+    target=""
+    rel=""
+>
+メンバーシップ
+</a>
+
+                            <span onclick="toggleSubMenu('ul-49')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-49" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/funding/membership/members"
+    target=""
+    rel=""
+>
+メンバー
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/funding/membership/past_members"
+    target=""
+    rel=""
+>
+過去メンバー
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+            </ul>
+        
+        </li>
+        
+        
+        <li >
+
+        
+            
+            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/goodies"
+    target=""
+    rel=""
+>
+グッズ
+</a>
+
+        
+        </li>
+        
+        
+        <li >
+
+        
+            
+            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/download/"
+    target=""
+    rel=""
+>
+ダウンロード
+</a>
+
+        
+        </li>
+        
+        
+        <li >
+
+        
+            
+            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/archive/"
+    target=""
+    rel=""
+>
+アーカイブ
+</a>
+
+        
+        </li>
+    </ul>
+  </nav>
+</div>
+
+
+<script>
+function rotateArrow(e) {
+    e.previousElementSibling.querySelector('img').classList.toggle('rotated');
+}
+
+function toggleSubMenu(listId) {
+    let e = document.getElementById(listId);
+    e.classList.toggle('unfolded');
+    rotateArrow(e);
+}
+
+function toggleMenu() {
+    document.getElementById('sidebar').classList.toggle('visible');
+    document.getElementById('hamburger-btn').classList.toggle('open');
+}
+
+
+let activeListItem = document.getElementsByClassName('is-active')[0];
+let ham = document.getElementById('ham-title');
+let hamTitle = activeListItem.querySelector('a').textContent;
+if (activeListItem.parentElement.previousElementSibling != null) {
+    hamTitle = activeListItem.parentElement.previousElementSibling.querySelector('a').textContent + ' / ' + hamTitle;
+}
+ham.textContent = hamTitle;
+
+
+document.querySelectorAll('li.is-active,li:has(.is-active)').forEach(li => {
+    if (e = li.querySelector('ul')) {
+        e.classList.toggle('unfolded');
+    }
+});
+</script>
+
+        <div class="content column is-9"> 
+        
+        
+        
+
+
+<h1 id="bugs-features-and-issues">
+    Bugs, Features and Issues
+    <a class="heading-anchor" href="#bugs-features-and-issues">
+	    ¶
+    </a>
+</h1>
+<p>QGIS is a largely volunteer driven project, and is the work of a dedicated team of developers, documenters, translators and supporters. Despite the efforts of the team to release QGIS without bugs, there may remain some bugs. If you find a bug or want new features to be added, please report it!</p>
+<h2 id="where-to-report">
+    Where to report?
+    <a class="heading-anchor" href="#where-to-report">
+	    ¶
+    </a>
+</h2>
+<p>Each part of the QGIS Project has a dedicated place where issues (feature requests or bugs) can be reported, managed and discussed. Depending on the area you encountered the issue, the table below indicates the right repository to report it:</p>
+<table>
+<thead>
+<tr>
+<th>Place you found the bug or request a feature for</th>
+<th>Place to report the issue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Applications (QGIS Desktop, QGIS Server)</td>
+<td><a
+    href="https://github.com/qgis/QGIS/issues"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://github.com/qgis/QGIS/issues</a></td>
+</tr>
+<tr>
+<td>QGIS Website (<a
+    href="https://qgis.org"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://qgis.org</a>)</td>
+<td><a
+    href="https://github.com/qgis/QGIS-Website/issues"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://github.com/qgis/QGIS-Website/issues</a></td>
+</tr>
+<tr>
+<td>QGIS Documentation (<a
+    href="https://docs.qgis.org"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://docs.qgis.org</a>)</td>
+<td><a
+    href="https://github.com/qgis/QGIS-Documentation/issues"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://github.com/qgis/QGIS-Documentation/issues</a></td>
+</tr>
+<tr>
+<td>C++ API (<a
+    href="https://qgis.org/api"
+    
+    
+>https://qgis.org/api</a>)</td>
+<td><a
+    href="https://github.com/qgis/QGIS/issues"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://github.com/qgis/QGIS/issues</a></td>
+</tr>
+<tr>
+<td>PyQGIS API (<a
+    href="https://qgis.org/pyqgis"
+    
+    
+>https://qgis.org/pyqgis</a>)</td>
+<td><a
+    href="https://github.com/qgis/QGIS/issues"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://github.com/qgis/QGIS/issues</a> (for contents) and <a
+    href="https://github.com/qgis/pyqgis/issues"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://github.com/qgis/pyqgis/issues</a> (for formatting)</td>
+</tr>
+<tr>
+<td>External plugins</td>
+<td>The author repository set in the plugin description</td>
+</tr>
+</tbody>
+</table>
+<p>For help and questions, please contact the <a
+    href="https://qgis.org/ja/community/organisation/mailinglists/"
+    
+    
+>Mailing lists</a>.</p>
+<h2 id="reporting-issues-on-qgis-applications">
+    Reporting issues on QGIS applications
+    <a class="heading-anchor" href="#reporting-issues-on-qgis-applications">
+	    ¶
+    </a>
+</h2>
+<p>QGIS applications (QGIS Desktop and QGIS Server) issues are available in <a
+    href="https://github.com/qgis/QGIS/issues"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Github</a>. In order to submit or comment a report, you need to register and login.</p>
+<h3 id="before-reporting-an-issue">
+    Before reporting an issue
+    <a class="heading-anchor" href="#before-reporting-an-issue">
+	    ¶
+    </a>
+</h3>
+<p>Before filing an issue, verify that you are running the currently supported versions 3.34.9 or 3.38.1 or the development version 3.39 (see also <a
+    href="https://qgis.org/ja/resources/roadmap/#release-schedule"
+    
+    
+>Release schedule</a>) and review the currently open issues to make sure that you aren’t creating a duplicate. If you have additional information on an issue, you can add it to the existing ticket. Third party plugins might also cause problems. If you have installed any, you should also verify that the problem is still reproducible without them. Please don’t report multiple unrelated bugs in a single bug report.</p>
+<p>When you’re logged in, a <code>New Issue</code> button is available. Select it and follow the instructions there.</p>
+<p>Before sending the report, please check the formatting of your report by clicking on “Preview”. Please avoid editing existing reports, if not for typos. Better add further comments in any other case.</p>
+<h4 id="creating-a-backtrace">
+    Creating a backtrace
+    <a class="heading-anchor" href="#creating-a-backtrace">
+	    ¶
+    </a>
+</h4>
+<p>If you have a crash it might be useful to include a backtrace as the bug might be not reproducible on another machine.</p>
+<p>On Linux QGIS automatically tries to use <code>gdb</code> to connect to the crashing process to produce a backtrace. But some distributions disable the possiblity to connect debuggers to a running processes. In that case <code>gdb</code> only produces a rather useless message like:</p>
+<p>QGIS died on signal 11Could not attach to process.
+If your uid matches the uid of the target process,
+check the setting of /proc/sys/kernel/yama/ptrace_scope, or try
+again as the root user.
+For more details, see /etc/sysctl.d/10-ptrace.conf
+ptrace: Operation not permitted.
+No thread selected
+No stack.
+gdb returned 0
+Aborted (core dumped)</p>
+<p>In that case you should reenable that option by setting <code>kernel.yama.ptrace_scope</code> to 0 in <code>/etc/sysctl.d/10-ptrace.conf</code> (or <code>/etc/sysctl.conf</code> or some other file in <code>/etc/sysctl.d/</code>) and run <code>sysctl -p</code> as root. When you reproduce the crash after that, a backtrace will be printed instead.</p>
+<p>If you cannot reproduce the crash, there should still be a core dump in the current directory, that can be analysed after the process has already terminated. It’s called <code>core</code>, though the filename may include a dot followed by the process id on some systems.</p>
+<p>On some distributions the creation of core dumps is also disabled. In the event that you just get <code>Aborted</code> instead of <code>Aborted (core dumped)</code> when the crash occurs. Then you need to run <code>ulimit -c unlimited</code> before starting QGIS. You can also include that in your <code>.profile</code>, so that it’s always enabled when you login.</p>
+<p>To produce a backtrace from the core file, start <code>gdb /path/to/the/qgis/binary core</code>. The binary is usually <code>/usr/bin/qgis</code> or <code>/usr/bin/qgis.bin</code> on Debian with the GRASS plugin installed. In <code>gdb</code> you run <code>bt</code> which will produce the backtrace.</p>
+<h4 id="log-output-on-windows">
+    Log output on Windows
+    <a class="heading-anchor" href="#log-output-on-windows">
+	    ¶
+    </a>
+</h4>
+<p>The nightly build in <a
+    href="https://trac.osgeo.org/osgeo4w"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>OSGeo4W</a> (package qgis-dev) is built with debugging output, that you can view with <a
+    href="https://docs.microsoft.com/en-us/sysinternals/downloads/debugview"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>DebugView</a>. If the problem is not easy to reproduce, the output might shed some light about where QGIS crashes.</p>
+<h2 id="reporting-issues-on-qgis-web-site-or-documentation">
+    Reporting issues on QGIS web site or documentation
+    <a class="heading-anchor" href="#reporting-issues-on-qgis-web-site-or-documentation">
+	    ¶
+    </a>
+</h2>
+<p>QGIS project provides an active <a
+    href="https://qgis.org"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>web site</a> and a rich <a
+    href="https://qgis.org/en/docs/index.html"
+    
+    
+>documentation</a>. Despite our efforts, if you find an out of date information, a wrong or unclear statement or miss valuable information, please feel free to report it.</p>
+<p>The main sources of these documents are hosted and managed in GitHub repositories so in order to report bugs or submit patches, you need a GitHub account and login.</p>
+<p>To get started, first <a
+    href="https://github.com/join"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Create a GitHub account</a>.</p>
+<p>Then, choose the appropriate repository:</p>
+<ul>
+<li>
+<p><a
+    href="https://github.com/qgis/QGIS-Documentation/issues"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://github.com/qgis/QGIS-Documentation/issues</a> for QGIS documentation</p>
+</li>
+<li>
+<p><a
+    href="https://github.com/qgis/QGIS-Website/issues"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://github.com/qgis/QGIS-Website/issues</a> for the web site</p>
+</li>
+</ul>
+<p>Check if the issue you’d like to report is not already entered.</p>
+<p>Click <strong>New Issue</strong>, type a title and a clear description for your issue.</p>
+<p>When you’re finished, click <strong>Submit new issue</strong>.</p>
+<p>Note</p>
+<p>A <code>Fix me</code> link is provided at the bottom of any page of the web site to help you directly improve this page and submit pull request.</p>
+<p>This option is also available in the footer of the documentation.</p>
+<h2 id="reporting-plugin-issues">
+    Reporting plugin issues
+    <a class="heading-anchor" href="#reporting-plugin-issues">
+	    ¶
+    </a>
+</h2>
+<p>Most of the plugins in QGIS are published in the official <a
+    href="https://plugins.qgis.org/plugins/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>QGIS Plugins repository</a>. Bugs or feature requests relative to them <strong>must</strong> be opened in their respective bug tracking system:</p>
+<ul>
+<li>
+<p>For any plugin available in QGIS repository, you’ll find in its metadata a link to its bug tracker. Otherwise, consult the plugin documentation to find the address of the relevant bug tracking system or a developer to contact.</p>
+<p>If no information is available, please report it to the <a
+    href="https://lists.osgeo.org/mailman/listinfo/qgis-developer"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Developer mailing-list</a>.</p>
+</li>
+<li>
+<p>For other plugins, we have no means to ensure such information is provided.</p>
+</li>
+</ul>
+<h2 id="submitting-a-patch-to-qgis-projects">
+    Submitting a Patch to QGIS projects
+    <a class="heading-anchor" href="#submitting-a-patch-to-qgis-projects">
+	    ¶
+    </a>
+</h2>
+<p>In addition to issue report, you can help to fix issues. Fixing issues is done in GitHub through pull requests. You need to <a
+    href="https://help.github.com/articles/working-with-forks/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>fork the repository</a> you want to contribute to and submit pull requests at:</p>
+<ul>
+<li>
+<p><a
+    href="https://github.com/qgis/QGIS"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://github.com/qgis/QGIS</a> for QGIS Desktop or QGIS Server applications</p>
+</li>
+<li>
+<p><a
+    href="https://github.com/qgis/QGIS-Website"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://github.com/qgis/QGIS-Website</a> for the web site at <a
+    href="https://qgis.org"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://qgis.org</a></p>
+</li>
+<li>
+<p><a
+    href="https://github.com/qgis/QGIS-Documentation"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://github.com/qgis/QGIS-Documentation</a> for the documentation available at <a
+    href="https://docs.qgis.org"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://docs.qgis.org</a></p>
+</li>
+</ul>
+<p>You can find a few guidelines that will help you to easily get your patches and pull requests into QGIS projects at <a
+    href="https://docs.qgis.org/testing/en/docs/developers_guide/git.html#submitting-pull-requests"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Submitting Pull Requests</a>. And more widely, you may need to read the <a
+    href="https://docs.qgis.org/testing/en/docs/developers_guide/git.html"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Development Process</a> chapter.</p>
+    </div>
+</section>
+
+           
+
+
+
+
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns is-desktop">
+            <div class="column is-2-desktop">
+                <figure class="image is-128x128">
+                    <img alt="Logo" src="https://qgis.org/img/footlogo.svg" />
+                </figure>
+            </div>
+            <div class="column mb-6">
+                <div class="columns is-desktop">
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5 ">
+                            <a href="https://qgis.org/project/overview" class="footertitle text-nowrap">
+                                Project
+                            </a>
+                        </li>
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </ul>
+            
+
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5">
+                            <a href="https://qgis.org/community/involve" class="footertitle text-nowrap">
+                                Community
+                            </a>
+                        </li>
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </ul>
+
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5 footertitle">
+                            <a href="https://qgis.org/resources/hub" class="footertitle text-nowrap">
+                                Resources
+                            </a>
+                        </li>
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </ul>
+
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5 ">
+                            <a href="https://qgis.org/funding/donate" class="footertitle text-nowrap">
+                                Funding
+                            </a>
+                        </li>
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="column is-2-desktop">
+                <a href="https://qgis.org/download">
+                    <button class="button is-primary1 is-size-5">Download</button>
+                </a>
+            </div>
+        </div>
+        <div class="columns is-desktop">
+            <div class="copyright column is-2-desktop has-text-white"></div>
+            <div class="column social-icons-links">
+                <a class="has-text-white" href="https://www.facebook.com/profile.php?id=100057434859831">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a class="has-text-white" href="https://www.youtube.com/@qgishome">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a class="has-text-white" href="https://fosstodon.org/@qgis">
+                    <i class="fa-brands fa-foss"></i>
+                </a>
+                <a class="has-text-white" href="https://github.com/qgis/">
+                    <i class="fa-brands fa-square-github"></i>
+                </a>
+                <a class="has-text-white" href="https://qgis.org/community/organisation/mailinglists">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="columns is-desktop privacy-links">
+            <a href="https://qgis.org/diversity" class="column is-narrow is-offset-2-desktop">Diversity statement</a>
+            <a href="https://qgis.org/conduct" class="column is-narrow">Code of conduct</a>
+            <a href="https://qgis.org/environmental-policy" class="column is-narrow">Environmental policy</a>
+            <a href="https://qgis.org/license" class="column is-narrow">License</a>
+            <a href="https://qgis.org/styleguide" class="column is-narrow">Visual Style Guide</a>   
+            <a href="https://qgis.org/goodies" class="column is-narrow">Goodies</a>   
+            <a href="https://qgis.org/archive" class="column is-narrow">Archive</a>   
+
+        </div>
+        <div class="columns is-desktop issue-report-link is-justify-content-center">
+            <a href="https://github.com/qgis/QGIS-Website/issues" class="column is-narrow p-0 is-size-6" target="_blank">Problems with this website? Report an issue here 🐙</a> 
+              
+        </div>
+    </div>
+    
+</footer>
+
+

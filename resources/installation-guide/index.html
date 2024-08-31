@@ -1,0 +1,3247 @@
+<!doctype html>
+<html lang="en" class="has-navbar-fixed-top">
+    <head>
+        <meta charset="utf-8" />
+
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="https://qgis.org/img/favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="https://qgis.org/img/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="https://qgis.org/img/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="https://qgis.org/site.webmanifest" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Installation Guide &middot; QGIS Web Site</title>
+
+        <meta
+            name="description"
+            content="
+                
+            
+            "
+        />
+
+        <meta name="generator" content="Hugo 0.107.0">
+        <meta name="twitter:card" content="summary" />
+        
+        <meta
+            name="twitter:title"
+            content="Installation Guide &middot; QGIS Web Site"
+        />
+        <meta
+            name="twitter:description"
+            content="
+                
+            
+            "
+        />
+
+        <meta property="og:type" content="article" />
+        <meta
+            property="og:title"
+            content="Installation Guide &middot; QGIS Web Site"
+        />
+        <meta
+            property="og:description"
+            content="
+                
+            
+            "
+        />
+        <meta property="og:image" content="https://qgis.org/img/QGIScover.png"/>
+
+        
+        
+        
+        
+        <link href="/bulma.min.0c62cd6e584563ff66b38b435964e346a416232a95829fdf73fdaff9a472f168.css" rel="stylesheet" />
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <link href="/css/all.min.327d9cdc1e6d7b43e2ff21ed029d014975ea0c5ae8e1cbbf2d90acc3ad70c2bf.css" rel="stylesheet" />
+
+        
+        
+        
+        <link href="/bulma.min.c826033ae3d407a503bd9f4367f654c3bc6443d1d105dfc1d41418e6c54acec6.css" rel="stylesheet" />
+
+        
+        
+        
+        <link href="/css/fontawesome.min.545b0e3058fd53ad9d527b38b157fa25161c8595dc70084b2b40156bca2b3f9c.css" rel="stylesheet" />
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+        <link
+            rel="alternate"
+            type="application/rss+xml"
+            title="QGIS Web Site"
+            href="https://qgis.org/index.xml"
+        />
+
+        
+        
+        <script defer src="/js/qrcodegen-v1.8.0-es6.min.19d8d054ea10e2a90debef4f02326129d80711c50758fb0958bee2369e02e367.js"></script>
+        <script>
+            var matomoURL = "//matomo.qgis.org/"
+            var matomoSiteId = "7"
+        </script>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+           
+        <script defer src="/js/all.min.df9b9e12cc9f519f6d7dfdeb7aa7d4da9fc7b0c8408186d0fd39259aab8dfb9a.js"></script> 
+        
+        
+        <script defer src="/search.min.6ef3f670e3df29a0d7105576d06c1001a5e58244d2a22d3fd2bf517951b9ee2d.js"></script>
+        <script
+            crossorigin=""
+            type="application/javascript"
+            src="https://yoichigmf.github.io/qgis-uni-navigation/index.js"
+        ></script>
+    </head>
+
+    <body></body>
+</html>
+
+
+
+
+<qg-top-nav
+    breakpoint="1024"
+    class="is-highest navbar is-fixed-top"
+    location-prefix=""
+></qg-top-nav>
+
+
+
+
+
+<div class="box mb-0 context-container" id="context">
+    <div class="container is-flex is-justify-content-space-between">
+        <div class="rss-feed">
+            
+            
+            
+            
+                
+                
+                    
+                    <a href="https://uc2024.qgis.sk/" target="_blank" rel="noopener" class="external-link">
+                        Join the QGIS User Conference 2024
+                    </a>    
+                    
+                
+            
+            
+        </div>    
+        <div id="search-control" class="control has-icons-right search-control">
+            <form action="https://qgis.org/search/" method="GET">
+                <input class="input is-small" type="search" id="search-query" name="q" placeholder="Search">
+                <span class="icon is-right">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="section ">
+    <div class="container content">
+        
+        <div class="columns is-multiline is-centered">
+        
+
+
+<div id="hamburger-btn" onclick="toggleMenu()"><span id="ham-title"></span></div>
+<div class="column is-3">
+  <nav id="sidebar" class="sidebar">
+    
+    <ul class="content-wrapper">
+    
+    
+        
+        
+        <li >
+
+        
+            <div class="has-child">
+                
+                
+
+
+
+
+
+<a
+    class=""
+    href="/project/overview"
+    target=""
+    rel=""
+>
+Project
+</a>
+
+                <span onclick="toggleSubMenu('ul-1')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+            </div>
+            <ul id="ul-1" class="collapsed">
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/project/overview/"
+    target=""
+    rel=""
+>
+Overview
+</a>
+
+                            <span onclick="toggleSubMenu('ul-2')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-2" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/project/overview/maps/"
+    target=""
+    rel=""
+>
+Maps
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/project/overview/screenshots/"
+    target=""
+    rel=""
+>
+Screenshots
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/project/case-studies/"
+    target=""
+    rel=""
+>
+Case studies
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://plugins.qgis.org"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+Plugins
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/project/visual-changelogs"
+    target=""
+    rel=""
+>
+Visual Changelogs
+</a>
+
+                    
+                    </li>
+                
+            </ul>
+        
+        </li>
+        
+        
+        <li >
+
+        
+            <div class="has-child">
+                
+                
+
+
+
+
+
+<a
+    class=""
+    href="/community/involve"
+    target=""
+    rel=""
+>
+Community
+</a>
+
+                <span onclick="toggleSubMenu('ul-8')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+            </div>
+            <ul id="ul-8" class="collapsed">
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/community/involve"
+    target=""
+    rel=""
+>
+Get involved
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/community/certification"
+    target=""
+    rel=""
+>
+Certification Programme
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/community/foundation"
+    target=""
+    rel=""
+>
+QGIS Foundation
+</a>
+
+                            <span onclick="toggleSubMenu('ul-11')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-11" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/community/foundation/charter"
+    target=""
+    rel=""
+>
+Charter
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/community/foundation/annual_general_meetings"
+    target=""
+    rel=""
+>
+Annual General Meetings
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/community/foundation/annual_reports"
+    target=""
+    rel=""
+>
+Annual Reports
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/community/foundation/finance"
+    target=""
+    rel=""
+>
+Finance
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/community/organisation"
+    target=""
+    rel=""
+>
+Project Organisation
+</a>
+
+                            <span onclick="toggleSubMenu('ul-16')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-16" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/community/organisation/infrastructure"
+    target=""
+    rel=""
+>
+Infrastructure
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/community/organisation/guidelines"
+    target=""
+    rel=""
+>
+Brand Guidelines
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/community/organisation/credits"
+    target=""
+    rel=""
+>
+Contributor Credits
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    <div class="has-child">
+                                        
+                                        
+
+
+
+
+
+<a
+    class=""
+    href="/community/organisation/meetings"
+    target=""
+    rel=""
+>
+Meetings
+</a>
+
+                                        <span onclick="toggleSubMenu('ul-20')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                                    </div>
+                                    <ul id="ul-20" class="collapsed">
+                                        
+                                        
+                                            <li >
+                                                
+                                                
+
+
+
+
+
+<a
+    class=""
+    href="/community/organisation/meetings/dev_meetings"
+    target=""
+    rel=""
+>
+QGIS Developer Meetings
+</a>
+
+                                            </li>
+                                        
+                                        
+                                            <li >
+                                                
+                                                
+
+
+
+
+
+<a
+    class=""
+    href="/community/organisation/meetings/reimbursements"
+    target=""
+    rel=""
+>
+Reimbursements for Developer Meetings
+</a>
+
+                                            </li>
+                                        
+                                        
+                                            <li >
+                                                
+                                                
+
+
+
+
+
+<a
+    class=""
+    href="/community/organisation/meetings/user_meetings"
+    target=""
+    rel=""
+>
+QGIS User Meetings
+</a>
+
+                                            </li>
+                                        
+                                    </ul>
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/community/organisation/mailinglists"
+    target=""
+    rel=""
+>
+Mailing Lists
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/community/groups"
+    target=""
+    rel=""
+>
+Local User Groups
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://plugins.qgis.org/planet/"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+Members Blogs
+</a>
+
+                    
+                    </li>
+                
+            </ul>
+        
+        </li>
+        
+        
+        <li >
+
+        
+            <div class="has-child">
+                
+                
+
+
+
+
+
+<a
+    class=""
+    href="/resources/hub"
+    target=""
+    rel=""
+>
+Resources
+</a>
+
+                <span onclick="toggleSubMenu('ul-27')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+            </div>
+            <ul id="ul-27" class="collapsed">
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/resources/hub"
+    target=""
+    rel=""
+>
+Documentation
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li  class="is-active">
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/resources/installation-guide/"
+    target=""
+    rel=""
+>
+Installation guide
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/resources/testing/"
+    target=""
+    rel=""
+>
+Testing
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/resources/roadmap/"
+    target=""
+    rel=""
+>
+Roadmap
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/resources/reports/"
+    target=""
+    rel=""
+>
+Reports
+</a>
+
+                            <span onclick="toggleSubMenu('ul-32')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-32" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/resources/reports/#ogc-certification"
+    target=""
+    rel=""
+>
+OGC Certification
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/resources/reports/#performance"
+    target=""
+    rel=""
+>
+Performance
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/resources/books/"
+    target=""
+    rel=""
+>
+Books
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/resources/support/"
+    target=""
+    rel=""
+>
+Support
+</a>
+
+                            <span onclick="toggleSubMenu('ul-36')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-36" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/resources/support/faq"
+    target=""
+    rel=""
+>
+FAQ
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/resources/support/bug-reporting"
+    target=""
+    rel=""
+>
+Bug Reporting
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/resources/support/#communication-channels"
+    target=""
+    rel=""
+>
+Communication channels
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/resources/support/commercial-support"
+    target=""
+    rel=""
+>
+Commercial support
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/resources/support/#stackexchange"
+    target=""
+    rel=""
+>
+StackExchange
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/resources/support/security"
+    target=""
+    rel=""
+>
+Security
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://analytics.qgis.org"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+QGIS Metrics
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://plugins.qgis.org/metabase/public/dashboard/7ecd345f-7321-423d-9844-71e526a454a9"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+Plugins Metrics
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://blog.qgis.org/"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+Blog
+</a>
+
+                    
+                    </li>
+                
+            </ul>
+        
+        </li>
+        
+        
+        <li >
+
+        
+            <div class="has-child">
+                
+                
+
+
+
+
+
+<a
+    class=""
+    href="/funding/donate"
+    target=""
+    rel=""
+>
+Funding
+</a>
+
+                <span onclick="toggleSubMenu('ul-46')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+            </div>
+            <ul id="ul-46" class="collapsed">
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/funding/donate"
+    target=""
+    rel=""
+>
+Donate
+</a>
+
+                            <span onclick="toggleSubMenu('ul-47')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-47" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/funding/donate/donors"
+    target=""
+    rel=""
+>
+Donors
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/funding/membership"
+    target=""
+    rel=""
+>
+Membership
+</a>
+
+                            <span onclick="toggleSubMenu('ul-49')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-49" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/funding/membership/members"
+    target=""
+    rel=""
+>
+Members
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/funding/membership/past_members"
+    target=""
+    rel=""
+>
+Past Members
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+            </ul>
+        
+        </li>
+        
+        
+        <li >
+
+        
+            
+            
+
+
+
+
+
+<a
+    class=""
+    href="/goodies"
+    target=""
+    rel=""
+>
+Goodies
+</a>
+
+        
+        </li>
+        
+        
+        <li >
+
+        
+            
+            
+
+
+
+
+
+<a
+    class=""
+    href="/download/"
+    target=""
+    rel=""
+>
+Download
+</a>
+
+        
+        </li>
+        
+        
+        <li >
+
+        
+            
+            
+
+
+
+
+
+<a
+    class=""
+    href="/archive/"
+    target=""
+    rel=""
+>
+Archive
+</a>
+
+        
+        </li>
+    </ul>
+  </nav>
+</div>
+
+
+<script>
+function rotateArrow(e) {
+    e.previousElementSibling.querySelector('img').classList.toggle('rotated');
+}
+
+function toggleSubMenu(listId) {
+    let e = document.getElementById(listId);
+    e.classList.toggle('unfolded');
+    rotateArrow(e);
+}
+
+function toggleMenu() {
+    document.getElementById('sidebar').classList.toggle('visible');
+    document.getElementById('hamburger-btn').classList.toggle('open');
+}
+
+
+let activeListItem = document.getElementsByClassName('is-active')[0];
+let ham = document.getElementById('ham-title');
+let hamTitle = activeListItem.querySelector('a').textContent;
+if (activeListItem.parentElement.previousElementSibling != null) {
+    hamTitle = activeListItem.parentElement.previousElementSibling.querySelector('a').textContent + ' / ' + hamTitle;
+}
+ham.textContent = hamTitle;
+
+
+document.querySelectorAll('li.is-active,li:has(.is-active)').forEach(li => {
+    if (e = li.querySelector('ul')) {
+        e.classList.toggle('unfolded');
+    }
+});
+</script>
+
+        <div class="content column is-9"> 
+        
+        
+        
+
+
+<h1 id="qgis-installers">
+    QGIS Installers
+    <a class="heading-anchor" href="#qgis-installers">
+	    ¶
+    </a>
+</h1>
+<p>QGIS is available on Windows, macOS, Linux, FreeBSD, OpenBSD, Android and iOS.</p>
+<p><img src="img/icons.png" alt="Icons of Operating Systems"></p>
+<p>We recommend installing the Long Term Release (LTR) packages since our LTR versions undergo more rigorous testing before release and receive at least one year of bug fix updates.</p>
+<p>See also <a
+    href="https://qgis.org/download/"
+    
+    
+>the main installers page</a>.</p>
+<p>To evaluate the upcoming release and to allow non-developers to support development we also provide testing packages (note the <a
+    href="#warning"
+    
+    
+>warning</a>).</p>
+<p>In the feature frozen phase preceding a release (see <a
+    href="https://qgis.org/resources/roadmap/#release-schedule"
+    
+    
+>Release schedule</a>) these packages are effectively <strong>pre-releases, which we strongly urge users to test</strong>.</p>
+<h1 id="windows">
+    Windows
+    <a class="heading-anchor" href="#windows">
+	    ¶
+    </a>
+</h1>
+<p>There are two options for installing on Windows:</p>
+<h2 id="standalone-installers">
+    Standalone installers
+    <a class="heading-anchor" href="#standalone-installers">
+	    ¶
+    </a>
+</h2>
+<p>Standalone installers include everything QGIS needs in a single download. Once you have the installer, no internet is required to complete the installation. When a new release is available, you need to download the complete installer again in order to upgrade. For beginners, the standlone installer is probably the easiest way to install QGIS:</p>
+<table>
+<thead>
+<tr>
+<th>Release</th>
+<th>Version</th>
+<th>Package</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Latest Release</td>
+<td>3.38.1 Grenoble </td>
+<td><a
+    href="/downloads/QGIS-OSGeo4W-3.38.1-1.msi"
+    
+    
+>Installer</a> <a
+    href="/downloads/QGIS-OSGeo4W-3.38.1-1.sha256sum"
+    
+    
+>Checksum</a></td>
+</tr>
+<tr>
+<td>Long Term Release</td>
+<td>3.34.9 Prizren LTR</td>
+<td><a
+    href="/downloads/QGIS-OSGeo4W-3.34.9-1.msi"
+    
+    
+>Installer</a> <a
+    href="/downloads/QGIS-OSGeo4W-3.34.9-1.sha256sum"
+    
+    
+>Checksum</a></td>
+</tr>
+<tr>
+<td>Development</td>
+<td>3.39 master</td>
+<td><a
+    href="https://download.osgeo.org/qgis/windows/weekly/?C=M&amp;O=D"
+    
+    
+>Weekly snapshots</a></td>
+</tr>
+</tbody>
+</table>
+<p>The weekly snapshots of the nightly qgis-dev package of OSGeo4W are for users that cannot use OSGeo4W (see below) for some reason or just prefer standalone installers. In the feature freeze phase, theset also act as <strong>release candidate</strong> installers.</p>
+<h2 id="osgeo4w-installer">
+    OSGeo4W installer
+    <a class="heading-anchor" href="#osgeo4w-installer">
+	    ¶
+    </a>
+</h2>
+<p>More advanced QGIS users should use OSGeo4W packages. This installer makes it possible to install several versions of QGIS in parallel and also to do much more efficient updates as only changed components are downloaded and installed with each new release.</p>
+<p>The OSGeo4W repository contains a lot of software from OSGeo projects. QGIS and all dependencies are included, along with Python, GRASS, GDAL, etc. The installer is able to install from internet or just download all needed packages beforehand. The downloaded files are kept in a local directory for future installations and could also be used to install offline.</p>
+<p>Installation steps are:</p>
+<ul>
+<li>
+<p>Download <a
+    href="https://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>OSGeo4W Installer</a> and run it.</p>
+</li>
+<li>
+<p>Choose <em>Express Install</em> and select <em>QGIS</em> to install the <em>latest release</em> and/or <em>QGIS LTR</em> to install the <em>long term release</em>.</p>
+</li>
+</ul>
+<p>Alternatively, instead of doing the <em>Express</em> install, you can use the <em>Advanced Install</em>, navigate to the <em>Desktop</em> section and pick one or more of the following packages:</p>
+<table>
+<thead>
+<tr>
+<th>Release</th>
+<th>Version</th>
+<th>Package</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Latest Release</td>
+<td>3.38.1 Grenoble </td>
+<td>qgis</td>
+<td>Release</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>qgis-rel-dev <a
+    href="#id1"
+    
+    
+>[1]</a></td>
+<td>Nightly build of the upcoming point release</td>
+</tr>
+<tr>
+<td>Long Term Release</td>
+<td>3.34.9 Prizren LTR</td>
+<td>qgis-ltr</td>
+<td>Release</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>qgis-ltr-dev <a
+    href="#id1"
+    
+    
+>[1]</a></td>
+<td>Nightly build of the upcoming long term point release</td>
+</tr>
+<tr>
+<td>Development</td>
+<td>3.39 master</td>
+<td>qgis-dev <a
+    href="#id1"
+    
+    
+>[1]</a></td>
+<td>Nightly build of the development version</td>
+</tr>
+</tbody>
+</table>
+<p><a href="#id1" id="id1">[1]</a>
+ Nightlies are debug builds (including debugging output that can be used by developers to better understand issues with the build).</p>
+<p>The packages listed in the above table only install the necessary dependencies needed to run QGIS. Corresponding to those packages there are also meta packages with the suffix <code>-full-free</code> and <code>-full</code>. The <code>-full-free</code> contains additional optional dependencies that some popular (not included in the default QGIS install) plugins use.  The <code>-full</code> includes everything from <code>-full-free</code> and also adds proprietary extensions like Oracle drivers, ECW and MrSID.</p>
+<p>The Express installs reference the corresponding <code>-full</code> variant and the standalone installers are also made from these OSGeo4W package sets.</p>
+<p>Before installing any of the nightly builds note the <a
+    href="#warning"
+    
+    
+>warnings</a> below.</p>
+<h1 id="linux">
+    Linux
+    <a class="heading-anchor" href="#linux">
+	    ¶
+    </a>
+</h1>
+<p>Most linux distributions split QGIS into several packages; you’ll probably need <code>qgis</code> and <code>qgis-python</code> (to run plugins). Packages like <code>qgis-grass</code> (or <code>qgis-plugin-grass</code>), <code>qgis-server</code> can be skipped initially, or installed only when you need them.</p>
+<p>Below you will find specific instructions per distribution. For most distro’s there are instructions to install QGIS stable and instructions to install a cutting edge QGIS testing build (note the <a
+    href="#warning"
+    
+    
+>warning</a>).</p>
+<h2 id="debianubuntu">
+    Debian/Ubuntu
+    <a class="heading-anchor" href="#debianubuntu">
+	    ¶
+    </a>
+</h2>
+<h3 id="quickstart">
+    Quickstart
+    <a class="heading-anchor" href="#quickstart">
+	    ¶
+    </a>
+</h3>
+<p><div class="container rich tips" >
+    
+        <div class="icon">💁</div>
+    
+
+<div class="cont coloring-1"></p>
+<h5 id="note">
+    Note
+    <a class="heading-anchor" href="#note">
+	    ¶
+    </a>
+</h5>
+<p>In the section following this one, you will find ALL possible options to install different versions of QGIS in different versions of Debian/Ubuntu. If you have problems, verify whether your distribution is still supported as the repositories also contain older <strong>unsupported</strong> distributions with the last QGIS version that was supported. Be aware that those might have meanwhile ceased to work.
+</div>
+
+</div>
+</p>
+<p>Simply install the latest stable QGIS (3.38.x Grenoble) in your Debian or Ubuntu without having to edit config files.</p>
+<p><div class="container rich tips" >
+    
+        <div class="icon">🌀</div>
+    
+
+<div class="cont coloring-1"></p>
+<h5 id="note-1">
+    Note
+    <a class="heading-anchor" href="#note-1">
+	    ¶
+    </a>
+</h5>
+<p>Although you see ‘Debian’ in some places, this also works for ‘Ubuntu’, as one is actually a symlink to the other on our server.
+</div>
+
+</div>
+</p>
+<p>First install some tools you will need for these instructions:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo apt install gnupg software-properties-common
+</span></span></code></pre></div><p>Now install the QGIS Signing Key, so QGIS software from the QGIS repo will be trusted and installed:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo mkdir -m755 -p /etc/apt/keyrings  # not needed since apt version 2.4.0 like Debian 12 and Ubuntu 22 or newer
+</span></span><span class="line"><span class="cl">sudo wget -O /etc/apt/keyrings/qgis-archive-keyring.gpg https://download.qgis.org/downloads/qgis-archive-keyring.gpg
+</span></span></code></pre></div><p>Add the QGIS repo for the latest stable QGIS (3.38.x Grenoble) to <code>/etc/apt/sources.list.d/qgis.sources</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Types: deb deb-src
+</span></span><span class="line"><span class="cl">URIs: https://qgis.org/debian
+</span></span><span class="line"><span class="cl">Suites: your-distributions-codename
+</span></span><span class="line"><span class="cl">Architectures: amd64
+</span></span><span class="line"><span class="cl">Components: main
+</span></span><span class="line"><span class="cl">Signed-By: /etc/apt/keyrings/qgis-archive-keyring.gpg
+</span></span></code></pre></div><p><div class="container rich tips" >
+    
+        <div class="icon">💬</div>
+    
+
+<div class="cont coloring-1"></p>
+<h5 id="note-2">
+    Note
+    <a class="heading-anchor" href="#note-2">
+	    ¶
+    </a>
+</h5>
+<p><code>Suites</code> in above lines depends on your distribution. <code>lsb_release -cs</code> will show your distribution name.</p>
+<p>In some distributions (like Linux Mint), <code>. /etc/os-release; echo &quot;$UBUNTU_CODENAME&quot;</code> will show the correct distibution name.</p>
+<p>See <a
+    href="#available-codenames"
+    
+    
+>Available codenames</a>.
+</div>
+
+</div>
+</p>
+<p>Update your repository information to also reflect the newly added QGIS one:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo apt update
+</span></span></code></pre></div><p>Now, install QGIS:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo apt install qgis qgis-plugin-grass
+</span></span></code></pre></div><p><div class="container rich tips" >
+    
+        <div class="icon">✍️</div>
+    
+
+<div class="cont coloring-1"></p>
+<h5 id="note-3">
+    Note
+    <a class="heading-anchor" href="#note-3">
+	    ¶
+    </a>
+</h5>
+<p>Add <code>qgis-server</code> to the above line if you also want to install QGIS Server
+</div>
+
+</div>
+</p>
+<h3 id="repositories">
+    Repositories
+    <a class="heading-anchor" href="#repositories">
+	    ¶
+    </a>
+</h3>
+<p>Default Debian and Ubuntu software repositories often contain older versions of QGIS.</p>
+<p>To have newer versions, you have to add alternative software repositories, by adding one of the deb-lines below to your <code>/etc/apt/sources.list.d/qgis.sources</code> file.</p>
+<p>Our main repository contains multiple lines of packages for several versions of <strong>Debian and Ubuntu</strong> based on the dependencies the individual distributions provide.</p>
+<p>For Ubuntu we also used to have extra packages in a separate repository that are based on <a
+    href="https://launchpad.net/~ubuntugis"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>ubuntugis</a>, which held more up-to-date versions of other GIS packages than Ubuntu itself for LTS versions. If you want those you also need to include ubuntugis-unstable ppa in your /etc/apt/sources.list.d/qgis.list file (see <a
+    href="https://trac.osgeo.org/ubuntugis/wiki/UbuntuGISRepository"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>ubuntugis documentation</a>).</p>
+<p><div class="container rich tips" >
+    
+        <div class="icon">💁</div>
+    
+
+<div class="cont coloring-1"></p>
+<h5 id="note-4">
+    Note
+    <a class="heading-anchor" href="#note-4">
+	    ¶
+    </a>
+</h5>
+<p>The release packages are only produced once, shortly after a new version has been released. As unstable, not yet released debian versions (testing) and ubuntugis-unstable can have library changes the packages might sooner or later be broken for these targets, when the development in debian, ubuntu or ubuntugis-unstable moves on and their packages used as dependencies in QGIS change. In that event you can either:</p>
+<ul>
+<li>
+<p>move to a stable debian version and use the released packages for it,</p>
+</li>
+<li>
+<p>wait for the next point release (due 2024-08-16 12:00:00 UTC), which happens every month and will include the updated dependencies,</p>
+</li>
+<li>
+<p>switch to a nightly repository (available for the <strong>two</strong> release branches and master) whose packages are rebuild on regular basis and will also pickup the updated dependencies automatically or</p>
+</li>
+<li>
+<p>build your own set of packages (see <a
+    href="https://github.com/qgis/QGIS/blob/master/INSTALL.md#310-building-debian-packages"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>build-debian-packages</a>).
+</div>
+
+</div>
+</p>
+</li>
+</ul>
+<p>Lines of packages:</p>
+<table>
+<thead>
+<tr>
+<th>Release</th>
+<th>Version</th>
+<th>Description</th>
+<th>Repository</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Latest Release</td>
+<td>3.38.x Grenoble </td>
+<td>Release for <strong>Debian and Ubuntu</strong></td>
+<td><a
+    href="https://qgis.org/debian"
+    
+    
+>https://qgis.org/debian</a> <br> <a
+    href="https://qgis.org/ubuntu"
+    
+    
+>https://qgis.org/ubuntu</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Release with ubuntugis-unstable dependencies</td>
+<td><a
+    href="https://qgis.org/ubuntugis"
+    
+    
+>https://qgis.org/ubuntugis</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Nightly build of upcoming point release for Debian and Ubuntu <a
+    href="#id5"
+    
+    
+>[5]</a></td>
+<td><a
+    href="https://qgis.org/debian-nightly-release"
+    
+    
+>https://qgis.org/debian-nightly-release</a> <br> <a
+    href="https://qgis.org/ubuntu-nightly-release"
+    
+    
+>https://qgis.org/ubuntu-nightly-release</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Nightly build of upcoming point release with ubuntugis-unstable dependencies <a
+    href="#id5"
+    
+    
+>[5]</a></td>
+<td><a
+    href="https://qgis.org/ubuntugis-nightly-release"
+    
+    
+>https://qgis.org/ubuntugis-nightly-release</a></td>
+</tr>
+<tr>
+<td>Long Term Release Repository</td>
+<td>3.34.x Prizren LTR</td>
+<td>Release for <strong>Debian and Ubuntu</strong></td>
+<td><a
+    href="https://qgis.org/debian-ltr"
+    
+    
+>https://qgis.org/debian-ltr</a> <a
+    href="https://qgis.org/ubuntu-ltr"
+    
+    
+>https://qgis.org/ubuntu-ltr</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Release with ubuntugis-unstable dependencies</td>
+<td><a
+    href="https://qgis.org/ubuntugis-ltr"
+    
+    
+>https://qgis.org/ubuntugis-ltr</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Nightly build of upcoming point release for Debian and Ubuntu <a
+    href="#id5"
+    
+    
+>[5]</a></td>
+<td><a
+    href="https://qgis.org/debian-nightly-ltr"
+    
+    
+>https://qgis.org/debian-nightly-ltr</a> <br> <a
+    href="https://qgis.org/ubuntu-nightly-ltr"
+    
+    
+>https://qgis.org/ubuntu-nightly-ltr</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Nightly build of upcoming point release with ubuntugis-unstable dependencies <a
+    href="#id5"
+    
+    
+>[5]</a></td>
+<td><a
+    href="https://qgis.org/ubuntugis-nightly-ltr"
+    
+    
+>https://qgis.org/ubuntugis-nightly-ltr</a></td>
+</tr>
+<tr>
+<td>Development Version</td>
+<td>3.39 master</td>
+<td>Nightly build for <strong>Debian and Ubuntu</strong> <a
+    href="#id5"
+    
+    
+>[5]</a></td>
+<td><a
+    href="https://qgis.org/debian-nightly"
+    
+    
+>https://qgis.org/debian-nightly</a> <br> <a
+    href="https://qgis.org/ubuntu-nightly"
+    
+    
+>https://qgis.org/ubuntu-nightly</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Nightly build with ubuntugis-unstable dependencies <a
+    href="#id5"
+    
+    
+>[5]</a></td>
+<td><a
+    href="https://qgis.org/ubuntugis-nightly"
+    
+    
+>https://qgis.org/ubuntugis-nightly</a></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#id5" id="id5">[5]</a>
+ Nightlies are debug builds (including debugging output)</p>
+<small>
+Next point release: 2024-08-16 12:00:00 UTC
+<p>Next release: 2024-10-25 12:00:00 UTC</p>
+<p>(For more dates see Release Schedule on <a
+    href="https://qgis.org/resources/roadmap/"
+    
+    
+>Road Map</a>)
+</small></p>
+<h4 id="available-codenames">
+    Supported distribution versions:
+    <a class="heading-anchor" href="#available-codenames">
+	    ¶
+    </a>
+</h4>
+<table>
+<thead>
+<tr>
+<th>Distribution</th>
+<th>Version</th>
+<th>Codename</th>
+<th>Also available based on ubuntugis-unstable dependencies?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Debian</td>
+<td>12.x (stable)</td>
+<td>bookworm</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>11.x (oldstable)</td>
+<td>bullseye</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>unstable</td>
+<td>sid</td>
+<td></td>
+</tr>
+<tr>
+<td>Ubuntu</td>
+<td>24.04 (LTS)</td>
+<td>noble</td>
+<td>yes <a
+    href="#id6"
+    
+    
+>[6]</a></td>
+</tr>
+<tr>
+<td></td>
+<td>23.10</td>
+<td>mantic</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>23.04</td>
+<td>lunar</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>22.04 (LTS)</td>
+<td>jammy</td>
+<td>yes</td>
+</tr>
+</tbody>
+</table>
+<p><a href="#id6" id="id6">[6]</a>
+ starting with nightlies of 3.34.9/3.38.2</p>
+<p>To use the QGIS archive you have to first add the archive’s repository public key:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">wget https://download.qgis.org/downloads/qgis-archive-keyring.gpg
+</span></span><span class="line"><span class="cl">gpg --no-default-keyring --keyring ./qgis-archive-keyring.gpg --list-keys
+</span></span></code></pre></div><p>Should output:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">./qgis-archive-keyring.gpg
+</span></span><span class="line"><span class="cl">--------------------------
+</span></span><span class="line"><span class="cl">pub   rsa4096 2022-08-08 [SCEA] [expires: 2027-08-08]
+</span></span><span class="line"><span class="cl">      2D7E3441A707FDB3E7059441D155B8E6A419C5BE
+</span></span><span class="line"><span class="cl">uid           [ unknown] QGIS Archive Automatic Signing Key (2022-2027) &lt;qgis-developer@lists.osgeo.org&gt;
+</span></span></code></pre></div><p>After you have verified the output you can install the key with:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo mkdir -m755 -p /etc/apt/keyrings  # not needed since apt version 2.4.0 like Debian 12 and Ubuntu 22 or newer
+</span></span><span class="line"><span class="cl">sudo cp qgis-archive-keyring.gpg /etc/apt/keyrings/qgis-archive-keyring.gpg
+</span></span></code></pre></div><p>Alternatively you can download the key directly without manual verification:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo mkdir -m755 -p /etc/apt/keyrings  # not needed since apt version 2.4.0 like Debian 12 and Ubuntu 22 or newer
+</span></span><span class="line"><span class="cl">sudo wget -O /etc/apt/keyrings/qgis-archive-keyring.gpg https://download.qgis.org/downloads/qgis-archive-keyring.gpg
+</span></span></code></pre></div><p>With the keyring in place you can add the repository as <code>/etc/apt/sources.list.d/qgis.sources</code> with following content:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Types: deb deb-src
+</span></span><span class="line"><span class="cl">URIs: *repository*
+</span></span><span class="line"><span class="cl">Suites: *codename*
+</span></span><span class="line"><span class="cl">Architectures: amd64
+</span></span><span class="line"><span class="cl">Components: main
+</span></span><span class="line"><span class="cl">Signed-By: /etc/apt/keyrings/qgis-archive-keyring.gpg
+</span></span></code></pre></div><p>Example for the latest long term release for Ubuntu 22.04 Jammy:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Types: deb deb-src
+</span></span><span class="line"><span class="cl">URIs: https://qgis.org/ubuntu-ltr
+</span></span><span class="line"><span class="cl">Suites: jammy
+</span></span><span class="line"><span class="cl">Architectures: amd64
+</span></span><span class="line"><span class="cl">Components: main
+</span></span><span class="line"><span class="cl">Signed-By: /etc/apt/keyrings/qgis-archive-keyring.gpg
+</span></span></code></pre></div><p>After that type the commands below to install QGIS:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo apt update
+</span></span><span class="line"><span class="cl">sudo apt install qgis qgis-plugin-grass
+</span></span></code></pre></div><p>In case you would like to install QGIS Server, type:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo apt update
+</span></span><span class="line"><span class="cl">sudo apt install qgis-server --no-install-recommends --no-install-suggests
+</span></span><span class="line"><span class="cl"># if you want to install server Python plugins
+</span></span><span class="line"><span class="cl">apt install python3-qgis
+</span></span></code></pre></div><p><div class="container rich tips" >
+    
+        <div class="icon">💁</div>
+    
+
+<div class="cont coloring-1"></p>
+<h5 id="note-5">
+    Note
+    <a class="heading-anchor" href="#note-5">
+	    ¶
+    </a>
+</h5>
+<p>Please remove all the QGIS and GRASS packages you may have installed from other repositories before doing the update.
+</div>
+
+</div>
+</p>
+<h2 id="fedora">
+    Fedora
+    <a class="heading-anchor" href="#fedora">
+	    ¶
+    </a>
+</h2>
+<p>Get packages for any Fedora version by typing:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo dnf install qgis python3-qgis qgis-grass qgis-server
+</span></span></code></pre></div><p>Default Fedora software repositories often hold older versions of QGIS.</p>
+<p>To have newer versions or the latest LTR, you have to add alternative software repositories based on the version you want to install (stable, LTR or testing).</p>
+<h3 id="qgis-stable">
+    QGIS stable
+    <a class="heading-anchor" href="#qgis-stable">
+	    ¶
+    </a>
+</h3>
+<p>Enable the repository:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo dnf copr enable dani/qgis
+</span></span></code></pre></div><p>After that type the commands below to install QGIS:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo dnf install qgis python3-qgis qgis-grass
+</span></span></code></pre></div><p>In case you would like to install QGIS Server (note that it’s not a common practice to install both client and server applications on the same machine), type:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo dnf install qgis-server python3-qgis
+</span></span></code></pre></div><table>
+<thead>
+<tr>
+<th>Distribution</th>
+<th>Version</th>
+<th>QGIS version</th>
+<th>GRASS GIS version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fedora</td>
+<td>36</td>
+<td>3.28</td>
+<td>8.0</td>
+</tr>
+<tr>
+<td></td>
+<td>37</td>
+<td>3.28</td>
+<td>8.2</td>
+</tr>
+</tbody>
+</table>
+<p>More information are available at <a
+    href="https://copr.fedorainfracloud.org/coprs/dani/qgis/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://copr.fedorainfracloud.org/coprs/dani/qgis/</a></p>
+<h3 id="qgis-ltr-long-term-release">
+    QGIS LTR (Long Term Release)
+    <a class="heading-anchor" href="#qgis-ltr-long-term-release">
+	    ¶
+    </a>
+</h3>
+<p>Enable the repository:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo dnf copr enable dani/qgis-ltr
+</span></span></code></pre></div><p>After that type the commands below to install QGIS:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo dnf install qgis python3-qgis qgis-grass
+</span></span></code></pre></div><p>In case you would like to install QGIS Server (note that it’s not a common practice to install both client and server applications on the same machine), type:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo dnf install qgis-server python3-qgis
+</span></span></code></pre></div><table>
+<thead>
+<tr>
+<th>Distribution</th>
+<th>Version</th>
+<th>QGIS version</th>
+<th>GRASS GIS version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fedora</td>
+<td>36</td>
+<td>3.22</td>
+<td>8.0</td>
+</tr>
+<tr>
+<td></td>
+<td>37</td>
+<td>3.22</td>
+<td>8.2</td>
+</tr>
+</tbody>
+</table>
+<p>More information are available at <a
+    href="https://copr.fedorainfracloud.org/coprs/dani/qgis-ltr/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://copr.fedorainfracloud.org/coprs/dani/qgis-ltr/</a></p>
+<h2 id="nixos">
+    NixOS
+    <a class="heading-anchor" href="#nixos">
+	    ¶
+    </a>
+</h2>
+<p>Latest stable and LTR packages are <a
+    href="https://search.nixos.org/packages?channel=24.05&amp;show=qgis&amp;from=0&amp;size=50&amp;sort=relevance&amp;type=packages&amp;query=qgis"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>available in nixpkgs</a>.</p>
+<h3 id="basic-install">
+    Basic Install
+    <a class="heading-anchor" href="#basic-install">
+	    ¶
+    </a>
+</h3>
+<p><strong>Ephemeral use:</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">nix-shell -p qgis --command qgis
+</span></span></code></pre></div><p>or</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">nix-shell -p qgis-ltr  --command qgis
+</span></span></code></pre></div><p><strong>Or added to your NixOS configuration.nix so that it becomes part of your system install:</strong></p>
+<p>For the LTR:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">  environment.systemPackages = [
+</span></span><span class="line"><span class="cl">    pkgs.qgis-ltr
+</span></span><span class="line"><span class="cl">  ];
+</span></span></code></pre></div><p>For latest stable:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">environment.systemPackages = [
+</span></span><span class="line"><span class="cl">    pkgs.qgis
+</span></span><span class="line"><span class="cl">  ];
+</span></span></code></pre></div><h3 id="running-with-extra-python-packages">
+    Running with extra python packages:
+    <a class="heading-anchor" href="#running-with-extra-python-packages">
+	    ¶
+    </a>
+</h3>
+<p>Because of the atomic nature of NixOS packages, you need to override the package if you want extra python packages to be available to QGIS. For example to run QGIS with numpy, geopandas and rasterio python libraries you can do:</p>
+<p><strong>Ephemeral use:</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">nix-shell -p \
+</span></span><span class="line"><span class="cl">      &#39;qgis.override { extraPythonPackages = (ps: [ ps.numpy ps.future ps.geopandas ps.rasterio ps.debugpy ]);}&#39; \
+</span></span><span class="line"><span class="cl">      --command &#34;qgis&#34;
+</span></span></code></pre></div><p><strong>Or added to your NixOS configuration.nix so that it becomes part of your system install:</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{
+</span></span><span class="line"><span class="cl">  config,
+</span></span><span class="line"><span class="cl">  pkgs,
+</span></span><span class="line"><span class="cl">  ...
+</span></span><span class="line"><span class="cl">}: {
+</span></span><span class="line"><span class="cl">  environment.systemPackages = with pkgs; [
+</span></span><span class="line"><span class="cl">    (qgis.override {
+</span></span><span class="line"><span class="cl">      extraPythonPackages = ps:
+</span></span><span class="line"><span class="cl">        with ps; [
+</span></span><span class="line"><span class="cl">          numpy
+</span></span><span class="line"><span class="cl">          geopandas
+</span></span><span class="line"><span class="cl">          rasterio
+</span></span><span class="line"><span class="cl">        ];
+</span></span><span class="line"><span class="cl">    })
+</span></span><span class="line"><span class="cl">    # other packages
+</span></span><span class="line"><span class="cl">  ];
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></div><h2 id="suse--opensuse">
+    SUSE / openSUSE
+    <a class="heading-anchor" href="#suse--opensuse">
+	    ¶
+    </a>
+</h2>
+<p>Latest stable and LTR packages called <code>qgis</code> and <code>qgis-ltr</code> are available in the following repositories:</p>
+<table>
+<thead>
+<tr>
+<th>Distribution</th>
+<th>Repository</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tumbleweed</td>
+<td><a
+    href="https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Tumbleweed/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Tumbleweed/</a></td>
+</tr>
+<tr>
+<td>Leap 15.2</td>
+<td><a
+    href="https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Leap_15.2/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Leap_15.2/</a></td>
+</tr>
+<tr>
+<td>Leap 15.1</td>
+<td><a
+    href="https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Leap_15.1/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Leap_15.1/</a></td>
+</tr>
+<tr>
+<td>Factory ARM</td>
+<td><a
+    href="https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Factory_ARM/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Factory_ARM/</a></td>
+</tr>
+<tr>
+<td>Factory PowerPC</td>
+<td><a
+    href="https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Factory_PowerPC/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Factory_PowerPC/</a></td>
+</tr>
+<tr>
+<td>SLE 15 SP1 Backports</td>
+<td><a
+    href="https://download.opensuse.org/repositories/Application:/Geo/SLE_15_SP1_Backports/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://download.opensuse.org/repositories/Application:/Geo/SLE_15_SP1_Backports/</a></td>
+</tr>
+<tr>
+<td>SLE 15 SP1 Backports debug</td>
+<td><a
+    href="https://download.opensuse.org/repositories/Application:/Geo/SLE_15_SP1_Backports_debug/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://download.opensuse.org/repositories/Application:/Geo/SLE_15_SP1_Backports_debug/</a></td>
+</tr>
+</tbody>
+</table>
+<p>All packages include GRASS and Python support.</p>
+<p>All openSUSE Geo repositories can be found here: <a
+    href="https://download.opensuse.org/repositories/Application:/Geo/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://download.opensuse.org/repositories/Application:/Geo/</a></p>
+<h2 id="mandriva">
+    Mandriva
+    <a class="heading-anchor" href="#mandriva">
+	    ¶
+    </a>
+</h2>
+<h3 id="qgis-stable-1">
+    QGIS stable
+    <a class="heading-anchor" href="#qgis-stable-1">
+	    ¶
+    </a>
+</h3>
+<p>Current:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">urpmi qgis-python qgis-grass
+</span></span></code></pre></div><h2 id="slackware">
+    Slackware
+    <a class="heading-anchor" href="#slackware">
+	    ¶
+    </a>
+</h2>
+<h3 id="qgis-stable-2">
+    QGIS stable
+    <a class="heading-anchor" href="#qgis-stable-2">
+	    ¶
+    </a>
+</h3>
+<p>Packages on <a
+    href="https://slackbuilds.org/result/?search=qgis"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://slackbuilds.org/result/?search=qgis</a></p>
+<h2 id="arch-linux">
+    Arch Linux
+    <a class="heading-anchor" href="#arch-linux">
+	    ¶
+    </a>
+</h2>
+<h3 id="qgis-stable-3">
+    QGIS stable
+    <a class="heading-anchor" href="#qgis-stable-3">
+	    ¶
+    </a>
+</h3>
+<p>Arch Linux is available in official repository : <a
+    href="https://archlinux.org/packages/extra/x86_64/qgis/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://archlinux.org/packages/extra/x86_64/qgis/</a></p>
+<p>Install with:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pacman -S qgis
+</span></span></code></pre></div><h3 id="qgis-ltr">
+    QGIS LTR
+    <a class="heading-anchor" href="#qgis-ltr">
+	    ¶
+    </a>
+</h3>
+<p>QGIS Long Term Release is available in AUR (Arch User Repository).</p>
+<p>Install with yaourt or other package manager which support AUR:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">yaourt -S qgis-ltr
+</span></span></code></pre></div><p>For bugs and other behaviour, read comments here : <a
+    href="https://aur.archlinux.org/packages/qgis-ltr/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://aur.archlinux.org/packages/qgis-ltr/</a></p>
+<h3 id="qgis-testing">
+    QGIS testing
+    <a class="heading-anchor" href="#qgis-testing">
+	    ¶
+    </a>
+</h3>
+<p>QGIS testing is available in AUR (Arch User Repository).</p>
+<p>Install with yaourt or other package manager which support AUR:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">yaourt -S qgis-git
+</span></span></code></pre></div><p>For bugs and other behaviour, read comments here : <a
+    href="https://aur.archlinux.org/packages/qgis-git"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://aur.archlinux.org/packages/qgis-git</a></p>
+<h2 id="flatpak">
+    Flatpak
+    <a class="heading-anchor" href="#flatpak">
+	    ¶
+    </a>
+</h2>
+<p>There is an QGIS flatpak for QGIS Stable available, maintained by the flathub community.</p>
+<p>For general Linux Flatpak install notes, see <a
+    href="https://flatpak.org/setup/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://flatpak.org/setup/</a></p>
+<p>QGIS on Flathub: <a
+    href="https://flathub.org/apps/details/org.qgis.qgis"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://flathub.org/apps/details/org.qgis.qgis</a></p>
+<p>To install:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">flatpak install --from https://dl.flathub.org/repo/appstream/org.qgis.qgis.flatpakref
+</span></span></code></pre></div><p>Then to run:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">flatpak run org.qgis.qgis
+</span></span></code></pre></div><p>To update your flatpak QGIS:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">flatpak update
+</span></span></code></pre></div><p>On certain distributions, you may also need to install xdg-desktop-portal or xdg-desktop-portal-gtk packages in order for file dialogs to appear.</p>
+<p>Flathub files: <a
+    href="https://github.com/flathub/org.qgis.qgis"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://github.com/flathub/org.qgis.qgis</a> and report issues here: <a
+    href="https://github.com/flathub/org.qgis.qgis/issues"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://github.com/flathub/org.qgis.qgis/issues</a></p>
+<p>Note: if you need to install additional Python modules, because they are needed by a plugin, you can install the module with (here installing the scipy module):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">flatpak run --devel --command=pip3 org.qgis.qgis install scipy --user
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># NOTE: it is possible you get an error like: &#34;error: runtime/org.kde.Sdk/x86_64/5.15-23.08 not installed&#34; then also do:
+</span></span><span class="line"><span class="cl">flatpak install runtime/org.kde.Sdk/x86_64/5.15-23.08
+</span></span></code></pre></div><h2 id="spack">
+    Spack
+    <a class="heading-anchor" href="#spack">
+	    ¶
+    </a>
+</h2>
+<p>Spack is a distro agnostic package manager for Linux, which is developed in the context of high-performance computing.</p>
+<p>General info on installing Spack: <a
+    href="https://github.com/spack/spack"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://github.com/spack/spack</a></p>
+<p>QGIS package file on Spack: <a
+    href="https://github.com/spack/spack/blob/develop/var/spack/repos/builtin/packages/qgis/package.py"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://github.com/spack/spack/blob/develop/var/spack/repos/builtin/packages/qgis/package.py</a></p>
+<p>To install:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">spack install qgis
+</span></span></code></pre></div><p>which builds and installs QGIS and <strong>all</strong> dependencies from scratch. Afterwards, QGIS can be used via:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">spack load qgis
+</span></span></code></pre></div><p>If additional python packages need to be installed, using a Spack environment is recommended. For example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">spack env create myenv
+</span></span><span class="line"><span class="cl">spack env activate -p myenv
+</span></span><span class="line"><span class="cl">spack add qgis py-lz4
+</span></span><span class="line"><span class="cl">spack install
+</span></span></code></pre></div><p>Spack related issues should be reported at: <a
+    href="https://github.com/spack/spack/issues"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://github.com/spack/spack/issues</a></p>
+<h1 id="mac-os-x--macos">
+    Mac OS X / macOS
+    <a class="heading-anchor" href="#mac-os-x--macos">
+	    ¶
+    </a>
+</h1>
+<p>Official All-in-one, signed installers for macOS High Sierra (10.13) and newer can be downloaded from the <a
+    href="https://qgis.org/download/"
+    
+    
+>QGIS download page</a>.</p>
+<h2 id="qgis-nightly-release">
+    QGIS nightly release
+    <a class="heading-anchor" href="#qgis-nightly-release">
+	    ¶
+    </a>
+</h2>
+<p>A nightly updated standalone installer from QGIS master can be downloaded from <a
+    href="/downloads/macos/qgis-macos-nightly.dmg"
+    
+    
+>here</a>.</p>
+<h2 id="macports">
+    MacPorts
+    <a class="heading-anchor" href="#macports">
+	    ¶
+    </a>
+</h2>
+<p>The package management system <a
+    href="https://www.macports.org"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>MacPorts</a> offers both the latest release version (port <code>qgis3</code>) and the long term version (port <code>qgis3-ltr</code>). This will install QGIS with native architecture, Intel x86_64 or Apple ARM. Main software dependencies such as GDAL, PDAL and GRASS GIS are usually the latest version available.</p>
+<p><a
+    href="https://guide.macports.org"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Installing MacPorts and updating</a> it and the <em>ports</em> are made with the <em>Terminal</em>. QGIS is however installed as an app bundle at <code>/Applications/MacPorts/QGIS3.app</code>.</p>
+<p>Get information of a port:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo port info qgis3
+</span></span></code></pre></div><p>Install port, e.g with GRASS GIS:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo port install qgis3 +grass
+</span></span></code></pre></div><p>Update:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sudo port selfupdate
+</span></span><span class="line"><span class="cl">sudo port upgrade outdated
+</span></span></code></pre></div><p><div class="container rich tips" >
+    
+        <div class="icon">👩‍💻</div>
+    
+
+<div class="cont coloring-1"></p>
+<h5 id="note-6">
+    Note
+    <a class="heading-anchor" href="#note-6">
+	    ¶
+    </a>
+</h5>
+<p>Concurrent installation of Homebrew and MacPorts is not compatible and will almost certainly lead to conflicts. If you choose to install one of the package systems you need to uninstall the other.
+</div>
+
+</div>
+</p>
+<h2 id="old-releases">
+    Old releases
+    <a class="heading-anchor" href="#old-releases">
+	    ¶
+    </a>
+</h2>
+<p>Previous releases of the official installer can be downloaded from <a
+    href="https://qgis.org/downloads/macos/"
+    
+    
+>https://qgis.org/downloads/macos/</a>.</p>
+<p>Previous releases of the kyngchaos installer can be downloaded from <a
+    href="https://www.kyngchaos.com/software/archive/qgis/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://www.kyngchaos.com/software/archive/qgis/</a>. The oldest installers support macOS 10.4 Tiger.</p>
+<h1 id="freebsd">
+    FreeBSD
+    <a class="heading-anchor" href="#freebsd">
+	    ¶
+    </a>
+</h1>
+<h2 id="qgis-stable-4">
+    QGIS stable
+    <a class="heading-anchor" href="#qgis-stable-4">
+	    ¶
+    </a>
+</h2>
+<p>To install QGIS from binary packages type</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pkg install qgis
+</span></span></code></pre></div><p>Or to customize compilation options, you can build it from FreeBSD ports</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd /usr/ports/graphics/qgis
+</span></span><span class="line"><span class="cl">make install clean
+</span></span></code></pre></div><h2 id="qgis-ltr-1">
+    QGIS LTR
+    <a class="heading-anchor" href="#qgis-ltr-1">
+	    ¶
+    </a>
+</h2>
+<p>To install QGIS from binary packages type</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pkg install qgis-ltr
+</span></span></code></pre></div><p>Or to customize compilation options, you can build it from FreeBSD ports</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd /usr/ports/graphics/qgis-ltr
+</span></span><span class="line"><span class="cl">make install clean
+</span></span></code></pre></div><h1 id="openbsd">
+    OpenBSD
+    <a class="heading-anchor" href="#openbsd">
+	    ¶
+    </a>
+</h1>
+<p>QGIS Stable</p>
+<p>To install QGIS from third-party package</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pkg_add qgis
+</span></span></code></pre></div><p>See: - <a
+    href="https://openbsd.app/?search=qgis"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://openbsd.app/?search=qgis</a> # for -stable OpenBSD - <a
+    href="https://openbsd.app/?search=qgis&amp;current=on"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>https://openbsd.app/?search=qgis&current=on</a> # for -current OpenBSD</p>
+<h1 id="qgis-testing-warning">
+    QGIS Testing warning
+    <a class="heading-anchor" href="#qgis-testing-warning">
+	    ¶
+    </a>
+</h1>
+<p><div class="container rich tips" >
+    
+        <div class="icon">⚠️</div>
+    
+
+<div class="cont coloring-6"></p>
+<h5 id="warning">
+    Warning
+    <a class="heading-anchor" href="#warning">
+	    ¶
+    </a>
+</h5>
+<p>QGIS testing packages are provided for some platforms in addition to the QGIS stable version. QGIS testing contains unreleased software that is currently being worked on. They are only provided for testing purposes to early adopters to check if bugs have been resolved and that no new bugs have been introduced. Although we carefully try to avoid breakages, it may at any given time not work, or may do bad things to your data. Take care. You have been warned!
+</div>
+
+</div>
+</p>
+<h1 id="installing-from-source">
+    Installing from Source
+    <a class="heading-anchor" href="#installing-from-source">
+	    ¶
+    </a>
+</h1>
+<p>Please refer to <a
+    href="https://github.com/qgis/QGIS/blob/master/INSTALL.md"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>the developer installation notes</a> for notes on how to build and install QGIS from source for the different platforms we support.</p>
+    </div>
+</section>
+
+           
+
+
+
+
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns is-desktop">
+            <div class="column is-2-desktop">
+                <figure class="image is-128x128">
+                    <img alt="Logo" src="https://qgis.org/img/footlogo.svg" />
+                </figure>
+            </div>
+            <div class="column mb-6">
+                <div class="columns is-desktop">
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5 ">
+                            <a href="https://qgis.org/project/overview" class="footertitle text-nowrap">
+                                Project
+                            </a>
+                        </li>
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/project/overview/">
+                                            Overview
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/project/case-studies/">
+                                            Case studies
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="https://plugins.qgis.org">
+                                            Plugins
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/project/visual-changelogs">
+                                            Visual Changelogs
+                                        </a>
+                                    </li>
+                                
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </ul>
+            
+
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5">
+                            <a href="https://qgis.org/community/involve" class="footertitle text-nowrap">
+                                Community
+                            </a>
+                        </li>
+                            
+                            
+                            
+                            
+                            
+                        
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/community/involve">
+                                            Get involved
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/community/certification">
+                                            Certification Programme
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/community/foundation">
+                                            QGIS Foundation
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/community/organisation">
+                                            Project Organisation
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/community/groups">
+                                            Local User Groups
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="https://plugins.qgis.org/planet/">
+                                            Members Blogs
+                                        </a>
+                                    </li>
+                                
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </ul>
+
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5 footertitle">
+                            <a href="https://qgis.org/resources/hub" class="footertitle text-nowrap">
+                                Resources
+                            </a>
+                        </li>
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/resources/hub">
+                                            Documentation
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/resources/installation-guide/">
+                                            Installation guide
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/resources/testing/">
+                                            Testing
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/resources/roadmap/">
+                                            Roadmap
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/resources/reports/">
+                                            Reports
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/resources/books/">
+                                            Books
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/resources/support/">
+                                            Support
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="https://analytics.qgis.org">
+                                            QGIS Metrics
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="https://plugins.qgis.org/metabase/public/dashboard/7ecd345f-7321-423d-9844-71e526a454a9">
+                                            Plugins Metrics
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="https://blog.qgis.org/">
+                                            Blog
+                                        </a>
+                                    </li>
+                                
+                            
+                        
+                            
+                            
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </ul>
+
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5 ">
+                            <a href="https://qgis.org/funding/donate" class="footertitle text-nowrap">
+                                Funding
+                            </a>
+                        </li>
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/funding/donate">
+                                            Donate
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/funding/membership">
+                                            Membership
+                                        </a>
+                                    </li>
+                                
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="column is-2-desktop">
+                <a href="https://qgis.org/download">
+                    <button class="button is-primary1 is-size-5">Download</button>
+                </a>
+            </div>
+        </div>
+        <div class="columns is-desktop">
+            <div class="copyright column is-2-desktop has-text-white"></div>
+            <div class="column social-icons-links">
+                <a class="has-text-white" href="https://www.facebook.com/profile.php?id=100057434859831">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a class="has-text-white" href="https://www.youtube.com/@qgishome">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a class="has-text-white" href="https://fosstodon.org/@qgis">
+                    <i class="fa-brands fa-foss"></i>
+                </a>
+                <a class="has-text-white" href="https://github.com/qgis/">
+                    <i class="fa-brands fa-square-github"></i>
+                </a>
+                <a class="has-text-white" href="https://qgis.org/community/organisation/mailinglists">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="columns is-desktop privacy-links">
+            <a href="https://qgis.org/diversity" class="column is-narrow is-offset-2-desktop">Diversity statement</a>
+            <a href="https://qgis.org/conduct" class="column is-narrow">Code of conduct</a>
+            <a href="https://qgis.org/environmental-policy" class="column is-narrow">Environmental policy</a>
+            <a href="https://qgis.org/license" class="column is-narrow">License</a>
+            <a href="https://qgis.org/styleguide" class="column is-narrow">Visual Style Guide</a>   
+            <a href="https://qgis.org/goodies" class="column is-narrow">Goodies</a>   
+            <a href="https://qgis.org/archive" class="column is-narrow">Archive</a>   
+
+        </div>
+        <div class="columns is-desktop issue-report-link is-justify-content-center">
+            <a href="https://github.com/qgis/QGIS-Website/issues" class="column is-narrow p-0 is-size-6" target="_blank">Problems with this website? Report an issue here 🐙</a> 
+              
+        </div>
+    </div>
+    
+</footer>
+
+

@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on QGIS　WEBサイト</title>
+    <link>https://qgis.org/ja/project/</link>
+    <description>Recent content in Projects on QGIS　WEBサイト</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language><atom:link href="https://qgis.org/ja/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://qgis.org/ja/project/showcase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/showcase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amurum forest reserve habitat and avifauna mapping with QGIS in Nigeria</title>
+      <link>https://qgis.org/ja/project/case-studies/nigeria_jos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/nigeria_jos/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Amurum forest reserve habitat and avifauna mapping with QGIS in Nigeria ¶ Amurum forest reserve is located near the city of Jos, Plateau state, Nigeria.</description>
+    </item>
+    
+    <item>
+      <title>Case Studies</title>
+      <link>https://qgis.org/ja/project/case-studies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Case Studies ¶ Amurum forest reserve habitat and avifauna mapping with QGIS in Nigeria Creating the Fundy Footpath Trail Map with QGIS Danish Demining Group using QGIS in Afghanistan Historical Gazetteer of the Crimea Lynx habitat analysis in the Southern Carpathians Producing an arcHYDRO like output with QGIS QGIS —— an interesting instrument for forestry planning concepts at local and regional level QGIS and Forest Fire Risk Mapping in Portugal QGIS and GRASS applied to paleontological survey in Western Portugal QGIS and GRASS for modelling ecological corridors for wolves in North Portugal QGIS and GRASS in Biogeographical Research in the Iberian Peninsula QGIS and GRASS in Local Government Bushfire Hazard Mapping QGIS as major GIS software in the Laboratory on Experimental and Applied Geography QGIS at high school —— the urban green spaces in Rada Tilly coastal town, Chubut province, Argentina QGIS at the Federal Department of Town and Country Planning, Peninsular Malaysia QGIS for distance learning and teaching GIS at Universities QGIS for monitoring tigers (using camera traps in Nameri Tiger Reserve, Assam, India Sonitpur District) QGIS geoprocessing model to simplify first level seismic microzonation analysis QGIS in the governmental FOSSGIS stack of the Canton of Solothurn in Switzerland QGIS Maps Historic Herpetofaunal Records (in Missouri, USA) QGIS to describe the Cesena&amp;#39;s Wall QGIS Trainings at NIRD Jaipur Centre, India Quantarctica: An Antarctic GIS package The Burgundy Historical Landscapes Working Group The Research Institute for Geo-hydrological Protection of Turin —— Aerial photo archive management The use of QGIS in the Geodata Infrastructure of the City of Uster Trainings &amp;amp; Research activities using QGIS at NIRD&amp;amp;PR-NERC, Guwahati, India Ukrainian open initiative of creating tools for spatial planning in the QGIS environment Use of python console to prepare offline map from WMS (tile downloader) Use of QGIS at the Financial Times Graphics Team Use of QGIS at the Ministry of Social Development of Uruguay (MIDES) Using a free GIS at Jaime Moniz Secondary School: QGIS Using open source tools for characterization of a landscape.</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 2.0</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog200/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog200/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 2.0 ¶ Release date: 2013-09-09</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 2.10</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog210/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog210/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 2.10 ¶ Release date: 2015-06-26</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 2.12</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog212/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog212/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 2.12 ¶ Release date: 2015-10-23</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 2.14</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog214/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog214/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 2.14 ¶ Release date: 2016-02-26</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 2.16</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog216/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog216/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 2.16 ¶ Release date: 2016-07-08</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 2.18</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog218/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog218/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 2.18 ¶ Release date: 2016-10-21</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 2.2</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog220/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog220/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 2.2 ¶ Release date: 2014-02-22</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 2.4</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog240/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog240/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 2.4 ¶ Release date: 2014-06-27</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 2.6</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog260/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog260/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 2.6 ¶ Release date: 2014-10-31</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 2.8</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog28/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog28/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 2.8 ¶ Release date: 2015-02-20</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 3.0</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog30/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog30/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 3.0 ¶ Release date: 2018-02-23</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 3.10</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog310/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog310/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 3.10 ¶ Release date: 2019-10-25</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 3.12</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog312/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog312/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 3.12 ¶ Release date: 2020-02-21</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 3.14</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog314/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog314/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 3.14 ¶ Release date: 2020-06-19</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 3.16</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog316/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog316/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 3.16 ¶ Release date: 2020-10-23</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 3.18</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog318/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog318/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 3.18 ¶ Release date: 2021-02-19</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 3.2</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog32/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog32/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 3.2 ¶ Release date: 2018-06-22</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 3.20</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog320/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog320/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 3.20 ¶ Release date: 2021-06-18</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 3.22</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog322/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog322/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 3.22 ¶ Release date: 2021-10-22</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 3.24</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog324/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog324/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 3.24 ¶ Release date: 2022-02-18</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 3.26</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog326/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog326/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 3.26 ¶ Release date: 2022-06-17</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 3.28</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog328/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog328/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 3.28 ¶ Release date: 2022-10-21</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 3.30</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog330/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog330/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 3.30 ¶ Release date: 2023-03-04</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 3.32</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog332/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog332/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 3.32 ¶ Release date: 2023-06-26</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 3.34</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog334/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog334/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 3.34 ¶ Release date: 2023-10-29</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 3.36</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog336/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog336/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 3.36 ¶ Release date: 2024-02-23</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 3.38</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog338/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog338/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 3.38 ¶ Release date: 2024-06-21</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 3.4 LTR</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog34/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog34/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 3.4 LTR ¶ Release date: 2018-10-26</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 3.6</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog36/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog36/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 3.6 ¶ Release date: 2019-02-22</description>
+    </item>
+    
+    <item>
+      <title>Changelog for QGIS 3.8</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/visualchangelog38/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/visualchangelog38/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Changelog for QGIS 3.8 ¶ Release date: 2019-06-21</description>
+    </item>
+    
+    <item>
+      <title>Creating the Fundy Footpath Trail Map with QGIS</title>
+      <link>https://qgis.org/ja/project/case-studies/canada_brunswick/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/canada_brunswick/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Creating the Fundy Footpath Trail Map with QGIS ¶ The Fundy Footpath is a wilderness hiking trail located along the Fundy coast of New Brunswick, Canada.</description>
+    </item>
+    
+    <item>
+      <title>Danish Demining Group using QGIS in Afghanistan</title>
+      <link>https://qgis.org/ja/project/case-studies/afghanistan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/afghanistan/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Danish Demining Group using QGIS in Afghanistan ¶ The Danish Demining Group (DDG), the specialised mine action unit of the Danish Refugee Council, has been working in Afghanistan since 1999, undertaking humanitarian mineclearance, unexploded ordnance (UXO) disposal and mine risk education.</description>
+    </item>
+    
+    <item>
+      <title>Historical Gazetteer of the Crimea</title>
+      <link>https://qgis.org/ja/project/case-studies/usa_polczynski/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/usa_polczynski/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Historical Gazetteer of the Crimea ¶ Every day, Ottomanists around the world generate valuable materials as components of their scholarly research, but these materials may not be readily available to scholars with similar interests.</description>
+    </item>
+    
+    <item>
+      <title>Lynx habitat analysis in the Southern Carpathians</title>
+      <link>https://qgis.org/ja/project/case-studies/europe_lynx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/europe_lynx/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Lynx habitat analysis in the Southern Carpathians ¶ A case study to promote basic understanding of wildlife habitat modeling for students based on open source data.</description>
+    </item>
+    
+    <item>
+      <title>Producing an arcHYDRO like output with QGIS</title>
+      <link>https://qgis.org/ja/project/case-studies/china_hydro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/china_hydro/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Producing an arcHYDRO like output with QGIS ¶ I work for a urban planning company in China.</description>
+    </item>
+    
+    <item>
+      <title>QGIS —— an interesting instrument for forestry planning concepts at local and regional level</title>
+      <link>https://qgis.org/ja/project/case-studies/suisse_basel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/suisse_basel/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ QGIS —— an interesting instrument for forestry planning concepts at local and regional level ¶ Almost 35% of Switzerland&#39;s surface is covered by forests.</description>
+    </item>
+    
+    <item>
+      <title>QGIS and Forest Fire Risk Mapping in Portugal</title>
+      <link>https://qgis.org/ja/project/case-studies/portugal_pinhel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/portugal_pinhel/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ QGIS and Forest Fire Risk Mapping in Portugal ¶ Portugal has been affected by large wildfires causing huge losses, not only environmental, but also economic and social losses.</description>
+    </item>
+    
+    <item>
+      <title>QGIS and GRASS applied to paleontological survey in Western Portugal</title>
+      <link>https://qgis.org/ja/project/case-studies/portugal_torres/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/portugal_torres/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ QGIS and GRASS applied to paleontological survey in Western Portugal ¶ The Associação Leonel Trindade &amp;ndash; Sociedade de História Natural (ALT-SHN) is a non profit institution headquarted in Torres Vedras, Portugal, specialized in paleontology.</description>
+    </item>
+    
+    <item>
+      <title>QGIS and GRASS for modelling ecological corridors for wolves in North Portugal</title>
+      <link>https://qgis.org/ja/project/case-studies/portugal_ribeira/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/portugal_ribeira/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ QGIS and GRASS for modelling ecological corridors for wolves in North Portugal ¶ The Iberian wolf is a sub-species of the gray wolf that exists only in north of Portugal and Spain, with small isolated groups in the south of Douro river.</description>
+    </item>
+    
+    <item>
+      <title>QGIS and GRASS in Biogeographical Research in the Iberian Peninsula</title>
+      <link>https://qgis.org/ja/project/case-studies/portugal_evora/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/portugal_evora/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ QGIS and GRASS in Biogeographical Research in the Iberian Peninsula ¶ I started applying GIS to my work in biogeography about 10 years ago.</description>
+    </item>
+    
+    <item>
+      <title>QGIS and GRASS in Local Government Bushfire Hazard Mapping</title>
+      <link>https://qgis.org/ja/project/case-studies/australia_queens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/australia_queens/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ QGIS and GRASS in Local Government Bushfire Hazard Mapping ¶ Introduction ¶ The Southern Downs Regional Council (SDRC) is a small-to-medium sized local government in south east Queensland, Australia.</description>
+    </item>
+    
+    <item>
+      <title>QGIS as major GIS software in the Laboratory on Experimental and Applied Geography</title>
+      <link>https://qgis.org/ja/project/case-studies/czech_brno/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/czech_brno/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ QGIS as major GIS software in the Laboratory on Experimental and Applied Geography ¶ Introduction ¶ Laboratory on Experimental and Applied Geography (LEAG) is part of College of Hotel and Business Management, Ltd.</description>
+    </item>
+    
+    <item>
+      <title>QGIS at high school —— the urban green spaces in Rada Tilly coastal town, Chubut province, Argentina</title>
+      <link>https://qgis.org/ja/project/case-studies/argentinia_chubut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/argentinia_chubut/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ QGIS at high school —— the urban green spaces in Rada Tilly coastal town, Chubut province, Argentina ¶ Introduction ¶ In our region, Argentinean Patagonia, we have very few references about the application of GIS in High School for the construction of geographical knowledge as a mean to face territorial and environmental issues.</description>
+    </item>
+    
+    <item>
+      <title>QGIS at the Federal Department of Town and Country Planning, Peninsular Malaysia</title>
+      <link>https://qgis.org/ja/project/case-studies/malaysia_kuala/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/malaysia_kuala/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ QGIS at the Federal Department of Town and Country Planning, Peninsular Malaysia ¶ Introduction ¶ The Federal Department of Town and Country Planning, Peninsular Malaysia (JPBD) is a federal agency that advises matters on town and country planning.</description>
+    </item>
+    
+    <item>
+      <title>QGIS for distance learning and teaching GIS at Universities</title>
+      <link>https://qgis.org/ja/project/case-studies/australia_distance_learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/australia_distance_learning/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ QGIS for distance learning and teaching GIS at Universities ¶ Introduction ¶ The University of Southern Queensland (USQ) is a regional university located in south-east Queensland, Australia.</description>
+    </item>
+    
+    <item>
+      <title>QGIS for monitoring tigers (using camera traps in Nameri Tiger Reserve, Assam, India Sonitpur District)</title>
+      <link>https://qgis.org/ja/project/case-studies/india_assam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/india_assam/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ QGIS for monitoring tigers (using camera traps in Nameri Tiger Reserve, Assam, India Sonitpur District) ¶ Nameri Tiger Reserve (NTR) is one of the 3 tiger reserves of Assam and it is situated in the northern part of Sonitpur District of Assam along the foothills of Eastern Himalayas.</description>
+    </item>
+    
+    <item>
+      <title>QGIS geoprocessing model to simplify first level seismic microzonation analysis</title>
+      <link>https://qgis.org/ja/project/case-studies/italy_rome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/italy_rome/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ QGIS geoprocessing model to simplify first level seismic microzonation analysis ¶ The Institute of Environmental Geology and Geoengineering (IGAG) of the National Research Council (CNR) is located in Rome, in the Area of Research &amp;quot;Roma 1&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title>QGIS in the governmental FOSSGIS stack of the Canton of Solothurn in Switzerland</title>
+      <link>https://qgis.org/ja/project/case-studies/suisse_solothurn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/suisse_solothurn/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ QGIS in the governmental FOSSGIS stack of the Canton of Solothurn in Switzerland ¶ The Canton of Solothurn provides services and infrastructure to 250,000 Solothurn citizens.</description>
+    </item>
+    
+    <item>
+      <title>QGIS Maps</title>
+      <link>https://qgis.org/ja/project/overview/maps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/overview/maps/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ QGIS Maps ¶ Amazing maps created using QGIS</description>
+    </item>
+    
+    <item>
+      <title>QGIS Maps</title>
+      <link>https://qgis.org/ja/project/overview/screenshots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/overview/screenshots/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ QGIS Screenshots ¶ Screenshots of QGIS in action</description>
+    </item>
+    
+    <item>
+      <title>QGIS Maps Historic Herpetofaunal Records (in Missouri, USA)</title>
+      <link>https://qgis.org/ja/project/case-studies/usa_missouri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/usa_missouri/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ QGIS Maps Historic Herpetofaunal Records (in Missouri, USA) ¶ The Missouri Herpetological Atlas Project (MOHAP) was initiated in 1997 as a result of the desire to obtain and easily update detailed distribution maps for Missouri (United States of America) amphibians and reptiles.</description>
+    </item>
+    
+    <item>
+      <title>QGIS overview</title>
+      <link>https://qgis.org/ja/project/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/overview/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Key features ¶ Create maps Edit layers Process and analyze Share maps Class-leading cartography ¶ Experience QGIS&amp;rsquo; extensive set of design options to bring your cartographic ideas to life.</description>
+    </item>
+    
+    <item>
+      <title>QGIS to describe the Cesena&#39;s Wall</title>
+      <link>https://qgis.org/ja/project/case-studies/italy_cesena/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/italy_cesena/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ QGIS to describe the Cesena&#39;s Wall ¶ The ECAMPUS UNIVERSITY was created as an online University and recognized by the MIUR (Italian Ministry of Education, University and Research) by the Ministerial Decree of 30 January 2006.</description>
+    </item>
+    
+    <item>
+      <title>QGIS Trainings at NIRD Jaipur Centre, India</title>
+      <link>https://qgis.org/ja/project/case-studies/india_hyderabad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/india_hyderabad/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ QGIS Trainings at NIRD Jaipur Centre, India ¶ The National Institute of Rural Development (NIRD) is an Apex institute of Ministry of Rural Development, Government of India.</description>
+    </item>
+    
+    <item>
+      <title>Quantarctica: An Antarctic GIS package</title>
+      <link>https://qgis.org/ja/project/case-studies/antarctica/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/antarctica/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Quantarctica: An Antarctic GIS package ¶ Quantarctica is a collection of Antarctic geographical datasets, such as base maps, satellite imagery, glaciology and geophysics data from data centres around the world, prepared for viewing in QGIS.</description>
+    </item>
+    
+    <item>
+      <title>The Burgundy Historical Landscapes Working Group</title>
+      <link>https://qgis.org/ja/project/case-studies/france_burgundy_region/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/france_burgundy_region/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ The Burgundy Historical Landscapes Working Group ¶ An interdisciplinary group of researchers based at the University of North Carolina have been working in the Burgundy region of France for over 30 years.</description>
+    </item>
+    
+    <item>
+      <title>The Research Institute for Geo-hydrological Protection of Turin —— Aerial photo archive management</title>
+      <link>https://qgis.org/ja/project/case-studies/italy_turin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/italy_turin/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ The Research Institute for Geo-hydrological Protection of Turin —— Aerial photo archive management ¶ The Research Institute for Geo-hydrological Protection of Turin (IRPI), member of the Italian National Research Council (CNR), started its activities in 1970.</description>
+    </item>
+    
+    <item>
+      <title>The use of QGIS in the Geodata Infrastructure of the City of Uster</title>
+      <link>https://qgis.org/ja/project/case-studies/suisse_uster/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/suisse_uster/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ The use of QGIS in the Geodata Infrastructure of the City of Uster ¶ The City of Uster has been using QGIS since 2007.</description>
+    </item>
+    
+    <item>
+      <title>Trainings &amp; Research activities using QGIS at NIRD&amp;PR-NERC, Guwahati, India</title>
+      <link>https://qgis.org/ja/project/case-studies/india_guwahati/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/india_guwahati/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Trainings &amp;amp; Research activities using QGIS at NIRD&amp;amp;PR-NERC, Guwahati, India ¶ The National Institute of Rural Development &amp;amp; Panchayati Raj (NIRD&amp;amp;PR) is an Apex institute of Ministry of Rural Development, Government of India.</description>
+    </item>
+    
+    <item>
+      <title>Ukrainian open initiative of creating tools for spatial planning in the QGIS environment</title>
+      <link>https://qgis.org/ja/project/case-studies/ukrainian_spt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/ukrainian_spt/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Ukrainian open initiative of creating tools for spatial planning in the QGIS environment ¶ Introduction ¶ Formed in 2018, Julie&#39;s Data is a Ukrainian consulting agency delivering open-source solutions to broad public use.</description>
+    </item>
+    
+    <item>
+      <title>Use of python console to prepare offline map from WMS (tile downloader)</title>
+      <link>https://qgis.org/ja/project/case-studies/india_pune/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/india_pune/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Use of python console to prepare offline map from WMS (tile downloader) ¶ This study explains how to prepare offline maps from WMS/WFS or any map loaded in QGIS map view by downloading tiles with the help of a script in python console.</description>
+    </item>
+    
+    <item>
+      <title>Use of QGIS at the Financial Times Graphics Team</title>
+      <link>https://qgis.org/ja/project/case-studies/qgis_at_financial_times/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/qgis_at_financial_times/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Use of QGIS at the Financial Times Graphics Team ¶ Interview with Steven Bernard (Interactive Design Editor) ¶ Steven is an Interactive Design Editor at Financial Times.</description>
+    </item>
+    
+    <item>
+      <title>Use of QGIS at the Ministry of Social Development of Uruguay (MIDES)</title>
+      <link>https://qgis.org/ja/project/case-studies/uruguay_mides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/uruguay_mides/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Use of QGIS at the Ministry of Social Development of Uruguay (MIDES) ¶ Introduction ¶ The Ministry of Social Development of Uruguay (MIDES, , for its acronym in Spanish) is responsible for the national social policies.</description>
+    </item>
+    
+    <item>
+      <title>Using a free GIS at Jaime Moniz Secondary School: QGIS</title>
+      <link>https://qgis.org/ja/project/case-studies/portugal_funchal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/portugal_funchal/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Using a free GIS at Jaime Moniz Secondary School: QGIS ¶ There will be democratic teaching in our schools or education communities when we generalize the use of Open Source software.</description>
+    </item>
+    
+    <item>
+      <title>Using open source tools for characterization of a landscape. The LecosS plugin</title>
+      <link>https://qgis.org/ja/project/case-studies/portugal_coimbra/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/portugal_coimbra/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Using open source tools for characterization of a landscape.</description>
+    </item>
+    
+    <item>
+      <title>Using QGIS for FTTH/GPON network planning due to the implementation European Digital Agenda</title>
+      <link>https://qgis.org/ja/project/case-studies/poland_ffth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/poland_ffth/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Using QGIS for FTTH/GPON network planning due to the implementation European Digital Agenda ¶ Definition of the problem ¶ Over the past few years many EU countries have launched operational programs to implement European Digital Agenda (EAC) developed by the European Commission in 2010.</description>
+    </item>
+    
+    <item>
+      <title>Using QGIS for urban planning in the municipality of Montecchio Maggiore, Vicenza, Italy</title>
+      <link>https://qgis.org/ja/project/case-studies/italy_vicenza/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/italy_vicenza/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Using QGIS for urban planning in the municipality of Montecchio Maggiore, Vicenza, Italy ¶ Montecchio Maggiore is a small town in the middle west of Vicenza (about 24.</description>
+    </item>
+    
+    <item>
+      <title>Using QGIS for wildlife training in Tanzania</title>
+      <link>https://qgis.org/ja/project/case-studies/tanzania_udzungwa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/tanzania_udzungwa/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Using QGIS for wildlife training in Tanzania ¶ Introduction ¶ Working in southern Tanzania, the Udzungwa Elephant Project (UEP) is using QGIS for its training in wildlife research and conservation.</description>
+    </item>
+    
+    <item>
+      <title>Using QGIS to Map Hotspot Areas for Biodiversity and Ecosystem Services (HABEaS)</title>
+      <link>https://qgis.org/ja/project/case-studies/portugal_lisbon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/portugal_lisbon/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Using QGIS to Map Hotspot Areas for Biodiversity and Ecosystem Services (HABEaS) ¶ HABEaS —— Hotspot Areas for Biodiversity and Ecosystem Services is an online geographic information system (WebGIS) that was created by the Centre for Applied Ecology (Instituto Superior de Agronomia, Technical University of Lisbon), Worldwide Fund for Nature (WWF) and Faunalia.</description>
+    </item>
+    
+    <item>
+      <title>Using the processing toolbox to automate snow classification</title>
+      <link>https://qgis.org/ja/project/case-studies/australia_snowyhydro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/australia_snowyhydro/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Using the processing toolbox to automate snow classification ¶ Snowy Hydro Limited (SHL) is a peak electricity generator based in the Snowy Mountains of New South Wales, Australia.</description>
+    </item>
+    
+    <item>
+      <title>Visual changelogs</title>
+      <link>https://qgis.org/ja/project/visual-changelogs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/visual-changelogs/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Visual Changelogs ¶ QGIS is a community effort, and we would like to extend a big thank you to the developers, documenters, testers, and the many folks out there who volunteer their time and effort (or fund people to do so) to make these releases possible.</description>
+    </item>
+    
+    <item>
+      <title>Water Observation and Information System: Enabling the Use of Earth Observation Data for Integrated Water Resource Management in Africa</title>
+      <link>https://qgis.org/ja/project/case-studies/africa_tiger/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/africa_tiger/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Water Observation and Information System: Enabling the Use of Earth Observation Data for Integrated Water Resource Management in Africa ¶ The Water Observation and Information System (WOIS) is an open source software tool for monitoring, assessing and inventorying water resources in a cost-effective manner using Earth Observation (EO) data.</description>
+    </item>
+    
+    <item>
+      <title>Working with QGIS in a spatial data infrastructure of Jalisco in Mexico</title>
+      <link>https://qgis.org/ja/project/case-studies/mexico_jalisco/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/ja/project/case-studies/mexico_jalisco/</guid>
+      <description>プロジェクト 概要 スクリーンショット 地図 ケーススタディ プラグイン ビジュアルチェンジログ コミュニティ 参加する 認定プログラム QGIS 財団 Charter 年次総会 年次報告書 財務 プロジェクト組織 インフラストラクチャー ブランドガイドライン Contributor Credits 会合 QGIS 開発者ミーティング Reimbursements for Developer Meetings QGIS ユーザーミーティング メーリングリスト ローカルユーザーグループ メンバーブログ リソース 文書 インストールガイド 検査 ロードマップ レポート OGC Certification パフォーマンス 書籍 サポート FAQ バグ報告 コミュニケーションチャンネル 商用サポート StackExchange セキュリティ QGIS Metrics Plugins Metrics ブログ 資金調達 寄付 寄付者 メンバーシップ メンバー 過去メンバー グッズ ダウンロード アーカイブ Working with QGIS in a spatial data infrastructure of Jalisco in Mexico ¶ The Instituto de Información Territorial del Estado de Jalisco is a government organization which was founded in 1998 to share geographical information between the government agencies of Jalisco in México.</description>
+    </item>
+    
+  </channel>
+</rss>

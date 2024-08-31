@@ -1,0 +1,2088 @@
+<!doctype html>
+<html lang="en" class="has-navbar-fixed-top">
+    <head>
+        <meta charset="utf-8" />
+
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="https://qgis.org/img/favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="https://qgis.org/img/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="https://qgis.org/img/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="https://qgis.org/site.webmanifest" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Creating the Fundy Footpath Trail Map with QGIS &middot; QGIS Web Site</title>
+
+        <meta
+            name="description"
+            content="
+                
+            
+            "
+        />
+
+        <meta name="generator" content="Hugo 0.107.0">
+        <meta name="twitter:card" content="summary" />
+        
+        <meta
+            name="twitter:title"
+            content="Creating the Fundy Footpath Trail Map with QGIS &middot; QGIS Web Site"
+        />
+        <meta
+            name="twitter:description"
+            content="
+                
+            
+            "
+        />
+
+        <meta property="og:type" content="article" />
+        <meta
+            property="og:title"
+            content="Creating the Fundy Footpath Trail Map with QGIS &middot; QGIS Web Site"
+        />
+        <meta
+            property="og:description"
+            content="
+                
+            
+            "
+        />
+        <meta property="og:image" content="https://qgis.org/img/QGIScover.png"/>
+
+        
+        
+        
+        
+        <link href="/bulma.min.0c62cd6e584563ff66b38b435964e346a416232a95829fdf73fdaff9a472f168.css" rel="stylesheet" />
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <link href="/css/all.min.327d9cdc1e6d7b43e2ff21ed029d014975ea0c5ae8e1cbbf2d90acc3ad70c2bf.css" rel="stylesheet" />
+
+        
+        
+        
+        <link href="/bulma.min.c826033ae3d407a503bd9f4367f654c3bc6443d1d105dfc1d41418e6c54acec6.css" rel="stylesheet" />
+
+        
+        
+        
+        <link href="/css/fontawesome.min.545b0e3058fd53ad9d527b38b157fa25161c8595dc70084b2b40156bca2b3f9c.css" rel="stylesheet" />
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+        <link
+            rel="alternate"
+            type="application/rss+xml"
+            title="QGIS Web Site"
+            href="https://qgis.org/index.xml"
+        />
+
+        
+        
+        <script defer src="/js/qrcodegen-v1.8.0-es6.min.19d8d054ea10e2a90debef4f02326129d80711c50758fb0958bee2369e02e367.js"></script>
+        <script>
+            var matomoURL = "//matomo.qgis.org/"
+            var matomoSiteId = "7"
+        </script>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+           
+        <script defer src="/js/all.min.df9b9e12cc9f519f6d7dfdeb7aa7d4da9fc7b0c8408186d0fd39259aab8dfb9a.js"></script> 
+        
+        
+        <script defer src="/search.min.6ef3f670e3df29a0d7105576d06c1001a5e58244d2a22d3fd2bf517951b9ee2d.js"></script>
+        <script
+            crossorigin=""
+            type="application/javascript"
+            src="https://yoichigmf.github.io/qgis-uni-navigation/index.js"
+        ></script>
+    </head>
+
+    <body></body>
+</html>
+
+
+
+
+<qg-top-nav
+    breakpoint="1024"
+    class="is-highest navbar is-fixed-top"
+    location-prefix=""
+></qg-top-nav>
+
+
+
+
+
+<div class="box mb-0 context-container" id="context">
+    <div class="container is-flex is-justify-content-space-between">
+        <div class="rss-feed">
+            
+            
+            
+            
+                
+                
+                    
+                    <a href="https://uc2024.qgis.sk/" target="_blank" rel="noopener" class="external-link">
+                        Join the QGIS User Conference 2024
+                    </a>    
+                    
+                
+            
+            
+        </div>    
+        <div id="search-control" class="control has-icons-right search-control">
+            <form action="https://qgis.org/search/" method="GET">
+                <input class="input is-small" type="search" id="search-query" name="q" placeholder="Search">
+                <span class="icon is-right">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="section ">
+    <div class="container content">
+        
+        <div class="columns is-multiline is-centered">
+        
+
+
+<div id="hamburger-btn" onclick="toggleMenu()"><span id="ham-title"></span></div>
+<div class="column is-3">
+  <nav id="sidebar" class="sidebar">
+    
+    <ul class="content-wrapper">
+    
+    
+        
+        
+        <li >
+
+        
+            <div class="has-child">
+                
+                
+
+
+
+
+
+<a
+    class=""
+    href="/project/overview"
+    target=""
+    rel=""
+>
+Project
+</a>
+
+                <span onclick="toggleSubMenu('ul-1')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+            </div>
+            <ul id="ul-1" class="collapsed">
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/project/overview/"
+    target=""
+    rel=""
+>
+Overview
+</a>
+
+                            <span onclick="toggleSubMenu('ul-2')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-2" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/project/overview/maps/"
+    target=""
+    rel=""
+>
+Maps
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/project/overview/screenshots/"
+    target=""
+    rel=""
+>
+Screenshots
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li  class="is-active">
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/project/case-studies/"
+    target=""
+    rel=""
+>
+Case studies
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://plugins.qgis.org"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+Plugins
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/project/visual-changelogs"
+    target=""
+    rel=""
+>
+Visual Changelogs
+</a>
+
+                    
+                    </li>
+                
+            </ul>
+        
+        </li>
+        
+        
+        <li >
+
+        
+            <div class="has-child">
+                
+                
+
+
+
+
+
+<a
+    class=""
+    href="/community/involve"
+    target=""
+    rel=""
+>
+Community
+</a>
+
+                <span onclick="toggleSubMenu('ul-8')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+            </div>
+            <ul id="ul-8" class="collapsed">
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/community/involve"
+    target=""
+    rel=""
+>
+Get involved
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/community/certification"
+    target=""
+    rel=""
+>
+Certification Programme
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/community/foundation"
+    target=""
+    rel=""
+>
+QGIS Foundation
+</a>
+
+                            <span onclick="toggleSubMenu('ul-11')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-11" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/community/foundation/charter"
+    target=""
+    rel=""
+>
+Charter
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/community/foundation/annual_general_meetings"
+    target=""
+    rel=""
+>
+Annual General Meetings
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/community/foundation/annual_reports"
+    target=""
+    rel=""
+>
+Annual Reports
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/community/foundation/finance"
+    target=""
+    rel=""
+>
+Finance
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/community/organisation"
+    target=""
+    rel=""
+>
+Project Organisation
+</a>
+
+                            <span onclick="toggleSubMenu('ul-16')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-16" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/community/organisation/infrastructure"
+    target=""
+    rel=""
+>
+Infrastructure
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/community/organisation/guidelines"
+    target=""
+    rel=""
+>
+Brand Guidelines
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/community/organisation/credits"
+    target=""
+    rel=""
+>
+Contributor Credits
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    <div class="has-child">
+                                        
+                                        
+
+
+
+
+
+<a
+    class=""
+    href="/community/organisation/meetings"
+    target=""
+    rel=""
+>
+Meetings
+</a>
+
+                                        <span onclick="toggleSubMenu('ul-20')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                                    </div>
+                                    <ul id="ul-20" class="collapsed">
+                                        
+                                        
+                                            <li >
+                                                
+                                                
+
+
+
+
+
+<a
+    class=""
+    href="/community/organisation/meetings/dev_meetings"
+    target=""
+    rel=""
+>
+QGIS Developer Meetings
+</a>
+
+                                            </li>
+                                        
+                                        
+                                            <li >
+                                                
+                                                
+
+
+
+
+
+<a
+    class=""
+    href="/community/organisation/meetings/reimbursements"
+    target=""
+    rel=""
+>
+Reimbursements for Developer Meetings
+</a>
+
+                                            </li>
+                                        
+                                        
+                                            <li >
+                                                
+                                                
+
+
+
+
+
+<a
+    class=""
+    href="/community/organisation/meetings/user_meetings"
+    target=""
+    rel=""
+>
+QGIS User Meetings
+</a>
+
+                                            </li>
+                                        
+                                    </ul>
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/community/organisation/mailinglists"
+    target=""
+    rel=""
+>
+Mailing Lists
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/community/groups"
+    target=""
+    rel=""
+>
+Local User Groups
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://plugins.qgis.org/planet/"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+Members Blogs
+</a>
+
+                    
+                    </li>
+                
+            </ul>
+        
+        </li>
+        
+        
+        <li >
+
+        
+            <div class="has-child">
+                
+                
+
+
+
+
+
+<a
+    class=""
+    href="/resources/hub"
+    target=""
+    rel=""
+>
+Resources
+</a>
+
+                <span onclick="toggleSubMenu('ul-27')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+            </div>
+            <ul id="ul-27" class="collapsed">
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/resources/hub"
+    target=""
+    rel=""
+>
+Documentation
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/resources/installation-guide/"
+    target=""
+    rel=""
+>
+Installation guide
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/resources/testing/"
+    target=""
+    rel=""
+>
+Testing
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/resources/roadmap/"
+    target=""
+    rel=""
+>
+Roadmap
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/resources/reports/"
+    target=""
+    rel=""
+>
+Reports
+</a>
+
+                            <span onclick="toggleSubMenu('ul-32')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-32" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/resources/reports/#ogc-certification"
+    target=""
+    rel=""
+>
+OGC Certification
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/resources/reports/#performance"
+    target=""
+    rel=""
+>
+Performance
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/resources/books/"
+    target=""
+    rel=""
+>
+Books
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/resources/support/"
+    target=""
+    rel=""
+>
+Support
+</a>
+
+                            <span onclick="toggleSubMenu('ul-36')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-36" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/resources/support/faq"
+    target=""
+    rel=""
+>
+FAQ
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/resources/support/bug-reporting"
+    target=""
+    rel=""
+>
+Bug Reporting
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/resources/support/#communication-channels"
+    target=""
+    rel=""
+>
+Communication channels
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/resources/support/commercial-support"
+    target=""
+    rel=""
+>
+Commercial support
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/resources/support/#stackexchange"
+    target=""
+    rel=""
+>
+StackExchange
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/resources/support/security"
+    target=""
+    rel=""
+>
+Security
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://analytics.qgis.org"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+QGIS Metrics
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://plugins.qgis.org/metabase/public/dashboard/7ecd345f-7321-423d-9844-71e526a454a9"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+Plugins Metrics
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://blog.qgis.org/"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+Blog
+</a>
+
+                    
+                    </li>
+                
+            </ul>
+        
+        </li>
+        
+        
+        <li >
+
+        
+            <div class="has-child">
+                
+                
+
+
+
+
+
+<a
+    class=""
+    href="/funding/donate"
+    target=""
+    rel=""
+>
+Funding
+</a>
+
+                <span onclick="toggleSubMenu('ul-46')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+            </div>
+            <ul id="ul-46" class="collapsed">
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/funding/donate"
+    target=""
+    rel=""
+>
+Donate
+</a>
+
+                            <span onclick="toggleSubMenu('ul-47')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-47" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/funding/donate/donors"
+    target=""
+    rel=""
+>
+Donors
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/funding/membership"
+    target=""
+    rel=""
+>
+Membership
+</a>
+
+                            <span onclick="toggleSubMenu('ul-49')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-49" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/funding/membership/members"
+    target=""
+    rel=""
+>
+Members
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/funding/membership/past_members"
+    target=""
+    rel=""
+>
+Past Members
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+            </ul>
+        
+        </li>
+        
+        
+        <li >
+
+        
+            
+            
+
+
+
+
+
+<a
+    class=""
+    href="/goodies"
+    target=""
+    rel=""
+>
+Goodies
+</a>
+
+        
+        </li>
+        
+        
+        <li >
+
+        
+            
+            
+
+
+
+
+
+<a
+    class=""
+    href="/download/"
+    target=""
+    rel=""
+>
+Download
+</a>
+
+        
+        </li>
+        
+        
+        <li >
+
+        
+            
+            
+
+
+
+
+
+<a
+    class=""
+    href="/archive/"
+    target=""
+    rel=""
+>
+Archive
+</a>
+
+        
+        </li>
+    </ul>
+  </nav>
+</div>
+
+
+<script>
+function rotateArrow(e) {
+    e.previousElementSibling.querySelector('img').classList.toggle('rotated');
+}
+
+function toggleSubMenu(listId) {
+    let e = document.getElementById(listId);
+    e.classList.toggle('unfolded');
+    rotateArrow(e);
+}
+
+function toggleMenu() {
+    document.getElementById('sidebar').classList.toggle('visible');
+    document.getElementById('hamburger-btn').classList.toggle('open');
+}
+
+
+let activeListItem = document.getElementsByClassName('is-active')[0];
+let ham = document.getElementById('ham-title');
+let hamTitle = activeListItem.querySelector('a').textContent;
+if (activeListItem.parentElement.previousElementSibling != null) {
+    hamTitle = activeListItem.parentElement.previousElementSibling.querySelector('a').textContent + ' / ' + hamTitle;
+}
+ham.textContent = hamTitle;
+
+
+document.querySelectorAll('li.is-active,li:has(.is-active)').forEach(li => {
+    if (e = li.querySelector('ul')) {
+        e.classList.toggle('unfolded');
+    }
+});
+</script>
+
+        <div class="content column is-9"> 
+        
+        
+        
+
+
+<h1 id="creating-the-fundy-footpath-trail-map-with-qgis">
+    Creating the Fundy Footpath Trail Map with QGIS
+    <a class="heading-anchor" href="#creating-the-fundy-footpath-trail-map-with-qgis">
+	    ¶
+    </a>
+</h1>
+<p><img src="../images/canada_brunswick1.jpg" alt=""></p>
+<p>The Fundy Footpath is a wilderness hiking trail located along the Fundy coast of New Brunswick, Canada. It is a charter member of the <a
+    href="http://fundy-biosphere.ca/en/about-us/the-reserve"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>UNESCO Fundy Biosphere Reserve</a> and affiliated with the <a
+    href="http://www.sentiernbtrail.com/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>NB Trails Council Inc.</a> and the Trans Canada Trail. The Footpath takes hikers through the coastal Acadian Forest, home to the world&rsquo;s highest tides, old growth forests, and several rare and unique types of flora and fauna.</p>
+<p>The trail was created, is maintained, and promoted by a group of volunteers known as the Fundy Hiking Trail Association Inc. (FHTA)(1975). As a non-profit organization the FHTA raises funds for its activities through the sale of guidebooks that include a trail map. In 2011 I approached the FHTA to volunteer to update the official trail map. As a volunteer creating a map for a non-profit organization QGIS fit the bill as both a tool for editing data and for final map layout. Through the efforts of myself and members of the FHTA the new official map of the Fundy Footpath included with the guidebook was created from start to finish with QGIS.</p>
+<figure>
+<img src="../images/canada_brunswick2.jpg" class="align-right" alt="canada_brunswick2.jpg" />
+<figcaption>QGIS GPS Tools Plugin for data collection</figcaption>
+</figure>
+<h2 id="the-project">
+    The Project
+    <a class="heading-anchor" href="#the-project">
+	    ¶
+    </a>
+</h2>
+<p>The process of creating the new Fundy Footpath map with QGIS can be broken down into three different parts:</p>
+<ul>
+<li>Data collection.</li>
+<li>Data editing and preparation.</li>
+<li>Map production.</li>
+</ul>
+<p>Data was collected both with handheld GPS units and from various free data sources. Trail data (e.g. trail centerline, campsite locations, and tidal crossings) was collected with a Garmin GPSMap 60CSX. This data was then transferred from the GPS and to shapefile format in QGIS using the GPS plugin. Free data in vector formats was then obtained from the <a
+    href="http://geogratis.cgdi.gc.ca/geogratis/en/product/search.do?id=5460AA9D-54CD-8349-C95E-1A4D03172FDF"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Natural Resources Canada (NRCan) CanVec</a> website and from <a
+    href="http://www.snb.ca/gdam-igec/e/2900e_1.asp"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Service New Brunswick (SNB) online</a>.</p>
+<figure>
+<img src="../images/canada_brunswick3.jpg" class="align-right" alt="canada_brunswick3.jpg" />
+<figcaption>Creation of the footpath map in QGIS</figcaption>
+</figure>
+<p>To prepare the data for use in the final map product the following tools within QGIS were used to accomplish specific tasks:</p>
+<ul>
+<li>The data collected with GPS was cleaned using the editing toolbar.</li>
+<li>The vector data obtained from NRCan and SNB was merged together, queried, and clipped for the final map area using the vector tools.</li>
+<li>A comma-separated file obtained from SNB was imported to QGIS as a point layer using the Add Delimited Text Layer plugin, the Interpolation plugin was used to create an elevation raster that was then used to create a hillshade raster and elevation contour layer with the GDAL raster tools plugin.</li>
+</ul>
+<figure>
+<img src="../images/canada_brunswick4.jpg" class="align-right" alt="canada_brunswick4.jpg" />
+<figcaption>Footpath map in the Print Composer</figcaption>
+</figure>
+<p>Once the data required to create the map was assembled and in a usable format the creation of the final map was started. To create the hiking map data was symbolized and labeled with the symbolization properties dialog and labeled with QGIS&rsquo;s very functional label engine. Once labels and symbolization were in place the map composer tool was run to create the layout. It was very easy to add useful map elements such as a custom north arrow and elevation profile in the print composer. Two layouts were created since it was to be a double-sided map. Once both layouts were created they were exported as PDF files and sent to the printers.</p>
+<h2 id="conclusion">
+    Conclusion
+    <a class="heading-anchor" href="#conclusion">
+	    ¶
+    </a>
+</h2>
+<p>The hiking map was printed on heavy-duty waterproof paper, folded and inserted in the back of the new edition of the Fundy Footpath Hiker&rsquo;s Guide Book. QGIS was the best and most functional choice for the creation of this map. Being free software the price was right for a volunteer creating a map for a non-profit organization. But the real advantage of QGIS was that it had all of the functionality and tools required to create a highly useful and detailed hiking map from start to finish. I would highly recommend QGIS to both experienced and beginning GIS users alike.</p>
+<figure>
+<img src="../images/canada_brunswick5.jpg" class="align-right" alt="canada_brunswick5.jpg" />
+<figcaption>The final Fundy Footpath map with accompanying guidebook</figcaption>
+</figure>
+<h2 id="links">
+    Links
+    <a class="heading-anchor" href="#links">
+	    ¶
+    </a>
+</h2>
+<ul>
+<li><a
+    href="http://fundy-biosphere.ca/en/about-us/the-reserve"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>http://fundy-biosphere.ca/en/about-us/the-reserve</a></li>
+<li><a
+    href="http://www.sentiernbtrail.com"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>http://www.sentiernbtrail.com</a></li>
+<li><a
+    href="http://www.snb.ca/gdam-igec/e/2900e_1.asp"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>http://www.snb.ca/gdam-igec/e/2900e_1.asp</a></li>
+</ul>
+<h2 id="author">
+    Author
+    <a class="heading-anchor" href="#author">
+	    ¶
+    </a>
+</h2>
+<figure>
+<img src="../images/canada_brunswickaut.jpg" class="align-left" height="200" alt="canada_brunswickaut.jpg" />
+<figcaption>Jarrett Totton</figcaption>
+</figure>
+<p>This article was contributed by Jarrett Totton in January 2013. Jarrett is a GIS Technologist living in Alberta, Canada.</p>
+    </div>
+</section>
+
+           
+
+
+
+
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns is-desktop">
+            <div class="column is-2-desktop">
+                <figure class="image is-128x128">
+                    <img alt="Logo" src="https://qgis.org/img/footlogo.svg" />
+                </figure>
+            </div>
+            <div class="column mb-6">
+                <div class="columns is-desktop">
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5 ">
+                            <a href="https://qgis.org/project/overview" class="footertitle text-nowrap">
+                                Project
+                            </a>
+                        </li>
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/project/overview/">
+                                            Overview
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/project/case-studies/">
+                                            Case studies
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="https://plugins.qgis.org">
+                                            Plugins
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/project/visual-changelogs">
+                                            Visual Changelogs
+                                        </a>
+                                    </li>
+                                
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </ul>
+            
+
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5">
+                            <a href="https://qgis.org/community/involve" class="footertitle text-nowrap">
+                                Community
+                            </a>
+                        </li>
+                            
+                            
+                            
+                            
+                            
+                        
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/community/involve">
+                                            Get involved
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/community/certification">
+                                            Certification Programme
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/community/foundation">
+                                            QGIS Foundation
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/community/organisation">
+                                            Project Organisation
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/community/groups">
+                                            Local User Groups
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="https://plugins.qgis.org/planet/">
+                                            Members Blogs
+                                        </a>
+                                    </li>
+                                
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </ul>
+
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5 footertitle">
+                            <a href="https://qgis.org/resources/hub" class="footertitle text-nowrap">
+                                Resources
+                            </a>
+                        </li>
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/resources/hub">
+                                            Documentation
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/resources/installation-guide/">
+                                            Installation guide
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/resources/testing/">
+                                            Testing
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/resources/roadmap/">
+                                            Roadmap
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/resources/reports/">
+                                            Reports
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/resources/books/">
+                                            Books
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/resources/support/">
+                                            Support
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="https://analytics.qgis.org">
+                                            QGIS Metrics
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="https://plugins.qgis.org/metabase/public/dashboard/7ecd345f-7321-423d-9844-71e526a454a9">
+                                            Plugins Metrics
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="https://blog.qgis.org/">
+                                            Blog
+                                        </a>
+                                    </li>
+                                
+                            
+                        
+                            
+                            
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </ul>
+
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5 ">
+                            <a href="https://qgis.org/funding/donate" class="footertitle text-nowrap">
+                                Funding
+                            </a>
+                        </li>
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/funding/donate">
+                                            Donate
+                                        </a>
+                                    </li>
+                                
+                            <li class="mb-4">
+                                        <a class="has-text-white text-nowrap" href="/funding/membership">
+                                            Membership
+                                        </a>
+                                    </li>
+                                
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="column is-2-desktop">
+                <a href="https://qgis.org/download">
+                    <button class="button is-primary1 is-size-5">Download</button>
+                </a>
+            </div>
+        </div>
+        <div class="columns is-desktop">
+            <div class="copyright column is-2-desktop has-text-white"></div>
+            <div class="column social-icons-links">
+                <a class="has-text-white" href="https://www.facebook.com/profile.php?id=100057434859831">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a class="has-text-white" href="https://www.youtube.com/@qgishome">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a class="has-text-white" href="https://fosstodon.org/@qgis">
+                    <i class="fa-brands fa-foss"></i>
+                </a>
+                <a class="has-text-white" href="https://github.com/qgis/">
+                    <i class="fa-brands fa-square-github"></i>
+                </a>
+                <a class="has-text-white" href="https://qgis.org/community/organisation/mailinglists">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="columns is-desktop privacy-links">
+            <a href="https://qgis.org/diversity" class="column is-narrow is-offset-2-desktop">Diversity statement</a>
+            <a href="https://qgis.org/conduct" class="column is-narrow">Code of conduct</a>
+            <a href="https://qgis.org/environmental-policy" class="column is-narrow">Environmental policy</a>
+            <a href="https://qgis.org/license" class="column is-narrow">License</a>
+            <a href="https://qgis.org/styleguide" class="column is-narrow">Visual Style Guide</a>   
+            <a href="https://qgis.org/goodies" class="column is-narrow">Goodies</a>   
+            <a href="https://qgis.org/archive" class="column is-narrow">Archive</a>   
+
+        </div>
+        <div class="columns is-desktop issue-report-link is-justify-content-center">
+            <a href="https://github.com/qgis/QGIS-Website/issues" class="column is-narrow p-0 is-size-6" target="_blank">Problems with this website? Report an issue here 🐙</a> 
+              
+        </div>
+    </div>
+    
+</footer>
+
+

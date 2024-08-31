@@ -1,0 +1,5182 @@
+<!doctype html>
+<html lang="en" class="has-navbar-fixed-top">
+    <head>
+        <meta charset="utf-8" />
+
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="https://qgis.org/img/favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="https://qgis.org/img/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="https://qgis.org/img/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="https://qgis.org/site.webmanifest" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Changelog for QGIS 2.14 &middot; QGIS　WEBサイト</title>
+
+        <meta
+            name="description"
+            content="
+                
+            
+            "
+        />
+
+        <meta name="generator" content="Hugo 0.107.0">
+        <meta name="twitter:card" content="summary" />
+        
+        <meta
+            name="twitter:title"
+            content="Changelog for QGIS 2.14 &middot; QGIS　WEBサイト"
+        />
+        <meta
+            name="twitter:description"
+            content="
+                
+            
+            "
+        />
+
+        <meta property="og:type" content="article" />
+        <meta
+            property="og:title"
+            content="Changelog for QGIS 2.14 &middot; QGIS　WEBサイト"
+        />
+        <meta
+            property="og:description"
+            content="
+                
+            
+            "
+        />
+        <meta property="og:image" content="https://qgis.org/img/QGIScover.png"/>
+
+        
+        
+        
+        
+        <link href="/bulma.min.0c62cd6e584563ff66b38b435964e346a416232a95829fdf73fdaff9a472f168.css" rel="stylesheet" />
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <link href="/css/all.min.327d9cdc1e6d7b43e2ff21ed029d014975ea0c5ae8e1cbbf2d90acc3ad70c2bf.css" rel="stylesheet" />
+
+        
+        
+        
+        <link href="/bulma.min.c826033ae3d407a503bd9f4367f654c3bc6443d1d105dfc1d41418e6c54acec6.css" rel="stylesheet" />
+
+        
+        
+        
+        <link href="/css/fontawesome.min.545b0e3058fd53ad9d527b38b157fa25161c8595dc70084b2b40156bca2b3f9c.css" rel="stylesheet" />
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+        <link
+            rel="alternate"
+            type="application/rss+xml"
+            title="QGIS　WEBサイト"
+            href="https://qgis.org/index.xml"
+        />
+
+        
+        
+        <script defer src="/js/qrcodegen-v1.8.0-es6.min.19d8d054ea10e2a90debef4f02326129d80711c50758fb0958bee2369e02e367.js"></script>
+        <script>
+            var matomoURL = "//matomo.qgis.org/"
+            var matomoSiteId = "7"
+        </script>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+           
+        <script defer src="/js/all.min.df9b9e12cc9f519f6d7dfdeb7aa7d4da9fc7b0c8408186d0fd39259aab8dfb9a.js"></script> 
+        
+        
+        <script defer src="/search.min.6ef3f670e3df29a0d7105576d06c1001a5e58244d2a22d3fd2bf517951b9ee2d.js"></script>
+        <script
+            crossorigin=""
+            type="application/javascript"
+            src="https://yoichigmf.github.io/qgis-uni-navigation/index.js"
+        ></script>
+    </head>
+
+    <body></body>
+</html>
+
+
+
+
+<qg-top-nav
+    breakpoint="1024"
+    class="is-highest navbar is-fixed-top"
+    location-prefix=""
+></qg-top-nav>
+
+
+
+
+
+<div class="box mb-0 context-container" id="context">
+    <div class="container is-flex is-justify-content-space-between">
+        <div class="rss-feed">
+            
+            
+            
+            
+                
+                
+                    
+                    <a href="https://uc2024.qgis.sk/" target="_blank" rel="noopener" class="external-link">
+                        Join the QGIS User Conference 2024
+                    </a>    
+                    
+                
+            
+            
+        </div>    
+        <div id="search-control" class="control has-icons-right search-control">
+            <form action="https://qgis.org/search/" method="GET">
+                <input class="input is-small" type="search" id="search-query" name="q" placeholder="Search">
+                <span class="icon is-right">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="section ">
+    <div class="container content">
+        
+        <div class="columns is-multiline is-centered">
+        
+
+
+<div id="hamburger-btn" onclick="toggleMenu()"><span id="ham-title"></span></div>
+<div class="column is-3">
+  <nav id="sidebar" class="sidebar">
+    
+    <ul class="content-wrapper">
+    
+    
+        
+        
+        <li >
+
+        
+            <div class="has-child">
+                
+                
+
+
+
+
+
+<a
+    class=""
+    href="/ja/project/overview"
+    target=""
+    rel=""
+>
+プロジェクト
+</a>
+
+                <span onclick="toggleSubMenu('ul-1')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+            </div>
+            <ul id="ul-1" class="collapsed">
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/project/overview/"
+    target=""
+    rel=""
+>
+概要
+</a>
+
+                            <span onclick="toggleSubMenu('ul-2')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-2" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/project/overview/screenshots/"
+    target=""
+    rel=""
+>
+スクリーンショット
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/project/overview/maps/"
+    target=""
+    rel=""
+>
+地図
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/project/case-studies/"
+    target=""
+    rel=""
+>
+ケーススタディ
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://plugins.qgis.org"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+プラグイン
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li  class="is-active">
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/project/visual-changelogs"
+    target=""
+    rel=""
+>
+ビジュアルチェンジログ
+</a>
+
+                    
+                    </li>
+                
+            </ul>
+        
+        </li>
+        
+        
+        <li >
+
+        
+            <div class="has-child">
+                
+                
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/involve"
+    target=""
+    rel=""
+>
+コミュニティ
+</a>
+
+                <span onclick="toggleSubMenu('ul-8')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+            </div>
+            <ul id="ul-8" class="collapsed">
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/involve"
+    target=""
+    rel=""
+>
+参加する
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/certification"
+    target=""
+    rel=""
+>
+認定プログラム
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/foundation"
+    target=""
+    rel=""
+>
+QGIS 財団
+</a>
+
+                            <span onclick="toggleSubMenu('ul-11')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-11" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/foundation/charter"
+    target=""
+    rel=""
+>
+Charter
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/foundation/annual_general_meetings"
+    target=""
+    rel=""
+>
+年次総会
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/foundation/annual_reports"
+    target=""
+    rel=""
+>
+年次報告書
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/foundation/finance"
+    target=""
+    rel=""
+>
+財務
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation"
+    target=""
+    rel=""
+>
+プロジェクト組織
+</a>
+
+                            <span onclick="toggleSubMenu('ul-16')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-16" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/infrastructure"
+    target=""
+    rel=""
+>
+インフラストラクチャー
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/guidelines"
+    target=""
+    rel=""
+>
+ブランドガイドライン
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/credits"
+    target=""
+    rel=""
+>
+Contributor Credits
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    <div class="has-child">
+                                        
+                                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/meetings"
+    target=""
+    rel=""
+>
+会合
+</a>
+
+                                        <span onclick="toggleSubMenu('ul-20')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                                    </div>
+                                    <ul id="ul-20" class="collapsed">
+                                        
+                                        
+                                            <li >
+                                                
+                                                
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/meetings/dev_meetings"
+    target=""
+    rel=""
+>
+QGIS 開発者ミーティング
+</a>
+
+                                            </li>
+                                        
+                                        
+                                            <li >
+                                                
+                                                
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/meetings/reimbursements"
+    target=""
+    rel=""
+>
+Reimbursements for Developer Meetings
+</a>
+
+                                            </li>
+                                        
+                                        
+                                            <li >
+                                                
+                                                
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/meetings/user_meetings"
+    target=""
+    rel=""
+>
+QGIS ユーザーミーティング
+</a>
+
+                                            </li>
+                                        
+                                    </ul>
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/organisation/mailinglists"
+    target=""
+    rel=""
+>
+メーリングリスト
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/community/groups"
+    target=""
+    rel=""
+>
+ローカルユーザーグループ
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://plugins.qgis.org/planet/"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+メンバーブログ
+</a>
+
+                    
+                    </li>
+                
+            </ul>
+        
+        </li>
+        
+        
+        <li >
+
+        
+            <div class="has-child">
+                
+                
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/hub"
+    target=""
+    rel=""
+>
+リソース
+</a>
+
+                <span onclick="toggleSubMenu('ul-27')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+            </div>
+            <ul id="ul-27" class="collapsed">
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/hub"
+    target=""
+    rel=""
+>
+文書
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/installation-guide/"
+    target=""
+    rel=""
+>
+インストールガイド
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/testing/"
+    target=""
+    rel=""
+>
+検査
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/roadmap/"
+    target=""
+    rel=""
+>
+ロードマップ
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/reports/"
+    target=""
+    rel=""
+>
+レポート
+</a>
+
+                            <span onclick="toggleSubMenu('ul-32')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-32" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/reports/#ogc-certification"
+    target=""
+    rel=""
+>
+OGC Certification
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/reports/#performance"
+    target=""
+    rel=""
+>
+パフォーマンス
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/books/"
+    target=""
+    rel=""
+>
+書籍
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/support/"
+    target=""
+    rel=""
+>
+サポート
+</a>
+
+                            <span onclick="toggleSubMenu('ul-36')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-36" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/support/faq"
+    target=""
+    rel=""
+>
+FAQ
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/support/bug-reporting"
+    target=""
+    rel=""
+>
+バグ報告
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/support/#communication-channels"
+    target=""
+    rel=""
+>
+コミュニケーションチャンネル
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/support/commercial-support"
+    target=""
+    rel=""
+>
+商用サポート
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/support/#stackexchange"
+    target=""
+    rel=""
+>
+StackExchange
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/resources/support/security"
+    target=""
+    rel=""
+>
+セキュリティ
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://analytics.qgis.org"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+QGIS Metrics
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://plugins.qgis.org/metabase/public/dashboard/7ecd345f-7321-423d-9844-71e526a454a9"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+Plugins Metrics
+</a>
+
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        
+                        
+
+
+
+
+
+<a
+    class="external-link"
+    href="https://blog.qgis.org/"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+ブログ
+</a>
+
+                    
+                    </li>
+                
+            </ul>
+        
+        </li>
+        
+        
+        <li >
+
+        
+            <div class="has-child">
+                
+                
+
+
+
+
+
+<a
+    class=""
+    href="/ja/funding/donate"
+    target=""
+    rel=""
+>
+資金調達
+</a>
+
+                <span onclick="toggleSubMenu('ul-46')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+            </div>
+            <ul id="ul-46" class="collapsed">
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/funding/donate"
+    target=""
+    rel=""
+>
+寄付
+</a>
+
+                            <span onclick="toggleSubMenu('ul-47')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-47" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/funding/donate/donors"
+    target=""
+    rel=""
+>
+寄付者
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    
+                    
+                    <li >
+
+                    
+                        <div class="has-child">
+                            
+                            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/funding/membership"
+    target=""
+    rel=""
+>
+メンバーシップ
+</a>
+
+                            <span onclick="toggleSubMenu('ul-49')" class="drop-arrow"><img src="https://qgis.org/img/arrow.svg"/></span>
+                        </div>
+                        <ul id="ul-49" class="collapsed">
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/funding/membership/members"
+    target=""
+    rel=""
+>
+メンバー
+</a>
+
+                                
+                                </li>
+                            
+                                
+                                
+                                <li >
+
+                                
+                                    
+                                    
+
+
+
+
+
+<a
+    class=""
+    href="/ja/funding/membership/past_members"
+    target=""
+    rel=""
+>
+過去メンバー
+</a>
+
+                                
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+            </ul>
+        
+        </li>
+        
+        
+        <li >
+
+        
+            
+            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/goodies"
+    target=""
+    rel=""
+>
+グッズ
+</a>
+
+        
+        </li>
+        
+        
+        <li >
+
+        
+            
+            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/download/"
+    target=""
+    rel=""
+>
+ダウンロード
+</a>
+
+        
+        </li>
+        
+        
+        <li >
+
+        
+            
+            
+
+
+
+
+
+<a
+    class=""
+    href="/ja/archive/"
+    target=""
+    rel=""
+>
+アーカイブ
+</a>
+
+        
+        </li>
+    </ul>
+  </nav>
+</div>
+
+
+<script>
+function rotateArrow(e) {
+    e.previousElementSibling.querySelector('img').classList.toggle('rotated');
+}
+
+function toggleSubMenu(listId) {
+    let e = document.getElementById(listId);
+    e.classList.toggle('unfolded');
+    rotateArrow(e);
+}
+
+function toggleMenu() {
+    document.getElementById('sidebar').classList.toggle('visible');
+    document.getElementById('hamburger-btn').classList.toggle('open');
+}
+
+
+let activeListItem = document.getElementsByClassName('is-active')[0];
+let ham = document.getElementById('ham-title');
+let hamTitle = activeListItem.querySelector('a').textContent;
+if (activeListItem.parentElement.previousElementSibling != null) {
+    hamTitle = activeListItem.parentElement.previousElementSibling.querySelector('a').textContent + ' / ' + hamTitle;
+}
+ham.textContent = hamTitle;
+
+
+document.querySelectorAll('li.is-active,li:has(.is-active)').forEach(li => {
+    if (e = li.querySelector('ul')) {
+        e.classList.toggle('unfolded');
+    }
+});
+</script>
+
+        <div class="content column is-9"> 
+        
+        
+        
+
+
+<h1 id="changelog214">
+    Changelog for QGIS 2.14
+    <a class="heading-anchor" href="#changelog214">
+	    ¶
+    </a>
+</h1>
+<p><img src="images/projects/596e7e353771d2802f065352548e512b8d902d83.png" alt="image1"></p>
+<p>Release date: 2016-02-26</p>
+<p>This is the changelog for the next release of QGIS - version 2.14 'Essen'. Essen was the host city to our developer meet ups in October 2012 and 2014.</p>
+<p><strong>Long Term Release</strong></p>
+<p>This is a special release since it is designated an 'LTR' (Long Term Release). LTR releases will be supported with backported bug fixes for <strong>one year</strong>, and will be in permanent feature freeze (i.e. no new features will be added, only bug fixes and trivial updates). Note that we are in discussion to extend the term of our LTR releases to two years, but for technical reasons we will not do this until QGIS 3.2.</p>
+<p>The purpose of LTR releases is to provide a stable and less frequently changing platform for enterprises and organizations that do not want to deal with updating user skills, training materials etc. more than once per year. The success of the LTR is very much down to you, our beloved users - we need your support to help funding bug fixes and making sure in your support contracts with support providers specify that any bug fixes done on your behalf are applied to the LTR branch as well as our normal development branch.</p>
+<p>If an LTR is important to you, please consider also directly supporting the QGIS project, or encourage your commercial provider to use LTR as a basis for your enterprise solution so that everyone may benefit from a stable platform that is being continuously improved and refined. Note that for users and organizations that like to live on the frontier, our regular four-monthly releases will continue unabated.</p>
+<p><strong>New Features in QGIS 2.14 'Essen'</strong></p>
+<p>If you are upgrading from QGIS 2.8 (our previous LTR version) you will find a great many new features in this release. We encourage you to peruse the changelogs for the intermediate non LTR <a
+    href="../visualchangelog210/"
+    
+    
+>2.10</a> and <a
+    href="../visualchangelog212/"
+    
+    
+>2.12</a> releases as this QGIS 2.14 includes all features published in those releases too. Note that 2.14 first enters the regular package repositories and will not immediately replace 2.8 in the LTR package repositories. That will happen when 2.16 is released.</p>
+<p>Whenever new features are added to software they introduce the possibility of new bugs - if you encounter any problems with this release, please file a ticket <a
+    href="http://hub.qgis.org"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>on the QGIS Bug Tracker</a>.</p>
+<p><strong>Thanks</strong></p>
+<p>We would like to thank the developers, documenters, testers and all the many folks out there who volunteer their time and effort (or fund people to do so). From the QGIS community we hope you enjoy this release! If you wish to donate time, money or otherwise get involved in making QGIS more awesome, please wander along to <a
+    href="https://qgis.org"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>qgis.org</a> and lend a hand!</p>
+<p>QGIS is supported by donors and sponsors. A current list of donors who have made financial contributions large and small to the project can be seen on our <a
+    href="https://qgis.org/en/site/about/sponsorship.html#list-of-donors"
+    
+    
+>donors list</a>. If you would like to become an official project sponsor, please visit <a
+    href="https://qgis.org/en/site/about/sponsorship.html#sponsorship"
+    
+    
+>our sponsorship page</a> for details. Sponsoring QGIS helps us to fund our six-monthly developer meetings, maintain project infrastructure and fund bug fixing efforts. A complete list of current sponsors is provided below - our very great thank you to all of our sponsors!</p>
+<p>QGIS is Free software and you are under no obligation to pay anything to use it - in fact we want to encourage people far and wide to use it regardless of what your financial or social status is - we believe empowering people with spatial decision making tools will result in a better society for all of humanity. If you are able to support QGIS, you can <a
+    href="https://qgis.org/en/site/getinvolved/donations.html"
+    
+    
+><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="donate here"></a></p>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#current-qgis-sponsors">Current QGIS Sponsors</a></li>
+    <li><a href="#general">General</a>
+      <ul>
+        <li><a href="#feature-changed-behaviour-of-strpos-function">Feature: Changed behaviour of strpos function</a></li>
+        <li><a href="#feature-zoom-to-feature-with-right-click-in-attribute-table">Feature: Zoom to feature with right-click in attribute table</a></li>
+        <li><a href="#feature-speed-and-memory-improvements">Feature: Speed and memory improvements</a></li>
+        <li><a href="#feature-more-expression-variables">Feature: More expression variables</a></li>
+        <li><a href="#feature-better-control-over-placement-of-map-elements">Feature: Better control over placement of map elements</a></li>
+        <li><a href="#feature-paid-bugfixing-programme">Feature: Paid bugfixing programme</a></li>
+        <li><a href="#feature-field-calculator-can-be-used-to-update-features-geometry">Feature: Field calculator can be used to update feature's geometry</a></li>
+        <li><a href="#feature-new-expression-functions-in-214">Feature: New expression functions in 2.14</a></li>
+      </ul>
+    </li>
+    <li><a href="#analysis-tools">Analysis tools</a>
+      <ul>
+        <li><a href="#feature-more-statistics-available-in-merge-attributes-tool">Feature: More statistics available in merge attributes tool</a></li>
+        <li><a href="#feature-zm-values-are-shown-when-using-the-identify-tool">Feature: z/m values are shown when using the identify tool</a></li>
+        <li><a href="#feature-unified-handling-of-distance-and-area-units-and-coordinate-formats">Feature: Unified handling of distance and area units and coordinate formats</a></li>
+      </ul>
+    </li>
+    <li><a href="#browser">Browser</a>
+      <ul>
+        <li><a href="#feature-browser-improvements">Feature: Browser Improvements</a></li>
+      </ul>
+    </li>
+    <li><a href="#data-providers">Data Providers</a>
+      <ul>
+        <li><a href="#feature-cache-wms-capabililies">Feature: Cache WMS capabililies</a></li>
+        <li><a href="#feature-curved-geometry-support-expanded">Feature: Curved geometry support expanded</a></li>
+        <li><a href="#feature-better-handling-of-time-and-datetime-fields">Feature: Better handling of time and datetime fields</a></li>
+        <li><a href="#feature-zm-support-in-delimited-text-provider">Feature: Z/M support in delimited text provider</a></li>
+        <li><a href="#feature-transaction-groups-for-postgres-editing">Feature: Transaction groups for postgres editing</a></li>
+        <li><a href="#feature-postgres-provider-pki-authentication">Feature: Postgres provider PKI authentication</a></li>
+        <li><a href="#feature-virtual-layers">Feature: Virtual layers</a></li>
+        <li><a href="#feature-more-file-extensions-for-gdal-and-ogr-providers-file-selectors">Feature: More file extensions for GDAL and OGR providers file selectors</a></li>
+        <li><a href="#feature-use-st_removerepeatedpoints-for-server-side-simplification-with-postgis-22-or-newer-layers">Feature: Use ST_RemoveRepeatedPoints for server-side simplification with PostGIS 2.2 (or newer) layers</a></li>
+      </ul>
+    </li>
+    <li><a href="#data-management">Data management</a>
+      <ul>
+        <li><a href="#feature-removal-of-spit-plugin">Feature: Removal of SPIT plugin</a></li>
+        <li><a href="#feature-dxf-export-option-to-use-title-instead-of-name-as-dxf-layer-name-in-application-and-server">Feature: DXF export: option to use title instead of name as DXF layer name in application and server</a></li>
+        <li><a href="#feature-geometry-type-can-be-overridden-in-the-vector-save-as-dialog">Feature: Geometry type can be overridden in the vector save as dialog</a></li>
+        <li><a href="#feature-vector-joins-are-now-saved-within-qlr-layer-definition-files">Feature: Vector joins are now saved within QLR layer-definition-files</a></li>
+        <li><a href="#feature-external-resource-widget">Feature: External Resource widget</a></li>
+        <li><a href="#feature-nm-relation-editing">Feature: N:M relation editing</a></li>
+      </ul>
+    </li>
+    <li><a href="#digitising">Digitising</a>
+      <ul>
+        <li><a href="#feature-configurable-rubber-band-color">Feature: Configurable rubber band color</a></li>
+        <li><a href="#feature-trace-digitising-tool">Feature: Trace digitising tool</a></li>
+      </ul>
+    </li>
+    <li><a href="#labelling">Labelling</a>
+      <ul>
+        <li><a href="#feature-cartographic-placement-mode-for-point-labels">Feature: &quot;Cartographic&quot; placement mode for point labels</a></li>
+        <li><a href="#feature-applying-label-distance-from-symbol-bounds">Feature: Applying label distance from symbol bounds</a></li>
+        <li><a href="#feature-control-over-label-rendering-order">Feature: Control over label rendering order</a></li>
+        <li><a href="#feature-actual-rendered-symbol-is-now-considered-as-an-obstacle-for-point-feature-labels">Feature: Actual rendered symbol is now considered as an obstacle for point feature labels</a></li>
+      </ul>
+    </li>
+    <li><a href="#layer-legend">Layer Legend</a>
+      <ul>
+        <li><a href="#feature-paste-a-style-to-multiple-selected-layers-or-to-all-layers-in-a-legend-group">Feature: Paste a style to multiple selected layers or to all layers in a legend group</a></li>
+        <li><a href="#feature-filter-legend-by-expression">Feature: Filter legend by expression</a></li>
+      </ul>
+    </li>
+    <li><a href="#map-composer">Map Composer</a>
+      <ul>
+        <li><a href="#feature-new-options-for-filtering-legend-elements">Feature: New options for filtering legend elements</a></li>
+        <li><a href="#feature-additional-paths-for-composer-templates">Feature: Additional paths for composer templates</a></li>
+        <li><a href="#feature-multiple-selection-of-compositions-in-manager">Feature: Multiple selection of compositions in manager</a></li>
+      </ul>
+    </li>
+    <li><a href="#plugins">Plugins</a>
+      <ul>
+        <li><a href="#feature-authentication-system-support-for-plugin-manager">Feature: Authentication system support for plugin manager</a></li>
+      </ul>
+    </li>
+    <li><a href="#processing">Processing</a>
+      <ul>
+        <li><a href="#feature-new-algorithms-in-214">Feature: New algorithms in 2.14</a></li>
+        <li><a href="#feature-unit-tests-qa">Feature: Unit Tests Q/A</a></li>
+        <li><a href="#feature-improved-toolbox">Feature: Improved toolbox</a></li>
+        <li><a href="#feature-batch-processes-can-be-saved-and-later-recovered-from-the-batch-processing-interface">Feature: Batch processes can be saved and later recovered from the batch processing interface</a></li>
+        <li><a href="#feature-more-informative-algorithm-dialog">Feature: More informative algorithm dialog</a></li>
+        <li><a href="#feature-grass7-vnet-modules">Feature: GRASS7 v.net modules</a></li>
+      </ul>
+    </li>
+    <li><a href="#programmability">Programmability</a>
+      <ul>
+        <li><a href="#feature-redesign-expression-function-editor">Feature: Redesign expression function editor</a></li>
+        <li><a href="#feature-store-python-init-code-into-the-project">Feature: Store python init code into the project</a></li>
+        <li><a href="#feature-new-filtering-and-sorting-options-for-qgsfeaturerequest">Feature: New filtering and sorting options for QgsFeatureRequest</a></li>
+        <li><a href="#feature-custom-feature-form-python-code-options">Feature: Custom feature form Python code options</a></li>
+        <li><a href="#feature-new-pyqgis-classes-in-214">Feature: New PyQGIS classes in 2.14</a></li>
+        <li><a href="#new-core-classes">New core classes</a></li>
+        <li><a href="#new-gui-classes">New GUI classes</a></li>
+      </ul>
+    </li>
+    <li><a href="#qgis-server">QGIS Server</a>
+      <ul>
+        <li><a href="#feature-startindex-param-in-wfs-getfeature-request">Feature: STARTINDEX param in WFS GetFeature Request</a></li>
+        <li><a href="#feature-showfeaturecount-in-getlegendgraphic">Feature: showFeatureCount in GetLegendGraphic</a></li>
+        <li><a href="#feature-option-to-avoid-rendering-artefacts-at-edges-of-tiles">Feature: Option to avoid rendering artefacts at edges of tiles</a></li>
+        <li><a href="#feature-configuration-checker-in-project-properties">Feature: Configuration checker in project properties</a></li>
+        <li><a href="#feature-wms-inspire-capabilities">Feature: WMS INSPIRE Capabilities</a></li>
+        <li><a href="#feature-add-short-name-to-layers-groups-and-project">Feature: Add short name to layers, groups and project</a></li>
+      </ul>
+    </li>
+    <li><a href="#symbology">Symbology</a>
+      <ul>
+        <li><a href="#feature-size-assistant-for-varying-line-width">Feature: Size assistant for varying line width</a></li>
+        <li><a href="#feature-support-for-transparency-in-svg-color-parameters">Feature: Support for transparency in SVG color parameters</a></li>
+        <li><a href="#feature-easy-duplication-of-symbol-layers">Feature: Easy duplication of symbol layers</a></li>
+        <li><a href="#feature-25d-renderer">Feature: 2.5D Renderer</a></li>
+        <li><a href="#feature-allow-definition-of-rendering-order-for-features">Feature: Allow definition of rendering order for features</a></li>
+        <li><a href="#feature-geometry-generator-symbols">Feature: Geometry generator symbols</a></li>
+        <li><a href="#examples">Examples</a></li>
+      </ul>
+    </li>
+    <li><a href="#user-interface">User Interface</a>
+      <ul>
+        <li><a href="#feature-attribute-table-can-be-refreshed">Feature: Attribute table can be refreshed</a></li>
+        <li><a href="#feature-directly-set-renderer-and-class-symbol-colors-from-context-menu-in-legend">Feature: Directly set renderer and class symbol colors from context menu in legend</a></li>
+        <li><a href="#feature-edit-legend-symbols-directly-from-layer-tree">Feature: Edit legend symbols directly from layer tree</a></li>
+        <li><a href="#feature-showhide-all-legend-items-via-the-context-menu">Feature: Show/hide all legend items via the context menu</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+<h2 id="current-qgis-sponsors">
+    Current QGIS Sponsors
+    <a class="heading-anchor" href="#current-qgis-sponsors">
+	    ¶
+    </a>
+</h2>
+
+
+
+
+
+
+	
+    
+
+
+
+
+
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+
+    
+        <h3 class="subtitle">
+            Medium
+        </h3>
+
+        <div class="tile is-ancestor is-vertical funders">
+            <div class="tile">
+            
+            
+                
+                
+                    
+                        
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-medium">
+                    <a href="http://www.agh.edu.pl/en">
+                        <figure>
+                            <img src="https://qgis.org/img/contributors/agh.png" alt="AGH University of Science and Technology">
+                        </figure>
+                        <h3 class="title is-5">AGH University of Science and Technology</h3>
+                        <article class="subtitle is-7">6.2015 - 6.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-medium">
+                    <a href="http://www.gaia-mbh.de">
+                        <figure>
+                            <img src="https://qgis.org/img/contributors/gaia.png" alt="GAIA mbH">
+                        </figure>
+                        <h3 class="title is-5">GAIA mbH</h3>
+                        <article class="subtitle is-7">11.2015 - 11.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-medium">
+                    <a href="http://www.opw.ie/">
+                        <figure>
+                            <img src="https://qgis.org/img/contributors/opw.jpg" alt="Office of Public Works, Ireland">
+                        </figure>
+                        <h3 class="title is-5">Office of Public Works, Ireland</h3>
+                        <article class="subtitle is-7">12.2014 - 12.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-medium">
+                    <a href="http://www.sourcepole.com/">
+                        <figure>
+                            <img src="https://qgis.org/img/contributors/sourcepole.png" alt="Sourcepole AG">
+                        </figure>
+                        <h3 class="title is-5">Sourcepole AG</h3>
+                        <article class="subtitle is-7">10.2014 - 10.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+                        
+        </div>
+        <div class="tile">
+                        
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-medium">
+                    <a href="http://www.vorarlberg.at/">
+                        <figure>
+                            <img src="https://qgis.org/img/contributors/land_f.jpg" alt="State of Vorarlberg">
+                        </figure>
+                        <h3 class="title is-5">State of Vorarlberg</h3>
+                        <article class="subtitle is-7">3.2013 - 5.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+            </div>
+        </div>        
+    
+
+    
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+
+    
+        <h3 class="subtitle">
+            Small
+        </h3>
+
+        <div class="tile is-ancestor is-vertical funders">
+            <div class="tile">
+            
+            
+                
+                
+                    
+                        
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.2d3d-gis.com/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/2d3dgis.png" alt="2D3D.GIS">
+                        </figure>
+                        <h3 class="title is-5">2D3D.GIS</h3>
+                        <article class="subtitle is-7">12.2015 - 12.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.adlares.com/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/adlares.png" alt="ADLARES GmbH">
+                        </figure>
+                        <h3 class="title is-5">ADLARES GmbH</h3>
+                        <article class="subtitle is-7">1.2015 - 1.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://geoinnova.org/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/geoinnova.jpg" alt="Asociación Geoinnova">
+                        </figure>
+                        <h3 class="title is-5">Asociación Geoinnova</h3>
+                        <article class="subtitle is-7">3.2016 - 3.2017</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.cawdorforestry.com/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/cawdor_forestry_logo.png" alt="CawdorForestry Resource Management">
+                        </figure>
+                        <h3 class="title is-5">CawdorForestry Resource Management</h3>
+                        <article class="subtitle is-7">2.2016 - 2.2017</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.chameleonjohn.com/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/chameleon-john-logo.png" alt="ChameleonJohn">
+                        </figure>
+                        <h3 class="title is-5">ChameleonJohn</h3>
+                        <article class="subtitle is-7">2.2016 - 2.2017</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+                        
+        </div>
+        <div class="tile">
+                        
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.chartwell-consultants.com/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/chartwell.png" alt="Chartwell Consultants Ltd.">
+                        </figure>
+                        <h3 class="title is-5">Chartwell Consultants Ltd.</h3>
+                        <article class="subtitle is-7">3.2015 - 3.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.customeranalytics.com/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/canal.png" alt="Customer Analytics">
+                        </figure>
+                        <h3 class="title is-5">Customer Analytics</h3>
+                        <article class="subtitle is-7">12.2014 - 12.2015</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.dr-kerth-lampe.de/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/kela.png" alt="Dr. Kerth &#43; Lampe Geo-Infometric GmbH">
+                        </figure>
+                        <h3 class="title is-5">Dr. Kerth &#43; Lampe Geo-Infometric GmbH</h3>
+                        <article class="subtitle is-7">12.2015 - 12.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.gaia3d.com/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/gaia3d.png" alt="Gaia3D, Inc.">
+                        </figure>
+                        <h3 class="title is-5">Gaia3D, Inc.</h3>
+                        <article class="subtitle is-7">5.2015 - 5.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.gfi-gis.de/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/gfi.png" alt="GFI - Gesellschaft für Informationstechnologie mbH">
+                        </figure>
+                        <h3 class="title is-5">GFI - Gesellschaft für Informationstechnologie mbH</h3>
+                        <article class="subtitle is-7">3.2015 - 3.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+                        
+        </div>
+        <div class="tile">
+                        
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.gis-support.com/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/gis_supp.png" alt="GIS-Support">
+                        </figure>
+                        <h3 class="title is-5">GIS-Support</h3>
+                        <article class="subtitle is-7">2.2015 - 2.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.gis3w.it/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/gis3w.png" alt="Gis3W">
+                        </figure>
+                        <h3 class="title is-5">Gis3W</h3>
+                        <article class="subtitle is-7">1.2014 - 1.2017</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.gkg-kassel.de/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/claasleiner.png" alt="GKG Kassel,(Dr.-Ing. Claas Leiner)">
+                        </figure>
+                        <h3 class="title is-5">GKG Kassel,(Dr.-Ing. Claas Leiner)</h3>
+                        <article class="subtitle is-7">3.2014 - 3.2017</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="https://hostingfacts.com/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/hfacts.png" alt="HostingFacts.com">
+                        </figure>
+                        <h3 class="title is-5">HostingFacts.com</h3>
+                        <article class="subtitle is-7">12.2015 - 12.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.lutraconsulting.co.uk/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/lutra_consulting.png" alt="Lutra Consulting">
+                        </figure>
+                        <h3 class="title is-5">Lutra Consulting</h3>
+                        <article class="subtitle is-7">10.2015 - 10.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+                        
+        </div>
+        <div class="tile">
+                        
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.mappinggis.com/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/mappinggis.png" alt="MappingGIS">
+                        </figure>
+                        <h3 class="title is-5">MappingGIS</h3>
+                        <article class="subtitle is-7">11.2015 - 11.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.npaconsult.co.uk/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/npa.jpg" alt="Nicholas Pearson Associates">
+                        </figure>
+                        <h3 class="title is-5">Nicholas Pearson Associates</h3>
+                        <article class="subtitle is-7">7.2015 - 7.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://qgis-polska.org/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/qpolska.png" alt="QGIS Polska">
+                        </figure>
+                        <h3 class="title is-5">QGIS Polska</h3>
+                        <article class="subtitle is-7">7.2015 - 7.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.rbwm.gov.uk/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/windsor.png" alt="Royal Borough of Windsor and Maidenhead">
+                        </figure>
+                        <h3 class="title is-5">Royal Borough of Windsor and Maidenhead</h3>
+                        <article class="subtitle is-7">4.2015 - 4.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.tragewegen.be/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/tragewegen.png" alt="Trage Wegen vzw">
+                        </figure>
+                        <h3 class="title is-5">Trage Wegen vzw</h3>
+                        <article class="subtitle is-7">3.2015 - 3.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+                        
+        </div>
+        <div class="tile">
+                        
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.urbsol.com.au/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/urbsol.png" alt="Urbsol">
+                        </figure>
+                        <h3 class="title is-5">Urbsol</h3>
+                        <article class="subtitle is-7">11.2014 - 11.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://wheregroup.com/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/whg.jpg" alt="WhereGroup GmbH &amp; Co. KG">
+                        </figure>
+                        <h3 class="title is-5">WhereGroup GmbH &amp; Co. KG</h3>
+                        <article class="subtitle is-7">8.2015 - 8.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.argusoft.de/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/argus.jpg" alt="www.argusoft.de">
+                        </figure>
+                        <h3 class="title is-5">www.argusoft.de</h3>
+                        <article class="subtitle is-7">6.2012 - 06.2013 &#43; 12.2013-12.2015</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.geosynergy.com.au/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/geosynergy.jpg" alt="www.geosynergy.com.au">
+                        </figure>
+                        <h3 class="title is-5">www.geosynergy.com.au</h3>
+                        <article class="subtitle is-7">5.2012 - 05.2013&#43;06.2015-06-2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.molitec.it/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/molitec.png" alt="www.molitec.it">
+                        </figure>
+                        <h3 class="title is-5">www.molitec.it</h3>
+                        <article class="subtitle is-7">1.2014 - 1.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+                
+                
+                    
+                        
+        </div>
+        <div class="tile">
+                        
+                    
+            <div class="tile is-parent"> 
+                <article class="tile is-child box notification fund-small">
+                    <a href="http://www.terrelogiche.com/">
+                        <figure >
+                            <img src="https://qgis.org/img/contributors/terrelogiche.jpg" alt="www.terrelogiche.com">
+                        </figure>
+                        <h3 class="title is-5">www.terrelogiche.com</h3>
+                        <article class="subtitle is-7">6.2015 - 6.2016</article>
+                        
+                    </a>
+                </article>
+            </div>
+            
+            </div>
+        </div>
+    
+
+
+
+<h2 id="general">
+    General
+    <a class="heading-anchor" href="#general">
+	    ¶
+    </a>
+</h2>
+<h3 id="feature-changed-behaviour-of-strpos-function">
+    Feature: Changed behaviour of strpos function
+    <a class="heading-anchor" href="#feature-changed-behaviour-of-strpos-function">
+	    ¶
+    </a>
+</h3>
+<p>The strpos function behaviour has been altered, so that no match now results in a &quot;0&quot; value and a non-zero value means a match at the specified character position. In older QGIS versions, a &quot;-1&quot; value would mean no-match and other return values represented the character position - 1.</p>
+<p>Project files from earlier QGIS versions will need to be updated to reflect this change.</p>
+<p><img src="images/entries/thumbnails/74ddb567a30e840405ca83656e76dd6476d00226.png.400x300_q85_crop.jpg" alt="image47"></p>
+<p>This feature was developed by Jürgen Fischer</p>
+<h3 id="feature-zoom-to-feature-with-right-click-in-attribute-table">
+    Feature: Zoom to feature with right-click in attribute table
+    <a class="heading-anchor" href="#feature-zoom-to-feature-with-right-click-in-attribute-table">
+	    ¶
+    </a>
+</h3>
+<p>You can now zoom to any feature from within the attribute table (without having to select it first) by right-clicking and selecting zoom to feature.</p>
+<p><img src="images/entries/thumbnails/7a400f577a7d554f309297f8a1af05a61e448a27.png.400x300_q85_crop.jpg" alt="image48"></p>
+<h3 id="feature-speed-and-memory-improvements">
+    Feature: Speed and memory improvements
+    <a class="heading-anchor" href="#feature-speed-and-memory-improvements">
+	    ¶
+    </a>
+</h3>
+<ul>
+<li><strong>Saving a set of selected features</strong> from a large layer is now much faster</li>
+<li>Updating only selected features using the <strong>field calculator</strong> is faster</li>
+<li><strong>Faster zoom</strong> to selected on large layers</li>
+<li>Much faster <code>get_feature</code> expression function (especially when an indexed column in the referenced layer is used)</li>
+<li><code>SelectByAttribute</code> and <code>ExtractByAttribute</code> processing algorithms are orders of magnitude faster, and can take advantage of database indices created on an attribute</li>
+<li><code>PointsInPolygon</code> processing algorithm is many magnitudes faster</li>
+<li><strong>Filtering the categories in a categorised renderer</strong> (eg, only showing some categories and unchecking others) is much faster, as now only the matching features are fetched from the data provider</li>
+<li>Significant <strong>reduction in the memory</strong> required for opening large vector layers</li>
+</ul>
+<h3 id="feature-more-expression-variables">
+    Feature: More expression variables
+    <a class="heading-anchor" href="#feature-more-expression-variables">
+	    ¶
+    </a>
+</h3>
+<p>During rendering, new variables will be available:</p>
+<ul>
+<li><code>@geometry_part_count</code>: The part count of the currently rendered geometry (interesting for multi-part features)</li>
+<li><code>@geometry_part_num</code>: 1-based index of the currently rendered geometry part</li>
+</ul>
+<p>These are useful to apply different styles to different parts of multipart features:</p>
+<ul>
+<li><code>@map_extent_width</code>: The width of the currently rendered map in map units</li>
+<li><code>@map_extent_height</code>: The height of the currently rendered map in map units</li>
+<li><code>@map_extent_center</code>: The center point of the currently rendered map in map units</li>
+</ul>
+<p>Variables relating to the operating system environment have also been added:</p>
+<ul>
+<li><code>@qgis_os_name</code>: eg 'Linux','Windows' or 'OSX'</li>
+<li><code>@qgis_platform</code>: eg 'Desktop' or 'Server'</li>
+<li><code>@user_account_name</code>: current user's operating system account name</li>
+<li><code>@user_full_name</code>: current user's name from operating system account (if available)</li>
+</ul>
+<p><img src="images/entries/thumbnails/b2e29d9df21795416961b8b548f98078386eeecf.png.400x300_q85_crop.jpg" alt="image49"></p>
+<p>This feature was funded by Andreas Neumann (the OS and user related variables)</p>
+<p>This feature was developed by Nyall Dawson, Matthias Kuhn</p>
+<h3 id="feature-better-control-over-placement-of-map-elements">
+    Feature: Better control over placement of map elements
+    <a class="heading-anchor" href="#feature-better-control-over-placement-of-map-elements">
+	    ¶
+    </a>
+</h3>
+<p>QGIS 2.14 has gained finer control over the placement of north arrows, scale bars and copyright notices on the main map canvas. You can now precisely set the position of these elements using a variety of units (including millimeters, pixels and percent).</p>
+<p><img src="images/entries/thumbnails/e2390ce8f4bc93ebf00228e1545b192315d2cb57.png.400x300_q85_crop.jpg" alt="image50"></p>
+<h3 id="feature-paid-bugfixing-programme">
+    Feature: Paid bugfixing programme
+    <a class="heading-anchor" href="#feature-paid-bugfixing-programme">
+	    ¶
+    </a>
+</h3>
+<p>Prior to each release, we hold a paid bugfixing programme where we fund developers to clean up as many bugs as possible. We have decided to start including a report back on the paid bugfixing programme as part of our changelog report. Note that this list is <strong>not exhaustive</strong>.</p>
+<ul>
+<li>Sandro Santilli: <a
+    href="http://hub.qgis.org/issues/13141"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Postgis Connection freeze if you press &quot;Set filter&quot; during loading of data</a></li>
+<li>Sandro Santilli: <a
+    href="http://hub.qgis.org/issues/10600"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>db_manager is unable to load rasters from connections with no dbname specified</a></li>
+<li>Sandro Santilli: <a
+    href="http://hub.qgis.org/issues/11900"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Plugin layers do not work correctly with rotation</a></li>
+<li>Sandro Santilli: Crash in QgsGeomColumnTypeThread stopping connection scan <a
+    href="http://hub.qgis.org/issues/14140"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>#14140</a> <a
+    href="http://hub.qgis.org/issues/13806"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>#13806</a></li>
+<li>Sandro Santilli: <a
+    href="http://hub.qgis.org/issues/11422"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Crash after bulk change of attribute value in shapefile</a></li>
+<li>Sandro Santilli: <a
+    href="http://hub.qgis.org/issues/13865"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>KMZ causes QGIS application crash (Mac)</a></li>
+<li>Sandro Santilli: <a
+    href="http://hub.qgis.org/issues/12416"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>QGIS 2.8.1 crash opening FileGDB (openGDB-Driver)</a></li>
+<li>Sandro Santilli: <a
+    href="http://hub.qgis.org/issues/14188"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>QGIS crashes when removing vertex of a multipart geometry</a></li>
+<li>Sandro Santilli: <a
+    href="http://hub.qgis.org/issues/14176"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>test -V -R qgis_analyzertest segfaults</a></li>
+<li>Sandro Santilli: <a
+    href="http://hub.qgis.org/issues/14212"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>output/bin/qgis_diagramtest segfaults</a></li>
+<li>Sandro Santilli: Overflow on primary key with negative values; crashes QGIS when editing <a
+    href="http://hub.qgis.org/issues/13958"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>#13958</a> <a
+    href="http://hub.qgis.org/issues/14262"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>#14262</a></li>
+<li>Sandro Santilli: <a
+    href="http://hub.qgis.org/issues/14269"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>PyQgsPostgresProvider test hangs in absence of test database</a></li>
+<li>Sandro Santilli: <a
+    href="http://hub.qgis.org/issues/14308"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>TestVectorLayerJoinBuffer hangs if database is not available</a></li>
+<li>Nyall Dawson: <a
+    href="http://hub.qgis.org/issues/14116"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>BLOCKER: Crash when opening layer properties dialog for geometryless vector layer</a></li>
+<li>Nyall Dawson: Broken server side filtering for OGR, Oracle and Spatialite layers</li>
+<li>Nyall Dawson: <a
+    href="http://hub.qgis.org/issues/14117"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>BLOCKER: Bad polygon digitizing in master</a></li>
+<li>Nyall Dawson: <a
+    href="http://hub.qgis.org/issues/14127"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>BLOCKER: Heatmap with expression triggers segfault</a></li>
+<li>Nyall Dawson: <a
+    href="http://hub.qgis.org/issues/14118"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>BLOCKER: unchecking one sub-layer of a categorized symbology leads to no features being drawn</a></li>
+<li>Nyall Dawson: <a
+    href="http://hub.qgis.org/issues/13155"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>HIGH: A Multiband image(e.g. landsat5,7,8) cannot be displayed in windows8</a></li>
+<li>Nyall Dawson: <a
+    href="http://hub.qgis.org/issues/14028"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>BLOCKER: CurvePolygons not drawn</a></li>
+<li>Nyall Dawson: <a
+    href="http://hub.qgis.org/issues/14146"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>BLOCKER: &quot;Merge Attributes&quot; tool doesn't change values when they are typed</a></li>
+<li>Nyall Dawson: <a
+    href="http://hub.qgis.org/issues/14131"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>HIGH: Filter legend by content is broken when renderer contains duplicate symbols</a></li>
+<li>Nyall Dawson: Fix issues with conversion of renderers to rule based renderer resulting in broken renderer</li>
+<li>Nyall Dawson: Fix categorised renderer does not store changes to the source symbol</li>
+<li>Nyall Dawson: <a
+    href="http://hub.qgis.org/issues/13336"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>HIGH: Avoid crash with raster calculator and huge raster inputs</a></li>
+<li>Nyall Dawson: <a
+    href="http://hub.qgis.org/issues/14148"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>HIGH: @value variable of simple symbol fill color wrongly gets modified in data-defined expression</a></li>
+<li>Nyall Dawson: <a
+    href="http://hub.qgis.org/issues/11459"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>HIGH: Editing Composer legend while filtered does not work</a></li>
+<li>Nyall Dawson: <a
+    href="http://hub.qgis.org/issues/14168"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>NORMAL: Deleting nodes - inconsistent behaviour</a></li>
+<li>Nyall Dawson: Fix handling of time value in attributes</li>
+<li>Nyall Dawson: Dialog tab order fixes</li>
+<li>Nyall Dawson: <a
+    href="http://hub.qgis.org/issues/14223"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>BLOCKER: crash when adding multiple files from browser panel</a></li>
+<li>Nyall Dawson: <a
+    href="http://hub.qgis.org/issues/14235"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>HIGH: Merge selected features tool corrupts data when columns are defined as &quot;hidden&quot;</a></li>
+<li>Nyall Dawson: Correctly handle LongLong fields in merge attribute dialog</li>
+<li>Nyall Dawson: Fix misleading display of calculation details in measure tool dialog (was misleading and inaccurate for many CRS/unit combinations)</li>
+<li>Nyall Dawson: <a
+    href="http://hub.qgis.org/issues/14282"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>NORMAL: max value for option &quot;increase size of small diagrams&quot; not sufficient</a></li>
+<li>Nyall Dawson: <a
+    href="http://hub.qgis.org/issues/13209"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>BLOCKER: Area not calculated correctly with OTF on</a></li>
+<li>Nyall Dawson: <a
+    href="http://hub.qgis.org/issues/9730"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>NORMAL: Incoherent lat/lon coordinates in a projected coordinate system project</a></li>
+<li>Nyall Dawson: NORMAL: make the field calculator compute areas and lengths in units other than map units <a
+    href="http://hub.qgis.org/issues/12939"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>#12939</a> <a
+    href="http://hub.qgis.org/issues/2402"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>#2402</a> <a
+    href="http://hub.qgis.org/issues/4857"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>#4857</a></li>
+<li>Nyall Dawson: <a
+    href="http://hub.qgis.org/issues/4252"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>NORMAL: different built-in tools calculate inconsistent polygon areas</a></li>
+<li>Nyall Dawson: <a
+    href="http://hub.qgis.org/issues/12622"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>NORMAL: In virtual fields $area function computes always values using &quot;None/planimetric&quot; ellipsoid</a></li>
+<li>Martin Dobias: raster layer drawn as garbage</li>
+<li>Martin Dobias: HIGH: Multi-threaded rendering and OTF reprojection issues <a
+    href="http://hub.qgis.org/issues/11441"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>#11441</a> <a
+    href="http://hub.qgis.org/issues/11746"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>#11746</a></li>
+<li>Martin Dobias: <a
+    href="http://hub.qgis.org/issues/14158"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>BLOCKER: Regression in &quot;save as&quot; dialog for shapefiles</a></li>
+<li>Martin Dobias: Slow loading of attribute table in debug mode</li>
+<li>Martin Dobias: <a
+    href="http://hub.qgis.org/issues/14164"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>BLOCKER: Crash when changing renderer type</a></li>
+<li>Martin Dobias: <a
+    href="http://hub.qgis.org/issues/14025"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>HIGH: Custom python renderer issues #1</a></li>
+<li>Martin Dobias: <a
+    href="http://hub.qgis.org/issues/13973"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>HIGH: Custom python renderer issues #2</a></li>
+<li>Martin Dobias: 2.5d renderer fixes</li>
+<li>Martin Dobias: <a
+    href="http://hub.qgis.org/issues/12578"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>HIGH: Long freeze when initializing snapping</a></li>
+<li>Martin Dobias: <a
+    href="http://hub.qgis.org/issues/14177"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>NORMAL: Loading of data-defined from xml</a></li>
+<li>Martin Dobias: Fix DB manager to work with SpatiaLite &lt; 4.2</li>
+<li>Martin Dobias: <a
+    href="http://hub.qgis.org/issues/14369"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>NORMAL: Crash while rendering in debug mode</a></li>
+<li>Martin Dobias: BLOCKER: Fix selection / identification in spatialite views <a
+    href="http://hub.qgis.org/issues/14232"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>#14232</a> <a
+    href="http://hub.qgis.org/issues/14233"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>#14233</a></li>
+<li>Martin Dobias: <a
+    href="http://hub.qgis.org/issues/14237"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>BLOCKER: Fix drag&amp;drop of spatialite tables</a></li>
+<li>Jürgen Fischer:<a
+    href="http://hub.qgis.org/issues/3155"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Zoom to layer works incorrectly while layer editing</a></li>
+<li>Jürgen Fischer:<a
+    href="http://hub.qgis.org/issues/8305"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Help viewer process running in the background with no help viewer (or even QGIS) open</a></li>
+<li>Jürgen Fischer:<a
+    href="http://hub.qgis.org/issues/13197"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Spatialindex include path missing in some components</a></li>
+<li>Jürgen Fischer:<a
+    href="http://hub.qgis.org/issues/13680"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>compile fails attempting to generate qgsversion.h</a></li>
+<li>Jürgen Fischer:<a
+    href="http://hub.qgis.org/issues/13960"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Edit widget configuration is stored twice</a></li>
+<li>Jürgen Fischer:<a
+    href="http://hub.qgis.org/issues/13938"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Extra space in &quot;IS NOT&quot; operator makes the expression return wrong selection</a></li>
+<li>Jürgen Fischer:<a
+    href="http://hub.qgis.org/issues/13963"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>QGIS greadily allocates memory and crashes when editing moderately large shapefiles with the node tool</a></li>
+<li>Jürgen Fischer:<a
+    href="http://hub.qgis.org/issues/14101"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>French reprojection use ntf_r93.gsb (IGNF:LAMBE etc ..)</a></li>
+<li>Jürgen Fischer:<a
+    href="http://hub.qgis.org/issues/14154"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Digitizing: &quot;Reuse last entered attribute values&quot; should not overwrite primary key column</a></li>
+<li>Jürgen Fischer:<a
+    href="http://hub.qgis.org/issues/14189"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Issues in Case expression description</a></li>
+<li>Jürgen Fischer:<a
+    href="http://hub.qgis.org/issues/14190"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>shapefile vector writer: datetime field saved as date resulting in data loss of time</a></li>
+<li>Jürgen Fischer:<a
+    href="http://hub.qgis.org/issues/14259"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Add help for some variable functions</a></li>
+<li>Jürgen Fischer:<a
+    href="http://hub.qgis.org/issues/14313"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Virtual layers not working in Processing</a></li>
+<li>Jürgen Fischer:<a
+    href="http://hub.qgis.org/issues/14340"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>layer definition file load error</a></li>
+<li>Jürgen Fischer:<a
+    href="http://hub.qgis.org/issues/14204"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>QgsGeometry::fromWkb fails if WKB is different endian representation</a></li>
+<li>Jürgen Fischer:<a
+    href="http://hub.qgis.org/issues/14248"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Debian build failure.</a></li>
+<li>Jürgen Fischer:<a
+    href="http://hub.qgis.org/issues/14269"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>PyQgsPostgresProvider test hangs in absence of test database</a></li>
+<li>Jürgen Fischer:<a
+    href="http://hub.qgis.org/issues/14315"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>wkb access out of bounds</a></li>
+<li>Jürgen Fischer:<a
+    href="http://hub.qgis.org/issues/14316"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>QGIS under Windows netCDF import reverses Y axis, Linux doesn't</a> <a
+    href="https://trac.osgeo.org/osgeo4w/ticket/483"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>OSGeo4W #483</a></li>
+<li>Jürgen Fischer:<a
+    href="https://trac.osgeo.org/osgeo4w/ticket/105"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>OSGEO4W: Running offline install crashes installer</a></li>
+<li>Jürgen Fischer:<a
+    href="https://trac.osgeo.org/osgeo4w/ticket/117"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>OSGEO4W: Dependencies are not tracking on Windows Server 2003 x64</a></li>
+<li>Jürgen Fischer:<a
+    href="https://trac.osgeo.org/osgeo4w/ticket/151"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>OSGEO4W: installation from local package don't check the dependencies</a></li>
+<li>Jürgen Fischer:<a
+    href="https://trac.osgeo.org/osgeo4w/ticket/262"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>OSGEO4W: Setup starts downloading and installing packages before showing you a list to choose from</a></li>
+<li>Jürgen Fischer:<a
+    href="https://trac.osgeo.org/osgeo4w/ticket/351"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>OSGEO4W: Using -a for Advanced selects two options (command line install)</a></li>
+<li>Jürgen Fischer:<a
+    href="https://trac.osgeo.org/osgeo4w/ticket/486"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>OSGEO4W: Infinite license download during quite installation of szip</a></li>
+<li>Jürgen Fischer:Oracle provider deadlock</li>
+<li>Jürgen Fischer:fix saga path setting</li>
+</ul>
+<h3 id="feature-field-calculator-can-be-used-to-update-features-geometry">
+    Feature: Field calculator can be used to update feature's geometry
+    <a class="heading-anchor" href="#feature-field-calculator-can-be-used-to-update-features-geometry">
+	    ¶
+    </a>
+</h3>
+<p>The field calculator can now be used to update feature geometries using the result of a geometric expression. This is a handy shortcut to do operations such as apply a buffer to a group of selected features, and together with all the newly added geometry functions in 2.14 makes for a very handy way to manipulate your geometries!</p>
+<p><img src="images/entries/thumbnails/ba37e2e778a2349c7099e09fcf648238090d8af4.png.400x300_q85_crop.jpg" alt="image51"></p>
+<p>This feature was developed by <a
+    href="http://nyalldawson.net"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Nyall Dawson</a></p>
+<h3 id="feature-new-expression-functions-in-214">
+    Feature: New expression functions in 2.14
+    <a class="heading-anchor" href="#feature-new-expression-functions-in-214">
+	    ¶
+    </a>
+</h3>
+<p>Lots of new expression functions have been added for version 2.14:</p>
+<ul>
+<li><code>relate</code>: performs a DE-9IM geometry relation by either returning the DE-9IM representation of the relationship between two geometries, or by testing whether the DE-9IM relationship matches a specified pattern.</li>
+<li>the <code>make_point</code> function now accepts optional z and m values, and a new <code>make_point_m</code> function has been added for creation of PointM geometries.</li>
+<li><code>m</code> and <code>z</code> functions for retrieving the m and z values from a point geometry</li>
+<li>new <code>make_line</code> and <code>make_polygon</code> functions, for creation of line and polygon geometries from a set of points</li>
+<li><code>reverse</code>, for reversing linestrings</li>
+<li><code>eval</code> function, which can evaluate a string as though it is an expression of its own</li>
+<li><code>translate</code> function, for translating geometries by an x/y offset</li>
+<li><code>darker</code> and <code>lighter</code> functions, which take a color argument and make it darker or lighter by a specified amount</li>
+<li><code>radians</code> and <code>degrees</code>: for converting angles between radians and degrees</li>
+<li><code>point_on_surface</code>: returns a point on the surface of a geometry</li>
+<li><code>exterior_ring</code>: returns the exterior ring for a polygon geometry</li>
+<li><code>is_closed</code>: returns true if a linestring is closed</li>
+<li>new geometry accessor functions: <code>geometry_n</code> (returns a specific geometry from within a collection), <code>interior_ring_n</code> (returns an interior ring from within a polygon)</li>
+<li><code>num_geometries</code>: returns number of geometries inside a collection</li>
+<li><code>num_rings</code>: returns number of rings in a polygon geometry object</li>
+<li><code>num_interior_rings</code>: returns number of interior rings in a polygon</li>
+<li><code>nodes_to_points</code>, for converting every node in a geometry to a multipoint geometry</li>
+<li><code>segments_to_lines</code>, for converting every segment in a geometry to a multiline geometry</li>
+<li><code>closest_point</code>: returns closest point in a geometry to a second geometry</li>
+<li><code>shortest_line</code>: returns the shortest possible line joining two geometries</li>
+</ul>
+<p><code>nodes_to_points</code> and <code>segments_to_lines</code> are intended for use with geometry generator symbology, eg to allow use of m and z values for nodes/lines with data defined symbology.</p>
+<p>Other improvements:</p>
+<ul>
+<li>geometries and features can now be used in conditional functions. For instance, this allows expressions like <code>case when $geometry then ... else ...</code> and <code>case when get_feature(...) then ... else ...</code></li>
+</ul>
+<p><img src="images/entries/thumbnails/98616590f44281e09aa24f6c30d7f668c8665c31.png.400x300_q85_crop.jpg" alt="image52"></p>
+<h2 id="analysis-tools">
+    Analysis tools
+    <a class="heading-anchor" href="#analysis-tools">
+	    ¶
+    </a>
+</h2>
+<h3 id="feature-more-statistics-available-in-merge-attributes-tool">
+    Feature: More statistics available in merge attributes tool
+    <a class="heading-anchor" href="#feature-more-statistics-available-in-merge-attributes-tool">
+	    ¶
+    </a>
+</h3>
+<p>When using either the merge attribute values or merge features tool, there are additional summary statistics available which can be used to set the resultant attribute values. These include Q1, Q3, inter-quartile ranges, majority and minority values, and number of unique values, amongst others.</p>
+<p><img src="images/entries/thumbnails/3820507f3bffdaab2bafe7285a8c51791f0b1fdb.png.400x300_q85_crop.png" alt="image27"></p>
+<p>This feature was developed by <a
+    href="http://nyalldawson.net"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Nyall Dawson</a></p>
+<h3 id="feature-zm-values-are-shown-when-using-the-identify-tool">
+    Feature: z/m values are shown when using the identify tool
+    <a class="heading-anchor" href="#feature-zm-values-are-shown-when-using-the-identify-tool">
+	    ¶
+    </a>
+</h3>
+<p>The identify tool is now able to show any z or m value present in the identified features. If the feature is a line or polygon, the tool will show the vertex number and x/y/z/m for the nearest vertex to the identified point. The identify tool now also shows the number of parts and part number for collections.</p>
+<p><img src="images/entries/thumbnails/c9813d351340f46e28e6a0cb576a4b2ca72466a9.png.400x300_q85_crop.jpg" alt="image28"></p>
+<p>This feature was developed by <a
+    href="http://nyalldawson.net"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Nyall Dawson</a></p>
+<h3 id="feature-unified-handling-of-distance-and-area-units-and-coordinate-formats">
+    Feature: Unified handling of distance and area units and coordinate formats
+    <a class="heading-anchor" href="#feature-unified-handling-of-distance-and-area-units-and-coordinate-formats">
+	    ¶
+    </a>
+</h3>
+<p>In QGIS 2.14 the handling of various options regarding distance units, area units and coordinate display have been unified, simplified, and moved to Project Properties. This change brings numerous benefits, including:</p>
+<ul>
+<li>The coordinate format specified in Project Properties is consistently used whenever a coordinate is displayed to the user, including the identify tool results and the status bar display.</li>
+<li>The setting for distance and area units in Project Properties is respected for all distance and area calculations, including the measure tool, identify results, and use of the <code>$area</code>, <code>$length</code> and <code>$perimeter</code> functions.</li>
+<li>Additional area units have been added, including square yards, acres, hectares and more.</li>
+<li>Additional angular units have been added to the angle measurement tool, including rotations, minutes of arc and seconds of arc.</li>
+<li>It's now possible to show the coordinates in latitude and longitude in the status bar even when using a projected CRS.</li>
+</ul>
+<p><img src="images/entries/thumbnails/b086f236720ecb5cac0aa8bb7383275799affff4.png.400x300_q85_crop.jpg" alt="image29"></p>
+<p>This feature was funded by QGIS sponsored bug fixing program</p>
+<p>This feature was developed by <a
+    href="http://nyalldawson.net"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Nyall Dawson</a></p>
+<h2 id="browser">
+    Browser
+    <a class="heading-anchor" href="#browser">
+	    ¶
+    </a>
+</h2>
+<h3 id="feature-browser-improvements">
+    Feature: Browser Improvements
+    <a class="heading-anchor" href="#feature-browser-improvements">
+	    ¶
+    </a>
+</h3>
+<p>The QGIS Browser is a filesystem, OGC Web Services and Database Connection panel that lets you easily drag and drop any layer from the aforementioned sources into your map canvas (or into the DB Manager window). Two useful new improvements were added for this release:</p>
+<ul>
+<li><strong>Paths can be selectively hidden from the browser panel</strong> - this is useful to declutter your sources list and focus only on relevant directories.</li>
+<li><strong>Load projects directly from the browser</strong> - now you can drag and drop a whole project into the QGIS map canvas and it will be loaded.</li>
+</ul>
+<p><img src="images/entries/thumbnails/8479ec7c4077c9602d6eacdb11d518bd55922074.png.400x300_q85_crop.png" alt="image30"></p>
+<p>This feature was developed by Nathan Woodrow</p>
+<h2 id="data-providers">
+    Data Providers
+    <a class="heading-anchor" href="#data-providers">
+	    ¶
+    </a>
+</h2>
+<h3 id="feature-cache-wms-capabililies">
+    Feature: Cache WMS capabililies
+    <a class="heading-anchor" href="#feature-cache-wms-capabililies">
+	    ¶
+    </a>
+</h3>
+<p>QGIS will now cache WMS <code>GetCapabilities</code> requests so that on subsequent use response times will be quicker when using that service. By default the cache period is 24 hours, but you can adjust this in the <code>Network</code> tab of the QGIS Settings dialog.</p>
+<p><img src="images/entries/thumbnails/743840449ddf09f45251e9710e9666cf4da86081.png.400x300_q85_crop.png" alt="image31"></p>
+<p>This feature was developed by Jürgen Fischer</p>
+<h3 id="feature-curved-geometry-support-expanded">
+    Feature: Curved geometry support expanded
+    <a class="heading-anchor" href="#feature-curved-geometry-support-expanded">
+	    ¶
+    </a>
+</h3>
+<p>The delimited text provider now supports curved WKT strings, and the memory provider (eg &quot;temporary scratch&quot; layers) has gained full support for curved geometries. Additionally, if QGIS has been built using GDAL versions 2.0 and up then QGIS will fully support curved geometries in supported file types (eg GML files).</p>
+<p><img src="images/entries/thumbnails/79f4b8256ab3507b192277c4f14d3bb04423dc52.png.400x300_q85_crop.jpg" alt="image32"></p>
+<p>This feature was developed by <a
+    href="http://nyalldawson.net"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Nyall Dawson</a></p>
+<h3 id="feature-better-handling-of-time-and-datetime-fields">
+    Feature: Better handling of time and datetime fields
+    <a class="heading-anchor" href="#feature-better-handling-of-time-and-datetime-fields">
+	    ¶
+    </a>
+</h3>
+<p>QGIS 2.14 has improved handling of time and datetime field types, including:</p>
+<ul>
+<li>PostgreSQL timestamp fields are correctly handled</li>
+<li>The expression engine now has full support for time fields</li>
+<li>The expression builder now shows preview calculation results for date, time, date time and interval calculations</li>
+<li>Time fields are fully supported by vector file layers (depending on file format), PostgreSQL, MS SQL Server and temporary scratch layers</li>
+<li>Saving layers to vector files will preserve time fields if supported by vector layer format (eg MapInfo .tab files)</li>
+</ul>
+<p><img src="images/entries/thumbnails/2511118cd31ca53892ef5764cf8e80d9491d131a.png.400x300_q85_crop.png" alt="image33"></p>
+<p>This feature was developed by Jürgen Fischer, Nyall Dawson</p>
+<h3 id="feature-zm-support-in-delimited-text-provider">
+    Feature: Z/M support in delimited text provider
+    <a class="heading-anchor" href="#feature-zm-support-in-delimited-text-provider">
+	    ¶
+    </a>
+</h3>
+<p>The delimited text provider has gained support for WKT strings containing Z and M coordinates. For example you can express a point with z and measure elements like this : <code>POINT ZM (1 1 5 60)</code>.</p>
+<p><img src="images/entries/thumbnails/41d5c223ac43b4f8f392894109414e9d053c9136.png.400x300_q85_crop.png" alt="image34"></p>
+<p>This feature was developed by <a
+    href="http://nyalldawson.net"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Nyall Dawson</a></p>
+<h3 id="feature-transaction-groups-for-postgres-editing">
+    Feature: Transaction groups for postgres editing
+    <a class="heading-anchor" href="#feature-transaction-groups-for-postgres-editing">
+	    ¶
+    </a>
+</h3>
+<p>A new option has been introduced to enable transactional editing.</p>
+<p>When this option is enabled</p>
+<ul>
+<li>All layers from the same database are put into a transaction group</li>
+<li>When the first layer of a group is put into edit mode, all others are also put into edit mode automatically</li>
+<li>When a layer is edited, the changes are sent to the database immediately, allowing triggers and constraints to be applied immediately</li>
+<li>When one layer in a transaction group is committed, all layers are committed (database transaction)</li>
+<li>When one layer in a transaction group is rolled back, all layers are rolled back (database transaction)</li>
+</ul>
+<p>This feature is currently <strong>Experimental</strong>. If you find any problems, please <a
+    href="https://www.qgis.org/en/site/getinvolved/development/bugreporting.html"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>report them</a>.</p>
+<p>This is only implemented for postgres databases at the moment.</p>
+<p><img src="images/entries/thumbnails/bb8a03f09c9675985409cf4360308509830d38d4.png.400x300_q85_crop.png" alt="image35"></p>
+<p>This feature was funded by <a
+    href="http://www.sige.ch/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>SIGE</a></p>
+<p>This feature was developed by <a
+    href="https://opengis.ch"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Matthias Kuhn, OPENGIS.ch, based on work by Sourcepole</a></p>
+<h3 id="feature-postgres-provider-pki-authentication">
+    Feature: Postgres provider PKI authentication
+    <a class="heading-anchor" href="#feature-postgres-provider-pki-authentication">
+	    ¶
+    </a>
+</h3>
+<p>The ability to use the QGIS Authentication Manager introduced in 2.12 has been extended to the PostGIS provider. This allows connecting to Postgres using basic or PKI authentication, with the credentials stored in the QGIS configuration. The new Postgres provider authentication can also be used in the DB manager.</p>
+<p><img src="images/entries/thumbnails/6e8f65042bd5981e585812ce2d957d0c6055ba3f.jpg.400x300_q85_crop.jpg" alt="image36"></p>
+<p>This feature was funded by <a
+    href="http://boundlessgeo.com"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Boundless Spatial</a></p>
+<p>This feature was developed by Luigi Pirelli</p>
+<h3 id="feature-virtual-layers">
+    Feature: Virtual layers
+    <a class="heading-anchor" href="#feature-virtual-layers">
+	    ¶
+    </a>
+</h3>
+<p>Dynamic SQL queries can now be used on any kind of vector layers that QGIS is able to load, even if it the layer format itself has no support for SQL queries!</p>
+<p>A new kind of vector layer called &quot;virtual layer&quot; is now available for that purpose. These allow you to create a virtual layer by defining a query (including support for aggregates and joins) from other layers in your project. The resultant layer will be a live, dynamic view of the query result, so any changes to the source layers will be automatically and immediately reflected in the virtual layer!</p>
+<p>The supported SQL dialect is SQLite with Spatialite functions. QGIS expression functions can also be used in queries. Any kind of vector layers can be accessed in the query, including multiple layers from different data providers to make joins.</p>
+<p>Support for virtual layers has also been added to DB Manager as well as to the Processing toolbox where a new 'Execute SQL' tool is available.</p>
+<p><img src="images/entries/thumbnails/58bc1a2fea31fe8d6ab70ff33c763c9ddac40ade.png.400x300_q85_crop.png" alt="image37"></p>
+<p>This feature was funded by <a
+    href="http://www.developpement-durable.gouv.fr"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>MEDDE (French Ministry of Sustainable Development)</a></p>
+<p>This feature was developed by <a
+    href="http://oslandia.com"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Hugo Mercier / Oslandia</a></p>
+<h3 id="feature-more-file-extensions-for-gdal-and-ogr-providers-file-selectors">
+    Feature: More file extensions for GDAL and OGR providers file selectors
+    <a class="heading-anchor" href="#feature-more-file-extensions-for-gdal-and-ogr-providers-file-selectors">
+	    ¶
+    </a>
+</h3>
+<p>For vector and raster files, QGIS relies on the GDAL/OGR library. It means that nearly any file format that can be opened by GDAL or OGR can be directly opened in QGIS. Until now, some file extensions were not added in the GDAL or OGR file selector, resulting in users believing that QGIS could not open or handle those file formats. To minimise this problem, some new extensions have been added to GDAL and OGR file selector filters:</p>
+<p><strong>For vector files:</strong></p>
+<ul>
+<li>.thf for EDIGEO French cadastre format</li>
+<li>.ods for OpenDocument Spreadsheet LibreOffice format</li>
+<li>.xls for Microsoft Excel format</li>
+<li>.xlsx for Microsoft Excel OpenXML format</li>
+<li>.xml for NAS - ALKIS format</li>
+<li>.map for WAsP format</li>
+<li>.pix for PCIDSK format</li>
+<li>.gtm and.gtz for GPSTrackMaker format</li>
+<li>.vfk for VFK format</li>
+<li>.osm and .pbf for OpenStreetMap format</li>
+<li>.sua for SUA format</li>
+<li>.txt for OpenAir format</li>
+<li>.xml for Planetary Data Systems TABLE format</li>
+<li>.htf for Hydrographic Transfer Format</li>
+<li>.svg for SVG format</li>
+<li>.gen for ARCGEN</li>
+<li>.sxf for Storage and eXchange Format</li>
+<li>.pdf for Geospatial PDF vector format</li>
+<li>.sgy and .segy for SEG-Y format</li>
+<li>.seg, .seg1, .sp1, .uko, .ukooa for SEGUKOOA format</li>
+<li>.ovf for VRT vector file format</li>
+<li>.kmz for compressed KML (KMZ) format</li>
+<li>.db3, .s3db, .sqlite3, .db3, .s3db, .sqlite3 for SQLite/Spatialite format</li>
+<li>.sl3 for SQLite Spatial (FDO) format</li>
+<li>CouchDB Spatial (via URL)</li>
+</ul>
+<p><strong>For raster files:</strong></p>
+<ul>
+<li>.ovr for vrt raster file format</li>
+</ul>
+<p><img src="images/entries/thumbnails/7a628a66f2f63454bd65fbedda309ff5a7d25f1e.png.400x300_q85_crop.png" alt="image38"></p>
+<p>This feature was developed by <a
+    href="https://medspx.fr"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Médéric Ribreux</a></p>
+<h3 id="feature-use-st_removerepeatedpoints-for-server-side-simplification-with-postgis-22-or-newer-layers">
+    Feature: Use ST_RemoveRepeatedPoints for server-side simplification with PostGIS 2.2 (or newer) layers
+    <a class="heading-anchor" href="#feature-use-st_removerepeatedpoints-for-server-side-simplification-with-postgis-22-or-newer-layers">
+	    ¶
+    </a>
+</h3>
+<p>When using a PostGIS 2.2 instance, QGIS now uses the ST_RemoveRepeatedPoints function instead of the ST_SnapToGrid function to process server-side simplification, as described by <a
+    href="http://blog.cartodb.com/smaller-faster/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Paul Ramsey</a>.</p>
+<p>This method will decrease the number of vertices of the geometries that QGIS needs to download from the server, which will increase rendering speed and save bandwith between QGIS and the PostgreSQL server.</p>
+<p><img src="images/entries/thumbnails/bea701efeedd257314f507dfb2689fbf95403095.png.400x300_q85_crop.jpg" alt="image39"></p>
+<p>This feature was developed by <a
+    href="http://3liz.com"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Michaël Douchin @kimaidou</a></p>
+<h2 id="data-management">
+    Data management
+    <a class="heading-anchor" href="#data-management">
+	    ¶
+    </a>
+</h2>
+<h3 id="feature-removal-of-spit-plugin">
+    Feature: Removal of SPIT plugin
+    <a class="heading-anchor" href="#feature-removal-of-spit-plugin">
+	    ¶
+    </a>
+</h3>
+<p>The &quot;SPIT&quot; plugin is no longer bundled with QGIS, as the plugin was unmaintained and has been surpassed by DB Manager and the processing database import algorithms.</p>
+<p><img src="images/entries/thumbnails/b496fc25b098575ece2a38ea5a601caf75bb51dc.png.400x300_q85_crop.jpg" alt="image40"></p>
+<p>This feature was developed by Nathan Woodrow</p>
+<h3 id="feature-dxf-export-option-to-use-title-instead-of-name-as-dxf-layer-name-in-application-and-server">
+    Feature: DXF export: option to use title instead of name as DXF layer name in application and server
+    <a class="heading-anchor" href="#feature-dxf-export-option-to-use-title-instead-of-name-as-dxf-layer-name-in-application-and-server">
+	    ¶
+    </a>
+</h3>
+<p><img src="images/entries/thumbnails/e09652676e15a883821ca9b269c03ab0239aacb3.png.400x300_q85_crop.jpg" alt="image41"></p>
+<p>This feature was funded by <a
+    href="http://gis.uster.ch/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>City of Uster</a></p>
+<p>This feature was developed by Jürgen Fischer</p>
+<h3 id="feature-geometry-type-can-be-overridden-in-the-vector-save-as-dialog">
+    Feature: Geometry type can be overridden in the vector save as dialog
+    <a class="heading-anchor" href="#feature-geometry-type-can-be-overridden-in-the-vector-save-as-dialog">
+	    ¶
+    </a>
+</h3>
+<p>This makes it possible to do things like save a geometryless table WITH a geometry type, so that geometries can then be manually added to rows. Previously this was only possible to do in QGIS by resorting to dummy joins or other workarounds.</p>
+<p>Additionally, options have been added for forcing the output file to be multi type, or include a z-dimension.</p>
+<p><img src="images/entries/thumbnails/886630cb835b72865c5442a73a79b46cc5a7b60f.png.400x300_q85_crop.jpg" alt="image42"></p>
+<p>This feature was developed by <a
+    href="http://nyalldawson.net"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Nyall Dawson</a></p>
+<h3 id="feature-vector-joins-are-now-saved-within-qlr-layer-definition-files">
+    Feature: Vector joins are now saved within QLR layer-definition-files
+    <a class="heading-anchor" href="#feature-vector-joins-are-now-saved-within-qlr-layer-definition-files">
+	    ¶
+    </a>
+</h3>
+<h3 id="feature-external-resource-widget">
+    Feature: External Resource widget
+    <a class="heading-anchor" href="#feature-external-resource-widget">
+	    ¶
+    </a>
+</h3>
+<p>A new form widget is now available. It is named &quot;External resource&quot; and it allows a more complete handling of attributes assigned to file paths storing. Here is a complete summary of the widget features:</p>
+<ul>
+<li>You can set an <strong>extension filter</strong> to force the storing of fixed file formats. If a filter is set, the file selector will only show file names that are relevant to the filter (it is still possible to select any file by using '*' character in the search field). Filter syntax is the same than <a
+    href="https://doc.qt.io/qt-4.8/qfiledialog.html#getOpenFileName"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Qt widget QFileDialog::getOpenFileName</a>.</li>
+<li>You can set a <strong>default path</strong>. Each time a user triggers the widget, a file selector will open at the default path (if set). If no default path has been set, the file selector will use the last path selected from an &quot;External resource&quot; widget. If the widget has never been used, the file selector defaults to opening on the project path.</li>
+<li>You can define and set <strong>relative path storing</strong>. Relative path storing will allow you to save only the part of the path which is after the default path (if default path is set) or the current project path. This is particularly useful when you want to save long paths into limited size attributes (like text attributes for Shapefiles which are limited to 254 characters), or for creating self-contained project and data file archives for distribution.</li>
+<li>Another new feature to make the widget easier to use is that <strong>file paths can now be displayed as hyperlinks</strong>. Clicking the hyperlink will directly open the linked file from QGIS. You can configure this option to display the full path of the file or only its file name. The file will be opened using the default handler for that file format from your operating system.</li>
+<li>You can also <strong>use a URL instead of a file path</strong>. The widget will interpret it as a URL and you will be able to open the linked web page directly in your default web browser.</li>
+<li>You can choose to <strong>store directory paths instead of file paths</strong>.</li>
+<li>There is an <strong>integrated document viewer</strong> in this widget. You can use it to display pictures or webpages directly into QGIS. The file chooser for the integrated viewer will benefit from all the above mentioned options.</li>
+</ul>
+<p>For more information on configuration options, you can use the tool tips of the configuration dialog box.</p>
+<p>The main aim of this new widget is to fix and improve the two existing 'File name' and 'Photo' widgets, and replace them with a single unified widget. For the moment, you can still use the old widgets but they will be deprecated and removed for QGIS 3.0. We recommend to switch your projects to use the new 'External Resource' widget now.</p>
+<p><strong>This feature was developed by</strong>:</p>
+<ul>
+<li><a
+    href="https://github.com/3nids"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Denis Rouzaud</a></li>
+<li>Matthias Kuhn at <a
+    href="https://opengis.ch"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>OPENGIS.ch</a></li>
+<li><a
+    href="https://medspx.fr"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Médéric Ribreux</a></li>
+</ul>
+<p><img src="images/entries/thumbnails/d20edab2103d774f548a55552ca2dbe20ac39e67.png.400x300_q85_crop.png" alt="image43"></p>
+<h3 id="feature-nm-relation-editing">
+    Feature: N:M relation editing
+    <a class="heading-anchor" href="#feature-nm-relation-editing">
+	    ¶
+    </a>
+</h3>
+<p>This adds the possibility to manage data on a normalised relational database in N:M (many to many) relations. On the relation editor in a form, the tools to add, delete, link and unlink also work on the linking table if a relation is visualized as a N:M relation.</p>
+<p>Configuration is done through the fields tab where on the relation a second relation can be chosen (if there is a suitable relation in terms of a second relation on the linking table).</p>
+<p><strong>Limitations:</strong></p>
+<p>QGIS is not a database management system.</p>
+<p>It is based on assumptions about the underlying database system. In particular:</p>
+<ul>
+<li>it expects an <code>ON DELETE CASCADE</code> or similar measure on the second relation</li>
+<li>it does not take care of setting the primary key when adding features. Either users need to be instructed to set them manually or - if it's a database derived value - the layers need to be in transaction mode</li>
+</ul>
+<p><img src="images/entries/thumbnails/9f033883617b01432aae23c35be54070c1a9f5b3.png.400x300_q85_crop.png" alt="image44"></p>
+<p>This feature was funded by République et canton de Neuchâtel, Ville de Pully, Ville de Vevey</p>
+<p>This feature was developed by <a
+    href="http://opengis.ch"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Matthias Kuhn</a></p>
+<h2 id="digitising">
+    Digitising
+    <a class="heading-anchor" href="#digitising">
+	    ¶
+    </a>
+</h2>
+<h3 id="feature-configurable-rubber-band-color">
+    Feature: Configurable rubber band color
+    <a class="heading-anchor" href="#feature-configurable-rubber-band-color">
+	    ¶
+    </a>
+</h3>
+<p>You can now set the rubber band width and color used for digitising.</p>
+<p><img src="images/entries/thumbnails/40ef6c2f93c7697133ebede324fe9dafe40f42f0.png.400x300_q85_crop.png" alt="image45"></p>
+<h3 id="feature-trace-digitising-tool">
+    Feature: Trace digitising tool
+    <a class="heading-anchor" href="#feature-trace-digitising-tool">
+	    ¶
+    </a>
+</h3>
+<p>The new trace digitising tool is an advanced digitising tool that allows you to digitise features in one layer by tracing features in another layer.</p>
+<p>The trace tool:</p>
+<ul>
+<li>uses Dijkstra&rsquo;s shortest path algorithm to find traceable routes</li>
+<li>can trace routes over multiple distinct features</li>
+<li>can be used with Advanced Digitising tools (e.g. reshaping)</li>
+<li>can be enabled and disabled by pressing <strong>T</strong> on your keyboard while digitising</li>
+<li>is fast and easy to use</li>
+</ul>
+<p>You can read more about this feature <a
+    href="http://www.lutraconsulting.co.uk/blog/2016/02/16/qgis-trace-digitising/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>here</a> and with <a
+    href="http://www.lutraconsulting.co.uk/products/autotrace/TraceDigitising"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>this tutorial</a>.</p>
+<p>This feature was funded by: The Royal Borough of Windsor and Maidenhead, Neath Port Talbot County Borough Council, Ujaval Gandhi, Surrey Heath Borough Council, Matias Arnold, Northumberland National Park Authority, Buccleuch Estates Limited, Countryscape</p>
+<p><img src="images/entries/thumbnails/357ff84cf7685a2686a019ebe42f0012b495f79a.png.400x300_q85_crop.png" alt="image46"></p>
+<p>This feature was developed by <a
+    href="http://www.lutraconsulting.co.uk"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Lutra Consulting</a></p>
+<h2 id="labelling">
+    Labelling
+    <a class="heading-anchor" href="#labelling">
+	    ¶
+    </a>
+</h2>
+<h3 id="feature-cartographic-placement-mode-for-point-labels">
+    Feature: &quot;Cartographic&quot; placement mode for point labels
+    <a class="heading-anchor" href="#feature-cartographic-placement-mode-for-point-labels">
+	    ¶
+    </a>
+</h3>
+<p>In this placement mode, point label candidates are generated following ideal cartographic placement rules, eg label placements are prioritised in the order:</p>
+<ul>
+<li>top right</li>
+<li>top left</li>
+<li>bottom right</li>
+<li>bottom left</li>
+<li>middle right</li>
+<li>middle left</li>
+<li>top, slightly right</li>
+<li>bottom, slightly left</li>
+</ul>
+<p>(respecting the guidelines from Krygier and Wood (2011) and other cartographic master works)</p>
+<p>Placement priority can also be set for an individual feature using a data defined list of prioritised positions. This also allows for only certain placements to be used, so eg for coastal features you could prevent labels being placed over the land.</p>
+<p><img src="images/entries/thumbnails/23cdbb38f45b05ea930fbeec8ad461e2616ef2a9.png.400x300_q85_crop.jpg" alt="image53"></p>
+<p>This feature was funded by Andreas Neumann</p>
+<p>This feature was developed by <a
+    href="http://nyalldawson.net"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Nyall Dawson</a></p>
+<h3 id="feature-applying-label-distance-from-symbol-bounds">
+    Feature: Applying label distance from symbol bounds
+    <a class="heading-anchor" href="#feature-applying-label-distance-from-symbol-bounds">
+	    ¶
+    </a>
+</h3>
+<p>When this setting is active, the label distance applies from the bounds of the rendered symbol for a point instead of the point itself. It is especially useful when the symbol size is not fixed, eg if it is set by a data defined size or when using different symbols in a categorised renderer.</p>
+<p>Note that this setting is only available with the new Cartographic point label placement mode.</p>
+<p><img src="images/entries/thumbnails/9469a985c317ec310e8506e27da5148cedbb93c0.png.400x300_q85_crop.jpg" alt="image54"></p>
+<p>This feature was funded by Andreas Neumann</p>
+<p>This feature was developed by <a
+    href="http://nyalldawson.net"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Nyall Dawson</a></p>
+<h3 id="feature-control-over-label-rendering-order">
+    Feature: Control over label rendering order
+    <a class="heading-anchor" href="#feature-control-over-label-rendering-order">
+	    ¶
+    </a>
+</h3>
+<p>A new control for setting a label's &quot;z-index&quot; has been added to the labeling properties dialog. This control (which also accepts data-defined overrides for individual features) determines the order in which labels are rendered. Label layers with a higher z-index are rendered on top of labels from a layer with a lower z-index.</p>
+<p>Additionally, the logic has been tweaked so that if 2 labels have matching z-indexes, then:</p>
+<ul>
+<li>if they are from the same layer, a smaller label will always be drawn above a larger label</li>
+<li>if they are from different layers, the labels will be drawn in the same order as the layers themselves (ie respecting the order set in the legend)</li>
+</ul>
+<p>Diagrams can also have their z-index set (but not data defined) so that the order of labels and diagrams can be controlled.</p>
+<p>Note that this does <em>NOT</em> allow labels to be drawn below the features from other layers, it just controls the order in which labels are drawn on top of your map.</p>
+<p><img src="images/entries/thumbnails/52f3e941b047714fbaf81adc7a226e4808a82d09.png.400x300_q85_crop.jpg" alt="image55"></p>
+<p>This feature was developed by <a
+    href="http://nyalldawson.net"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Nyall Dawson</a></p>
+<h3 id="feature-actual-rendered-symbol-is-now-considered-as-an-obstacle-for-point-feature-labels">
+    Feature: Actual rendered symbol is now considered as an obstacle for point feature labels
+    <a class="heading-anchor" href="#feature-actual-rendered-symbol-is-now-considered-as-an-obstacle-for-point-feature-labels">
+	    ¶
+    </a>
+</h3>
+<p>Previously, only the point feature itself was treated as an obstacle for label candidates. If a large or offset symbol was used for the point, then labels were allowed to overlap this symbol without incurring the obstacle cost.</p>
+<p>Now, the actual size and offset of the rendered symbol are considered when detecting whether a label collides with a point feature. The result is that QGIS now avoids drawing labels over point symbols in more circumstances.</p>
+<p><img src="images/entries/thumbnails/7d4d3117427f938ec3a5a4a1ed013e8e4445db60.png.400x300_q85_crop.png" alt="image56"></p>
+<p>This feature was funded by City of Uster</p>
+<p>This feature was developed by <a
+    href="http://nyalldawson.net"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Nyall Dawson</a></p>
+<h2 id="layer-legend">
+    Layer Legend
+    <a class="heading-anchor" href="#layer-legend">
+	    ¶
+    </a>
+</h2>
+<h3 id="feature-paste-a-style-to-multiple-selected-layers-or-to-all-layers-in-a-legend-group">
+    Feature: Paste a style to multiple selected layers or to all layers in a legend group
+    <a class="heading-anchor" href="#feature-paste-a-style-to-multiple-selected-layers-or-to-all-layers-in-a-legend-group">
+	    ¶
+    </a>
+</h3>
+<p>This feature adds the possibility to paste the style of one layer to a layer group or selected layers.</p>
+<p><img src="images/entries/thumbnails/63fd1bfff18a108796c400edf127367f30f93c4b.png.400x300_q85_crop.jpg" alt="image57"></p>
+<p>This feature was developed by Salvatore Larosa</p>
+<h3 id="feature-filter-legend-by-expression">
+    Feature: Filter legend by expression
+    <a class="heading-anchor" href="#feature-filter-legend-by-expression">
+	    ¶
+    </a>
+</h3>
+<p>It is now possible to filter elements of the legend by an expression. It has been designed with the filtering of rule-based or categorized symbology in mind.</p>
+<p>The legend filtering is available in the legend of the main application as well as for legend components of the QGIS composer.</p>
+<p><img src="images/entries/thumbnails/8c957ae820bc98f0a23a7d660abd40264af6e31d.png.400x300_q85_crop.png" alt="image59"></p>
+<p>This feature was funded by <a
+    href="http://www.eau-adour-garonne.fr"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Agence de l'Eau Adour-Garonne (Adour-Garonne Water Agency)</a></p>
+<p>This feature was developed by <a
+    href="http://oslandia.com"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Hugo Mercier / Oslandia</a></p>
+<h2 id="map-composer">
+    Map Composer
+    <a class="heading-anchor" href="#map-composer">
+	    ¶
+    </a>
+</h2>
+<h3 id="feature-new-options-for-filtering-legend-elements">
+    Feature: New options for filtering legend elements
+    <a class="heading-anchor" href="#feature-new-options-for-filtering-legend-elements">
+	    ¶
+    </a>
+</h3>
+<p>This introduces two new options to filter legend elements.</p>
+<p>The first, filter by expression, allows users to set an expression for filtering which features should be shown in the legend. Only symbols with a matching feature will be shown in the legend.</p>
+<p>The second filter option allows a composer legend to be filtered to include only items which are contained within the current atlas polygon.</p>
+<p><img src="images/entries/thumbnails/cf32cc889370df205de51af684c4e683c3ec2dc4.png.400x300_q85_crop.jpg" alt="image58"></p>
+<p>This feature was developed by <a
+    href="http://oslandia.com/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Hugo Mercier (Oslandia)</a></p>
+<h3 id="feature-additional-paths-for-composer-templates">
+    Feature: Additional paths for composer templates
+    <a class="heading-anchor" href="#feature-additional-paths-for-composer-templates">
+	    ¶
+    </a>
+</h3>
+<p>You can now define custom paths that should be used for QGIS to find composer templates. This means that you can for example put a bunch of templates in a network share and give your users access to that folder in addition to the local ones that exist on their own system. To manage the composer template search paths, look in <code>Settings -&gt; Options -&gt; Composer</code></p>
+<p><img src="images/entries/thumbnails/bd36891d76ee01ee79e516b0167f403a89fa49de.png.400x300_q85_crop.jpg" alt="image60"></p>
+<p>This feature was developed by Nathan Woodrow</p>
+<h3 id="feature-multiple-selection-of-compositions-in-manager">
+    Feature: Multiple selection of compositions in manager
+    <a class="heading-anchor" href="#feature-multiple-selection-of-compositions-in-manager">
+	    ¶
+    </a>
+</h3>
+<p>The Composer Manager has gained support for managing multiple compositions at the same time. You can now open or delete multiple compositions at once by using the Ctrl key and selecting multiple compositions from the list.</p>
+<p><img src="images/entries/thumbnails/2603b37c6a6ccec10f56f37951d9494cb44c8d0a.png.400x300_q85_crop.jpg" alt="image61"></p>
+<p>This feature was developed by <a
+    href="https://medspx.fr"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Médéric Ribreux</a></p>
+<h2 id="plugins">
+    Plugins
+    <a class="heading-anchor" href="#plugins">
+	    ¶
+    </a>
+</h2>
+<h3 id="feature-authentication-system-support-for-plugin-manager">
+    Feature: Authentication system support for plugin manager
+    <a class="heading-anchor" href="#feature-authentication-system-support-for-plugin-manager">
+	    ¶
+    </a>
+</h3>
+<p>Support for the new authentication system has been added to the plugin manager. This allows users to apply authentication configurations for connections to plugin repositories, and system administrators to create authenticated access to plugin repositories and/or the download packages of plugins.</p>
+<p><img src="images/entries/thumbnails/7b66e68eb37b27b0ecabcab7d0656985e222e8c0.png.400x300_q85_crop.jpg" alt="image62"></p>
+<p>This feature was funded by <a
+    href="http://boundlessgeo.com"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Boundless Spatial</a></p>
+<p>This feature was developed by Larry Shaffer</p>
+<h2 id="processing">
+    Processing
+    <a class="heading-anchor" href="#processing">
+	    ¶
+    </a>
+</h2>
+<h3 id="feature-new-algorithms-in-214">
+    Feature: New algorithms in 2.14
+    <a class="heading-anchor" href="#feature-new-algorithms-in-214">
+	    ¶
+    </a>
+</h3>
+<h4 id="qgis-geoalgorithms">
+    QGIS geoalgorithms:
+    <a class="heading-anchor" href="#qgis-geoalgorithms">
+	    ¶
+    </a>
+</h4>
+<ul>
+<li>Smooth: for smoothing line or polygon layers.</li>
+<li>Reverse line direction.</li>
+</ul>
+<h4 id="gdalogr-geoalgorithms">
+    GDAL/OGR geoalgorithms:
+    <a class="heading-anchor" href="#gdalogr-geoalgorithms">
+	    ¶
+    </a>
+</h4>
+<ul>
+<li>gdal2tiles: builds a directory with TMS tiles, KMLs and simple web viewers.</li>
+<li>gdal_retile: retiles a set of tiles and/or build tiled pyramid levels.</li>
+</ul>
+<h3 id="feature-unit-tests-qa">
+    Feature: Unit Tests Q/A
+    <a class="heading-anchor" href="#feature-unit-tests-qa">
+	    ¶
+    </a>
+</h3>
+<p>To guarantee the long-term stability of the processing module, a new testing framework has been introduced.</p>
+<p>Processing geo-algorithms are executed after every change which hits the QGIS source code and the result is compared to a control dataset to guarantee correct behavior. This gives an immediate feedback about possible regressions.</p>
+<p>It is possible - and desired - that more tests are added. You can read more about <a
+    href="https://www.opengis.ch/2016/02/04/increasing-the-stability-of-processing-algorithms/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>how to participate</a>.</p>
+<p><img src="images/entries/thumbnails/4121e58bd51cfe5c8b2c0cd14d1420eaeb1f4473.png.400x300_q85_crop.png" alt="image63"></p>
+<p>This feature was funded by <a
+    href="https://www.qgis.org"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>The QGIS Project</a></p>
+<p>This feature was developed by <a
+    href="https://opengis.ch"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Matthias Kuhn, OPENGIS.ch</a></p>
+<h3 id="feature-improved-toolbox">
+    Feature: Improved toolbox
+    <a class="heading-anchor" href="#feature-improved-toolbox">
+	    ¶
+    </a>
+</h3>
+<p>The simplified interface has been removed, and a new and more user-friendly system of managing providers has been added. The algorithm search functionality now also searches in providers that are not active, and suggests activating them.</p>
+<p><img src="images/entries/thumbnails/2a135d5384f592e77938c59c0563cc2d0f6c3ebf.jpg.400x300_q85_crop.jpg" alt="image64"></p>
+<p>This feature was funded by <a
+    href="http://boundlessgeo.com/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Boundless Spatial</a></p>
+<p>This feature was developed by Víctor Olaya</p>
+<h3 id="feature-batch-processes-can-be-saved-and-later-recovered-from-the-batch-processing-interface">
+    Feature: Batch processes can be saved and later recovered from the batch processing interface
+    <a class="heading-anchor" href="#feature-batch-processes-can-be-saved-and-later-recovered-from-the-batch-processing-interface">
+	    ¶
+    </a>
+</h3>
+<p><img src="images/entries/thumbnails/f8dec7fbc9e74dc3f4078f9710984d44b26c4fa3.jpg.400x300_q85_crop.jpg" alt="image65"></p>
+<h3 id="feature-more-informative-algorithm-dialog">
+    Feature: More informative algorithm dialog
+    <a class="heading-anchor" href="#feature-more-informative-algorithm-dialog">
+	    ¶
+    </a>
+</h3>
+<p>A short description is now shown along with the algorithm parameters, making it easy to understand the purpose of the algorithm.</p>
+<p>Also, batch processes can be now started from the algorithm dialog, using the &ldquo;Run as batch process&hellip;&rdquo; button</p>
+<p><img src="images/entries/thumbnails/c4039a87ddc906921e5e3ce47f8c7aadc7ab2263.jpg.400x300_q85_crop.jpg" alt="image66"></p>
+<h3 id="feature-grass7-vnet-modules">
+    Feature: GRASS7 v.net modules
+    <a class="heading-anchor" href="#feature-grass7-vnet-modules">
+	    ¶
+    </a>
+</h3>
+<p>QGIS 2.14 Processing now incorporates v.net GRASS modules (only for GRASS7). Those modules are a set of algorithms that perform on graph line vector layers (networks). <a
+    href="https://en.wikipedia.org/wiki/Graph_theory#Graph"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>A graph</a> is a set of vertices (or nodes or points) linked together with a set of edges (or arcs or lines). The set of edges is often called a network.</p>
+<p>Thanks to v.net modules, you can easily calculate the shortest path between a set of nodes on the network or even compute the <a
+    href="https://en.wikipedia.org/wiki/Isochrone_map"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>isochrone map</a> from a set of central points. you can also easily solve <a
+    href="https://en.wikipedia.org/wiki/Travelling_salesman_problem"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>the complex travelling salesman problem</a> from a network and a set of travel nodes.</p>
+<p>v.net algorithms often use a line vector layer (for the network) and a point layer which represents the nodes you want to use for the computation. Be sure to use a true graph line vector layer for the network layer (edges need to be connected on vertex without intersection between edges) to avoid problems. You can also use any network layer attribute for cost calculation (the content of the attribute is used to calculate the travel cost of the edge).</p>
+<p>Here is a quick summary of the different algorithms that have been included into Processing:</p>
+<ul>
+<li>v.net.alloc: Allocates subnets from nearest centres.</li>
+<li>v.net.allpairs: Computes the shortest path between all pairs of nodes in the network.</li>
+<li>v.net.arcs: Creates arcs from a file of points.</li>
+<li>v.net.articulation: Computes the <a
+    href="https://en.wikipedia.org/wiki/Biconnected_component"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>articulation points</a> in the network.</li>
+<li>v.net.bridge: Computes <a
+    href="https://en.wikipedia.org/wiki/Bridge_%28graph_theory%29"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>bridges</a> of the network.</li>
+<li>v.net.centrality: Computes degree, centrality, betweenness, closeness and eigenvector centrality of each node of the network.</li>
+<li>v.net.components: Computes strongly and weakly connected components in the network.</li>
+<li>v.net.connect: Connects points (nodes) to nearest arcs in the network (and adds edges if necessary).</li>
+<li>v.net.connectivity: Computes vertex connectivity between two sets of nodes in the network.</li>
+<li>v.net.distance: Computes the shortest path via the network between two sets of nodes.</li>
+<li>v.net.flow: Computes the maximum flow between two sets of nodes in the network.</li>
+<li>v.net.iso: Computes the isochrone map of the network from a set of nodes.</li>
+<li>v.net.nodes: Extracts nodes of a network/graph layer.</li>
+<li>v.net.nreports: Reports information about the nodes.</li>
+<li>v.net.path: Finds the shortest path on the network between two nodes.</li>
+<li>v.net.report: Reports information about the edges of the network.</li>
+<li>v.net.salesman: Computes the <a
+    href="https://en.wikipedia.org/wiki/Travelling_salesman_problem"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>travelling salesman path</a> from a set of nodes on the network.</li>
+<li>v.net.spanningtree: Computes the <a
+    href="https://en.wikipedia.org/wiki/Spanning_tree"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Spanning tree</a> of the network.</li>
+<li>v.net.steiner: Creates <a
+    href="https://en.wikipedia.org/wiki/Steiner_tree_problem"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>a Steiner tree</a> for the network and given nodes.</li>
+<li>v.net.visibility: Performs visibility graph construction.</li>
+</ul>
+<p>Use the &quot;Help&quot; tab on each of the v.net Processing algorithm to read <a
+    href="https://grass.osgeo.org/grass70/manuals/topic_network.html"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>the official GRASS7 documentation</a> directly for more information.</p>
+<p><img src="images/entries/thumbnails/655bbfccc4997a5a3e3d1f5c709da5277eef6000.png.400x300_q85_crop.png" alt="image67"></p>
+<p>This feature was developed by <a
+    href="https://medspx.fr"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Médéric Ribreux</a></p>
+<h2 id="programmability">
+    Programmability
+    <a class="heading-anchor" href="#programmability">
+	    ¶
+    </a>
+</h2>
+<h3 id="feature-redesign-expression-function-editor">
+    Feature: Redesign expression function editor
+    <a class="heading-anchor" href="#feature-redesign-expression-function-editor">
+	    ¶
+    </a>
+</h3>
+<p>With auto save</p>
+<p><img src="images/entries/thumbnails/b42e959476310932713777f75f5eced4826df20a.png.400x300_q85_crop.jpg" alt="image68"></p>
+<h3 id="feature-store-python-init-code-into-the-project">
+    Feature: Store python init code into the project
+    <a class="heading-anchor" href="#feature-store-python-init-code-into-the-project">
+	    ¶
+    </a>
+</h3>
+<p>Adds an option and code editor to store python form init code into the project (and the DB, since it's in the style section)</p>
+<p><img src="images/entries/thumbnails/67bad1306d40aa9b32b64f4d025b77649ae2f775.png.400x300_q85_crop.jpg" alt="image69"></p>
+<h3 id="feature-new-filtering-and-sorting-options-for-qgsfeaturerequest">
+    Feature: New filtering and sorting options for QgsFeatureRequest
+    <a class="heading-anchor" href="#feature-new-filtering-and-sorting-options-for-qgsfeaturerequest">
+	    ¶
+    </a>
+</h3>
+<p>QgsFeatureRequest now supports setting a maximum limit for the number of features returned. In many cases this limit is passed to the provider, resulting in significant performance gains when only a set number of features are required.</p>
+<p>Additionally, QgsFeatureRequest now supports setting ordering for returned features. Again, in many cases this ordering is delegated to the provider so that it is performed &quot;server side&quot; for optimal performance.</p>
+<p><img src="images/entries/thumbnails/6e136c8a4bdf4361b9307f88175369b62d4648d6.png.400x300_q85_crop.jpg" alt="image70"></p>
+<h3 id="feature-custom-feature-form-python-code-options">
+    Feature: Custom feature form Python code options
+    <a class="heading-anchor" href="#feature-custom-feature-form-python-code-options">
+	    ¶
+    </a>
+</h3>
+<p>This feature adds more options to the custom feature form Python code:</p>
+<ul>
+<li>load from file (with file picker widget)</li>
+<li>load from the environment (i.e. a plugin or a Python init function)</li>
+<li>directly enter the code in an input widget (new option)</li>
+</ul>
+<p>The configuration options, including the custom Python code entered in the dialog are stored in the project as well as in the style QML settings and can be exported/restored from a DB.</p>
+<p><img src="images/entries/thumbnails/65e82ab529ee1287c631712127e1ac75f78d05c6.png.400x300_q85_crop.png" alt="image71"></p>
+<p>This feature was funded by <a
+    href="http://www.arpa.piemonte.gov.it/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>ARPA Piemonte</a></p>
+<p>This feature was developed by <a
+    href="http://www.itopen.it"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Alessandro Pasotti (ItOpen)</a></p>
+<h3 id="feature-new-pyqgis-classes-in-214">
+    Feature: New PyQGIS classes in 2.14
+    <a class="heading-anchor" href="#feature-new-pyqgis-classes-in-214">
+	    ¶
+    </a>
+</h3>
+<h3 id="new-core-classes">
+    New core classes
+    <a class="heading-anchor" href="#new-core-classes">
+	    ¶
+    </a>
+</h3>
+<ul>
+<li>
+<p><a
+    href="https://qgis.org/api/classQgsAttributeEditorElement.html"
+    
+    
+>QgsAttributeEditorElement</a></p>
+<ul>
+<li>abstract base class for any elements of a drag and drop form</li>
+</ul>
+</li>
+<li>
+<p><a
+    href="https://qgis.org/api/classQgsAttributeEditorContainer.html"
+    
+    
+>QgsAttributeEditorContainer</a></p>
+<p>- container for attribute editors, used to group them visually in an attribute form</p>
+</li>
+<li>
+<p><a
+    href="https://qgis.org/api/classQgsAttributeEditorField.html"
+    
+    
+>QgsAttributeEditorField</a></p>
+<ul>
+<li>element for loading a field's widget onto a form</li>
+</ul>
+</li>
+<li>
+<p><a
+    href="https://qgis.org/api/classQgsAttributeEditorRelation.html"
+    
+    
+>QgsAttributeEditorRelation</a></p>
+<ul>
+<li>element for loading a relation editor widget onto a form</li>
+</ul>
+</li>
+<li>
+<p><a
+    href="https://qgis.org/api/classQgsEditFormConfig.html"
+    
+    
+>QgsEditFormConfig</a></p>
+<ul>
+<li>stores and sets configuration parameters for attribute editor forms</li>
+</ul>
+</li>
+<li>
+<p><a
+    href="https://qgis.org/api/classQgsFeatureFilterProvider.html"
+    
+    
+>QgsFeatureFilterProvider</a></p>
+<p>- provides an interface for modifying a QgsFeatureRequest in place to apply additional filters to the request</p>
+</li>
+<li>
+<p><a
+    href="https://qgis.org/api/classQgsTracer.html"
+    
+    
+>QgsTracer</a> - provides graph creation and shortest path search for vector layers</p>
+</li>
+<li>
+<p><a
+    href="https://qgis.org/api/classQgsTransactionGroup.html"
+    
+    
+>QgsTransactionGroup</a></p>
+<ul>
+<li>interface for grouping layers into single edit transactions</li>
+</ul>
+</li>
+<li>
+<p><a
+    href="https://qgis.org/api/classQgsUnitTypes.html"
+    
+    
+>QgsUnitTypes</a> -helper functions for various unit types and conversions between units (eg distance and area units)</p>
+</li>
+<li>
+<p><a
+    href="https://qgis.org/api/classQgsVirtualLayerDefinition.html"
+    
+    
+>QgsVirtualLayerDefinition</a></p>
+<ul>
+<li>class for manipulating the definitions of virtual layers</li>
+</ul>
+</li>
+<li>
+<p><a
+    href="https://qgis.org/api/classQgsVirtualLayerDefinitionUtils.html"
+    
+    
+>QgsVirtualLayerDefinitionUtils</a></p>
+<ul>
+<li>helper utilities for working with QgsVirtualLayerDefinition objects</li>
+</ul>
+</li>
+<li>
+<p><a
+    href="https://qgis.org/api/classQgs25DRenderer.html"
+    
+    
+>Qgs25DRenderer</a> -2.5D symbol renderer</p>
+</li>
+<li>
+<p><a
+    href="https://qgis.org/api/classQgsGeometryGeneratorSymbolLayerV2.html"
+    
+    
+>QgsGeometryGeneratorSymbolLayerV2</a></p>
+<ul>
+<li>geometry generator symbol layer</li>
+</ul>
+</li>
+<li>
+<p><a
+    href="https://qgis.org/api/classQgsFeatureRequest_1_1OrderByClause.html"
+    
+    
+>QgsFeatureRequest.OrderByClause</a></p>
+<ul>
+<li>class for specifying a field sort order for feature requests</li>
+</ul>
+</li>
+<li>
+<p><a
+    href="https://qgis.org/api/classQgsFeatureRequest_1_1OrderBy.html"
+    
+    
+>QgsFeatureRequest.OrderBy</a></p>
+<ul>
+<li>a prioritized list of order by clauses for sorting</li>
+</ul>
+</li>
+</ul>
+<h3 id="new-gui-classes">
+    New GUI classes
+    <a class="heading-anchor" href="#new-gui-classes">
+	    ¶
+    </a>
+</h3>
+<h4 id="reusable-widgets">
+    Reusable widgets:
+    <a class="heading-anchor" href="#reusable-widgets">
+	    ¶
+    </a>
+</h4>
+<ul>
+<li>
+<p><a
+    href="https://qgis.org/api/classQgsExternalResourceWidget.html"
+    
+    
+>QgsExternalResourceWidget</a></p>
+<p>- widget for displaying a file path with a push button for an &quot;open file&quot; dialog, and optional display of pictures or HTML files</p>
+</li>
+<li>
+<p><a
+    href="https://qgis.org/api/classQgsFileWidget.html"
+    
+    
+>QgsFileWidget</a> -widget for selecting a file or a folder</p>
+</li>
+<li>
+<p><a
+    href="https://qgis.org/api/classQgsLegendFilterButton.html"
+    
+    
+>QgsLegendFilterButton</a></p>
+<p>- tool button widget that allows enabling or disabling legend filter by contents of the map</p>
+</li>
+<li>
+<p><a
+    href="https://qgis.org/api/classQgsMapCanvasTracer.html"
+    
+    
+>QgsMapCanvasTracer</a></p>
+<p>- an extension of QgsTracer that provides extra functionality for interacting with map canvases</p>
+</li>
+<li>
+<p><a
+    href="https://qgis.org/api/classQgs25DRendererWidget.html"
+    
+    
+>Qgs25DRendererWidget</a></p>
+<ul>
+<li>widget for setting properties for a 2.5D renderer</li>
+</ul>
+</li>
+<li>
+<p><a
+    href="https://qgis.org/api/classQgsColorWidgetAction.html"
+    
+    
+>QgsColorWidgetAction</a></p>
+<ul>
+<li>widget action for embedding a color picker inside a menu</li>
+</ul>
+</li>
+</ul>
+<h4 id="reusable-dialogs">
+    Reusable dialogs:
+    <a class="heading-anchor" href="#reusable-dialogs">
+	    ¶
+    </a>
+</h4>
+<ul>
+<li><a
+    href="https://qgis.org/api/classQgsStyleV2GroupSelectionDialog.html"
+    
+    
+>QgsStyleV2GroupSelectionDialog</a>
+<ul>
+<li>dialog for grouping selections in a style</li>
+</ul>
+</li>
+<li><a
+    href="https://qgis.org/api/classQgsGroupWMSDataDialog.html"
+    
+    
+>QgsGroupWMSDataDialog</a>
+<ul>
+<li>dialog for setting properties for a WMS group</li>
+</ul>
+</li>
+<li><a
+    href="https://qgis.org/api/classQgsOrderByDialog.html"
+    
+    
+>QgsOrderByDialog</a>
+<ul>
+<li>dialog for specifying sort ordering of fields</li>
+</ul>
+</li>
+</ul>
+<h2 id="qgis-server">
+    QGIS Server
+    <a class="heading-anchor" href="#qgis-server">
+	    ¶
+    </a>
+</h2>
+<h3 id="feature-startindex-param-in-wfs-getfeature-request">
+    Feature: STARTINDEX param in WFS GetFeature Request
+    <a class="heading-anchor" href="#feature-startindex-param-in-wfs-getfeature-request">
+	    ¶
+    </a>
+</h3>
+<p><code>`STARTINDEX</code> is standard in WFS 2.0, but it's an extension for WFS 1.0 implemented in QGIS Server.</p>
+<p><code>STARTINDEX</code> can be used to skip some features in the result set and in combination with <code>MAXFEATURES</code> provides for the ability to use WFS GetFeature to page through results. Note that <code>STARTINDEX=0</code> means start with the first feature, skipping none.</p>
+<p>This feature was developed by <a
+    href="http://3liz.com"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>3Liz</a></p>
+<h3 id="feature-showfeaturecount-in-getlegendgraphic">
+    Feature: showFeatureCount in GetLegendGraphic
+    <a class="heading-anchor" href="#feature-showfeaturecount-in-getlegendgraphic">
+	    ¶
+    </a>
+</h3>
+<p>Add non-standard parameter <strong>showFeatureCount</strong> to add feature count in the legend. To activate it,<strong>showFeatureCount</strong> can be set to <em>TRUE</em> or <em>1</em>.</p>
+<p>This feature needs a fake X server.</p>
+<p><img src="images/entries/thumbnails/95f13aa3a1f4cb4ca8cbf7ce30e6bb278e6b9cd8.png.400x300_q85_crop.png" alt="image72"></p>
+<p>This feature was developed by <a
+    href="http://3liz.com"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>3Liz</a></p>
+<h3 id="feature-option-to-avoid-rendering-artefacts-at-edges-of-tiles">
+    Feature: Option to avoid rendering artefacts at edges of tiles
+    <a class="heading-anchor" href="#feature-option-to-avoid-rendering-artefacts-at-edges-of-tiles">
+	    ¶
+    </a>
+</h3>
+<p><img src="images/entries/thumbnails/1ded32aa2bb962fde1b9f00b891b2a04406be621.png.400x300_q85_crop.jpg" alt="image73"></p>
+<h3 id="feature-configuration-checker-in-project-properties">
+    Feature: Configuration checker in project properties
+    <a class="heading-anchor" href="#feature-configuration-checker-in-project-properties">
+	    ¶
+    </a>
+</h3>
+<p>To assist with configuring a project for QGIS Server, a new configuration checker has been added to project properties.</p>
+<p>The checker tests for errors like:</p>
+<ul>
+<li>duplicate names or short names used as OWS names</li>
+<li>invalid OWS names</li>
+<li>missing vector layer encodings</li>
+</ul>
+<p><img src="images/entries/thumbnails/c548fc562785f400d3000e7ae1f61705c333026c.png.400x300_q85_crop.jpg" alt="image74"></p>
+<p>This feature was funded by <a
+    href="http://wwz.ifremer.fr/institut_eng/"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Ifremer</a></p>
+<p>This feature was developed by <a
+    href="http://3liz.com"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>3Liz</a></p>
+<h3 id="feature-wms-inspire-capabilities">
+    Feature: WMS INSPIRE Capabilities
+    <a class="heading-anchor" href="#feature-wms-inspire-capabilities">
+	    ¶
+    </a>
+</h3>
+<p>In the project properties the user can:</p>
+<ul>
+<li>activate INSPIRE capabilities</li>
+<li>select the language for the service, from 24 EU official languages + 5 regional languages</li>
+<li>choose the scenario for service metadata and specify their parameters</li>
+</ul>
+<p>The WMS 1.3.0 capabilities reflects the INSPIRE configuration.</p>
+<p><img src="images/entries/thumbnails/4ee445bcb5e9eab3fb9bf2eda8f9b1b81bbe21c0.png.400x300_q85_crop.jpg" alt="image75"></p>
+<p>This feature was developed by <a
+    href="http://3liz.com"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>3Liz</a></p>
+<h3 id="feature-add-short-name-to-layers-groups-and-project">
+    Feature: Add short name to layers, groups and project
+    <a class="heading-anchor" href="#feature-add-short-name-to-layers-groups-and-project">
+	    ¶
+    </a>
+</h3>
+<p>A number of elements have both a <strong>Name</strong> and a <strong>Title</strong>. The Name is a text string used for machine-to-machine communication while the Title is for the benefit of humans. For example, a dataset might have the descriptive Title <em>Maximum Atmospheric Temperature</em> and be requested using the abbreviated Name <em>ATMAX</em>.</p>
+<p>Users can already set a title for layers and project. OpenGeospatial Web Services, OWS (WMS, WFS, WCS), name is based on the name used in the layer tree. This name is more a label for humans than a name for machine-to-machine communication.</p>
+<p>To add the capability for users to define Name as a text string for machine-to-machine communication, this feature adds:</p>
+<ul>
+<li>short name line edits to layer properties</li>
+<li>WMS data dialog to layer tree group (short name, title, abstract)</li>
+<li>short name line edits to project properties</li>
+<li>add a regexp validator &quot;^[A-Za-z][A-Za-z0-9._-]*&quot; to short name line edit accessible through a static method</li>
+<li>add a TreeName element in the fullProjectSettings</li>
+</ul>
+<p>If a short name has been set for layers, groups and project it is used by QGIS Sever as the layer name.</p>
+<p><img src="images/entries/thumbnails/e2345455bda9f0ed3da5e1c2750d6e2239ab8a86.png.400x300_q85_crop.jpg" alt="image76"></p>
+<p>This feature was developed by <a
+    href="http://3liz.com"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>3Liz</a></p>
+<h2 id="symbology">
+    Symbology
+    <a class="heading-anchor" href="#symbology">
+	    ¶
+    </a>
+</h2>
+<h3 id="feature-size-assistant-for-varying-line-width">
+    Feature: Size assistant for varying line width
+    <a class="heading-anchor" href="#feature-size-assistant-for-varying-line-width">
+	    ¶
+    </a>
+</h3>
+<p><img src="images/entries/thumbnails/1d891425b0e1b9927ced6aab3e0353aed92608de.png.400x300_q85_crop.jpg" alt="image77"></p>
+<h3 id="feature-support-for-transparency-in-svg-color-parameters">
+    Feature: Support for transparency in SVG color parameters
+    <a class="heading-anchor" href="#feature-support-for-transparency-in-svg-color-parameters">
+	    ¶
+    </a>
+</h3>
+<p>Non-bundled SVGs must add:</p>
+<p><code>fill-opacity=&quot;param(fill-opacity)&quot;</code></p>
+<p>and</p>
+<p><code>stroke-opacity=&quot;param(outline-opacity)&quot;</code></p>
+<p>to enable transparency support.</p>
+<p>This feature was developed by <a
+    href="http://nyalldawson.net"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Nyall Dawson</a></p>
+<h3 id="feature-easy-duplication-of-symbol-layers">
+    Feature: Easy duplication of symbol layers
+    <a class="heading-anchor" href="#feature-easy-duplication-of-symbol-layers">
+	    ¶
+    </a>
+</h3>
+<p>A new &quot;duplicate&quot; button has been added to the symbol properties dialog, which allows symbol layers to be easily duplicated.</p>
+<p><img src="images/entries/thumbnails/a6e2ad682852a2fb8b635395ec75f83ef584621d.png.400x300_q85_crop.jpg" alt="image78"></p>
+<p>This feature was developed by <a
+    href="http://nyalldawson.net"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Nyall Dawson</a></p>
+<h3 id="feature-25d-renderer">
+    Feature: 2.5D Renderer
+    <a class="heading-anchor" href="#feature-25d-renderer">
+	    ¶
+    </a>
+</h3>
+<p>This adds a configuration interface and renderer that makes it easy to put all the pieces together which are required to get a 2.5D effect.</p>
+<p>It allows for configuring some of the styling and is meant to create an easy-to-use setup.</p>
+<p>Since every part of the system is built around QGIS' internal rendering and symbology engine, there is much to fine tune. To get all the possibilities, just change the renderer to a graduated, categorized or single symbol renderer upon creation and you will find full access to improve the style to your needs.</p>
+<p><strong>This feature was developed by</strong>:</p>
+<ul>
+<li>Matthias Kuhn at <a
+    href="https://opengis.ch"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>OPENGIS.ch</a></li>
+</ul>
+<p><strong>This feature was funded by</strong>:</p>
+<ul>
+<li>Regional Council of Picardy</li>
+<li>ADUGA</li>
+<li>Ville de Nyon</li>
+<li>Wetu GIT cc</li>
+</ul>
+<p><img src="images/entries/thumbnails/8d66f8838011e7bc8fae540d56bf9ef6db20db68.jpg.400x300_q85_crop.jpg" alt="image79"></p>
+<h3 id="feature-allow-definition-of-rendering-order-for-features">
+    Feature: Allow definition of rendering order for features
+    <a class="heading-anchor" href="#feature-allow-definition-of-rendering-order-for-features">
+	    ¶
+    </a>
+</h3>
+<p>When features are required to be rendered in a particular order, this can be specified by using an arbitrary expression.</p>
+<p>This can be configured in the layer's symbology configuration dialog and can be a simple field or a complex expression.</p>
+<p>It also provides control over ascending or descending order as well as whether NULLs are first or last.</p>
+<p>If possible, the request will be sent to the database (this depends on the complexity of the expression as well as the provider for the layer). If it is not possible to send the request to the database, the ordering will be performed on the local machine.</p>
+<p>This is used by the 2.5D renderer to render features based on their distance from the &quot;camera&quot;.</p>
+<p>This is also available for plugins:</p>
+<pre><code>layer.getFeatures( QgsFeatureRequest().setOrderBy( 'name' ) ) -- alphabetical by name
+</code></pre>
+<p><strong>This feature was developed by</strong>: Matthias Kuhn at <a
+    href="https://opengis.ch"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>OPENGIS.ch</a> <strong>This feature was funded by</strong>: Regional Council of Picardy, ADUGA, Ville de Nyon, Wetu GIT cc</p>
+<p><img src="images/entries/thumbnails/e06cf21a35e070a28ce5b3b98c92f2fb1c1b881d.png.400x300_q85_crop.png" alt="image80"></p>
+<p>This feature was developed by <a
+    href="https://opengis.ch"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Matthias Kuhn, OPENGIS.ch</a></p>
+<h3 id="feature-geometry-generator-symbols">
+    Feature: Geometry generator symbols
+    <a class="heading-anchor" href="#feature-geometry-generator-symbols">
+	    ¶
+    </a>
+</h3>
+<p>Geometry generator symbols allow using the expression engine to modify the geometry before rendering or even creating new geometries while rendering based on feature attributes.</p>
+<p>This can use all kinds of spatial operators like buffer, translate, intersect or extrude with parameters based on attributes only for the rendering without actually modifying the data in the source.</p>
+<h3 id="examples">
+    Examples
+    <a class="heading-anchor" href="#examples">
+	    ¶
+    </a>
+</h3>
+<h4 id="translate-a-geometry">
+    Translate a geometry
+    <a class="heading-anchor" href="#translate-a-geometry">
+	    ¶
+    </a>
+</h4>
+<p>Used for the roof of the 2.5D renderer</p>
+<pre><code>translate( $geometry, 10, 10 )
+</code></pre>
+<h4 id="fill-style-for-polygon-border">
+    Fill style for polygon border
+    <a class="heading-anchor" href="#fill-style-for-polygon-border">
+	    ¶
+    </a>
+</h4>
+<p>This generates a polygon which represents the outline of the original polygon (Example image)</p>
+<pre><code>difference( buffer( $geometry , 250 ), buffer( $geometry, -250 ) )
+</code></pre>
+<p>Different symbol layers can contain different geometry generators, this allows displaying different versions of a geometry at the same time. The 2.5D renderer serves as an example.</p>
+<p><img src="images/entries/thumbnails/b06b6bc93644c051c13de162b45d9486b7af769a.png.400x300_q85_crop.png" alt="image81"></p>
+<p>This feature was funded by Regional Council of Picardy, ADUGA, Ville de Nyon, Wetu GIT cc</p>
+<p>This feature was developed by <a
+    href="https://opengis.ch"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Matthias Kuhn, OPENGIS.ch</a></p>
+<h2 id="user-interface">
+    User Interface
+    <a class="heading-anchor" href="#user-interface">
+	    ¶
+    </a>
+</h2>
+<h3 id="feature-attribute-table-can-be-refreshed">
+    Feature: Attribute table can be refreshed
+    <a class="heading-anchor" href="#feature-attribute-table-can-be-refreshed">
+	    ¶
+    </a>
+</h3>
+<p>An option to reload attributes within the attribute table is now available.</p>
+<p><img src="images/entries/thumbnails/4623399cb1f63e2c6fa80c72a6aea17b6c63bb3e.png.400x300_q85_crop.jpg" alt="image82"></p>
+<h3 id="feature-directly-set-renderer-and-class-symbol-colors-from-context-menu-in-legend">
+    Feature: Directly set renderer and class symbol colors from context menu in legend
+    <a class="heading-anchor" href="#feature-directly-set-renderer-and-class-symbol-colors-from-context-menu-in-legend">
+	    ¶
+    </a>
+</h3>
+<p>Shows a color wheel widget in the menu, which allows you to edit the color for a symbol interactively without even having to even open a single dialog!</p>
+<p><img src="images/entries/thumbnails/3159457a414ea61f8f40659af5c9561882a44fe1.png.400x300_q85_crop.jpg" alt="image83"></p>
+<p>This feature was developed by <a
+    href="http://nyalldawson.net"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Nyall Dawson</a></p>
+<h3 id="feature-edit-legend-symbols-directly-from-layer-tree">
+    Feature: Edit legend symbols directly from layer tree
+    <a class="heading-anchor" href="#feature-edit-legend-symbols-directly-from-layer-tree">
+	    ¶
+    </a>
+</h3>
+<p>This adds a new &quot;edit symbol&quot; item to the right-click menu for a renderer child legend item (eg categories for the categorised renderer). Selecting it opens a symbol editor dialog which allows for directly editing the class's symbol. It's much faster than opening the layer properties and going through the style tab. You can also double-click on a child item to open the symbol editor immediately.</p>
+<p><img src="images/entries/thumbnails/e7b2447e329507f0b27e855111ffa038b1ccc353.png.400x300_q85_crop.jpg" alt="image84"></p>
+<p>This feature was developed by <a
+    href="http://nyalldawson.net"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Nyall Dawson</a></p>
+<h3 id="feature-showhide-all-legend-items-via-the-context-menu">
+    Feature: Show/hide all legend items via the context menu
+    <a class="heading-anchor" href="#feature-showhide-all-legend-items-via-the-context-menu">
+	    ¶
+    </a>
+</h3>
+<p>Allows toggling on/off all the symbol items for categorized/graduated/rule-based layers via the right click menu on an item. Previously you'd have to toggle each item manually one-by-one.</p>
+<p><img src="images/entries/thumbnails/c526cf9c28c92dde193490a2707c1fe2e0a58ea6.png.400x300_q85_crop.jpg" alt="image85"></p>
+<p>This feature was developed by <a
+    href="http://nyalldawson.net"
+    
+    
+        target="_blank"
+        rel="noopener"
+        class="external-link"
+    
+>Nyall Dawson</a></p>
+    </div>
+</section>
+
+           
+
+
+
+
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns is-desktop">
+            <div class="column is-2-desktop">
+                <figure class="image is-128x128">
+                    <img alt="Logo" src="https://qgis.org/img/footlogo.svg" />
+                </figure>
+            </div>
+            <div class="column mb-6">
+                <div class="columns is-desktop">
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5 ">
+                            <a href="https://qgis.org/project/overview" class="footertitle text-nowrap">
+                                Project
+                            </a>
+                        </li>
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </ul>
+            
+
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5">
+                            <a href="https://qgis.org/community/involve" class="footertitle text-nowrap">
+                                Community
+                            </a>
+                        </li>
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </ul>
+
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5 footertitle">
+                            <a href="https://qgis.org/resources/hub" class="footertitle text-nowrap">
+                                Resources
+                            </a>
+                        </li>
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </ul>
+
+                    <ul class="column mb-5">
+                        <li class="is-size-5 mb-5 ">
+                            <a href="https://qgis.org/funding/donate" class="footertitle text-nowrap">
+                                Funding
+                            </a>
+                        </li>
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+                            
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="column is-2-desktop">
+                <a href="https://qgis.org/download">
+                    <button class="button is-primary1 is-size-5">Download</button>
+                </a>
+            </div>
+        </div>
+        <div class="columns is-desktop">
+            <div class="copyright column is-2-desktop has-text-white"></div>
+            <div class="column social-icons-links">
+                <a class="has-text-white" href="https://www.facebook.com/profile.php?id=100057434859831">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a class="has-text-white" href="https://www.youtube.com/@qgishome">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a class="has-text-white" href="https://fosstodon.org/@qgis">
+                    <i class="fa-brands fa-foss"></i>
+                </a>
+                <a class="has-text-white" href="https://github.com/qgis/">
+                    <i class="fa-brands fa-square-github"></i>
+                </a>
+                <a class="has-text-white" href="https://qgis.org/community/organisation/mailinglists">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="columns is-desktop privacy-links">
+            <a href="https://qgis.org/diversity" class="column is-narrow is-offset-2-desktop">Diversity statement</a>
+            <a href="https://qgis.org/conduct" class="column is-narrow">Code of conduct</a>
+            <a href="https://qgis.org/environmental-policy" class="column is-narrow">Environmental policy</a>
+            <a href="https://qgis.org/license" class="column is-narrow">License</a>
+            <a href="https://qgis.org/styleguide" class="column is-narrow">Visual Style Guide</a>   
+            <a href="https://qgis.org/goodies" class="column is-narrow">Goodies</a>   
+            <a href="https://qgis.org/archive" class="column is-narrow">Archive</a>   
+
+        </div>
+        <div class="columns is-desktop issue-report-link is-justify-content-center">
+            <a href="https://github.com/qgis/QGIS-Website/issues" class="column is-narrow p-0 is-size-6" target="_blank">Problems with this website? Report an issue here 🐙</a> 
+              
+        </div>
+    </div>
+    
+</footer>
+
+

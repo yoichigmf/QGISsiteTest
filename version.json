@@ -1,0 +1,34 @@
+{
+    "latest": {
+        "versionint": 33801,
+	"version": "3.38",
+        "name": "Grenoble",
+        "note": "",
+        "binary": "1",
+        "date": "2024-07-19",
+        "major": 3,
+        "minor": 38,
+        "patch": 1
+    },
+    "ltr": {
+        "versionint": 33409,
+	"version": "<no value>",
+        "name": "Prizren",
+        "note": "<no value>",
+        "binary": "1",
+        "date": "<no value>",
+        "major": 3,
+        "minor": 34,
+        "patch": 9
+    },
+    "dev": {
+        "version": "3.39",
+        "versionint": 33900,
+	"major": 3,
+        "minor": 39,
+        "patch": 0
+    },
+    "freezedate": "2024-09-13 12:00:00 UTC",
+    "nextreleasedate": "2024-10-25 12:00:00 UTC",
+    "nextversion": "3.40"
+}

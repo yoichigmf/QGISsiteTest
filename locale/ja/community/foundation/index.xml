@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QGIS Foundation on QGIS Web Site</title>
+    <link>https://qgis.org/locale/ja/community/foundation/</link>
+    <description>Recent content in QGIS Foundation on QGIS Web Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://qgis.org/locale/ja/community/foundation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Annual General Meetings</title>
+      <link>https://qgis.org/locale/ja/community/foundation/annual_general_meetings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/locale/ja/community/foundation/annual_general_meetings/</guid>
+      <description>Project Overview Maps Screenshots Case studies Plugins Visual Changelogs Community Get involved Certification Programme QGIS Foundation Charter Annual General Meetings Annual Reports Finance Project Organisation Infrastructure Brand Guidelines Contributor Credits Meetings QGIS Developer Meetings Reimbursements for Developer Meetings QGIS User Meetings Mailing Lists Local User Groups Members Blogs Resources Documentation Installation guide Testing Roadmap Reports OGC Certification Performance Books Support FAQ Bug Reporting Communication channels Commercial support StackExchange Security QGIS Metrics Plugins Metrics Blog Funding Donate Donors Membership Members Past Members Goodies Download Archive Annual General Meetings ¶ Starting in 2016 coinciding with the establishment of a formal legal entity (Swiss “Verein”), we hold a virtual annual general meeting where QGIS Voting Members approve the budget for the coming year, the financial report for the past year, elect any new project members and so on.</description>
+    </item>
+    
+    <item>
+      <title>Annual Reports</title>
+      <link>https://qgis.org/locale/ja/community/foundation/annual_reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/locale/ja/community/foundation/annual_reports/</guid>
+      <description>Project Overview Maps Screenshots Case studies Plugins Visual Changelogs Community Get involved Certification Programme QGIS Foundation Charter Annual General Meetings Annual Reports Finance Project Organisation Infrastructure Brand Guidelines Contributor Credits Meetings QGIS Developer Meetings Reimbursements for Developer Meetings QGIS User Meetings Mailing Lists Local User Groups Members Blogs Resources Documentation Installation guide Testing Roadmap Reports OGC Certification Performance Books Support FAQ Bug Reporting Communication channels Commercial support StackExchange Security QGIS Metrics Plugins Metrics Blog Funding Donate Donors Membership Members Past Members Goodies Download Archive Annual Reports ¶ Starting in 2017, coincident with the establishment of a formal legal entity (Swiss “Verein”), we are publishing an annual report for the preceding year highlighting key activities within the QGIS project.</description>
+    </item>
+    
+    <item>
+      <title>Finance</title>
+      <link>https://qgis.org/locale/ja/community/foundation/finance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/locale/ja/community/foundation/finance/</guid>
+      <description>Project Overview Maps Screenshots Case studies Plugins Visual Changelogs Community Get involved Certification Programme QGIS Foundation Charter Annual General Meetings Annual Reports Finance Project Organisation Infrastructure Brand Guidelines Contributor Credits Meetings QGIS Developer Meetings Reimbursements for Developer Meetings QGIS User Meetings Mailing Lists Local User Groups Members Blogs Resources Documentation Installation guide Testing Roadmap Reports OGC Certification Performance Books Support FAQ Bug Reporting Communication channels Commercial support StackExchange Security QGIS Metrics Plugins Metrics Blog Funding Donate Donors Membership Members Past Members Goodies Download Archive Finance ¶ Please check the following reports, and see how your donations and sponsorships are important for the progress of the project.</description>
+    </item>
+    
+    <item>
+      <title>QGIS.org Charter</title>
+      <link>https://qgis.org/locale/ja/community/foundation/charter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qgis.org/locale/ja/community/foundation/charter/</guid>
+      <description>Project Overview Maps Screenshots Case studies Plugins Visual Changelogs Community Get involved Certification Programme QGIS Foundation Charter Annual General Meetings Annual Reports Finance Project Organisation Infrastructure Brand Guidelines Contributor Credits Meetings QGIS Developer Meetings Reimbursements for Developer Meetings QGIS User Meetings Mailing Lists Local User Groups Members Blogs Resources Documentation Installation guide Testing Roadmap Reports OGC Certification Performance Books Support FAQ Bug Reporting Communication channels Commercial support StackExchange Security QGIS Metrics Plugins Metrics Blog Funding Donate Donors Membership Members Past Members Goodies Download Archive Charter of the QGIS.</description>
+    </item>
+    
+  </channel>
+</rss>
